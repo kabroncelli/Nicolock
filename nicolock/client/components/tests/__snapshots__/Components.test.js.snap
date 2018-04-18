@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Components render correctly Dropdown renders correctly 1`] = `
+<span>
+  <label
+    className="label"
+  >
+    dropdown test
+  </label>
+  <select
+    className="react-dropdown"
+    onChange={[Function]}
+  >
+    <option
+      key="1"
+      value={1}
+    >
+      1
+    </option>
+    <option
+      key="2"
+      value={2}
+    >
+      2
+    </option>
+    <option
+      key="3"
+      value={3}
+    >
+      3
+    </option>
+  </select>
+</span>
+`;

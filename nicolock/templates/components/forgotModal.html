@@ -1,0 +1,24 @@
+<div class="modal-view">
+  <div class="modal-header">
+    <h4 class="title">Password Reset</h4>
+  </div>
+
+  <div class="modal-content">
+    <form class="form" method="post" action="{% url 'account_reset_password' %}">
+      {% csrf_token %}
+      <div class="input-group">
+        <p class="paragraph">Forgotten your password? Enter your e-mail address below, and we'll send you an e-mail allowing you to reset it.</p>
+      </div>
+      <div class="input-group">
+        <input class="input" name="email" placeholder="E-mail address" type="email" required="" />
+      </div>
+      <button class="btn btn-md neutral-0" type="submit">RESET MY PASSWORD</button>
+      <div class="input-group">
+        <p class="paragraph"><a class="link neutral-0 modal-transition" href="" data-authentication="login">Cancel</a></p>
+      </div>
+    </form>
+  </div>
+
+  <div class="modal-footer">
+  </div>
+</div>

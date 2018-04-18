@@ -1,0 +1,16 @@
+{% load staticfiles %}
+<div class="section-2">
+  <h4 class="title">Latest<br />Videos<br /><br /></h4>
+  {% for video in videos %}
+    <a class="link" href="{{ video.get_absolute_url }}">
+      <div class="like-block pad-half--bottom">
+        <div class="pad-half--sides thumbnail-wrapper">
+          <img src="{{ video.thumbnail_url }}">
+        </div>
+        <div class="pad-half--sides info-wrapper">
+          <p class="info">{{ video.name }}</p>
+        </div>
+      </div>
+    </a>
+  {% endfor %}
+</div>

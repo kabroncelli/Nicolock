@@ -1,0 +1,8 @@
+<svg class="icon" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 145 47.82">
+  <polygon class="path" points="145 43.51 137.54 47.82 137.54 39.2 145 43.51"/>
+  <rect class="path" y="42.99" width="136.92" height="1.05"/>
+  <rect class="path" width="145" height="1.05"/>
+  <rect class="path" x="163.04" y="31.71" width="36.53" height="1.05" transform="translate(112.24 199.58) rotate(-90)"/>
+  <rect class="path" x="15.34" y="35.46" width="44.03" height="1.05" transform="translate(-35.46 59.37) rotate(-90)"/>
+  <text class="text" transform="translate(38.73 28.65)">LOGIN</text>
+</svg>

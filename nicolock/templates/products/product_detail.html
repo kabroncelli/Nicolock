@@ -1,0 +1,360 @@
+{% extends "base.html" %}
+{% load staticfiles i18n %}
+{% load render_bundle from webpack_loader %}
+
+{% block head %}
+  {% define 'title' 'Nicolock | Products' %}
+  {{ block.super }}
+{% endblock %}
+
+
+{% block content %}
+
+  <div class="trifold-wrap">
+    <div class="trifold-sidebar">
+      <div class="trifold-breadcrumb">
+        {% if base_breadcrumb %}
+          <a class="link neutral-1" href="{{ base_breadcrumb.url }}">{{ base_breadcrumb.label}}</a> >
+        {% endif %}
+        <a class="link neutral-1" href="{% url 'pages' 'products' %}">{% trans "Products" %}</a> ><br />
+        <a class="link neutral-1" href="{% url 'products:category' product.category.slug %}">{{ product.category.name }}</a> >
+        <span class="breadcrumb-active">{{ product.name }}</span>
+      </div>
+      <div class="product-menu-wrap">
+        <h6 class="menu-title">Products</h6>
+        <ul class="product-menu-parent">
+          {% for category in categories %}
+            <li class="product-menu-category">
+              <a class="link neutral-0 parent" href="{{ category.get_absolute_url }}">{{ category.name }}</a>:
+              <ul class="product-menu-child">
+                {% for product in category.products.all %}
+                  <li><a class="link neutral-1 child" href="{{ product.get_absolute_url }}">{{ product.name }}</a></li>
+                {% endfor %}
+              </ul>
+            </li>
+          {% endfor %}
+        </ul>
+      </div>
+      <div class="misc-menu-wrap">
+        {% include "components/dynamic_menu.html" %}
+      </div>
+    </div>
+
+    <div class="trifold-detail">
+      {% include "../components/icons/icon-vertical-ellipsis.svg" %}
+      <div class="trifold-content">
+        <div class="trifold-middle">
+          <h1 class="title product-title text--center push-half--bottom">{{ product.name }}</h1>
+          <div class="product-carousel">
+            <div class="product-featured">
+              {% if selected_image %}
+                <img id="featured-product-image" alt="{{ selected_image.alt }}" class="product-featured-image" src="{{ selected_image.original.url }}" data-id="{{ selected_image.id }}" />
+              {% endif %}
+            </div>
+            <div class="product-image-description">
+              {% if selected_image %}
+                {% if selected_image.description %}
+                  {{ selected_image.description }}
+                {% else %}
+                  N/A
+                {% endif %}
+              {% endif %}
+            </div>
+            <div class="product-image-shelf">
+              <svg class="icon icon-left neutral-0" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                viewBox="0 0 485 485" xml:space="preserve">
+                <path class="path" d="M413.974,71.026C368.171,25.225,307.274,0,242.5,0S116.829,25.225,71.026,71.026C25.225,116.829,0,177.726,0,242.5
+                  s25.225,125.671,71.026,171.474C116.829,459.775,177.726,485,242.5,485s125.671-25.225,171.474-71.026
+                  C459.775,368.171,485,307.274,485,242.5S459.775,116.829,413.974,71.026z M242.5,455C125.327,455,30,359.673,30,242.5
+                  S125.327,30,242.5,30S455,125.327,455,242.5S359.673,455,242.5,455z"/>
+                <polygon class="path" points="270.524,114.411 142.852,242.5 270.524,370.589 291.772,349.411 185.209,242.5 291.772,135.589 	"/>
+              </svg>
+              <svg class="icon icon-right neutral-0" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                viewBox="0 0 485 485" xml:space="preserve">
+                <path class="path" d="M413.974,71.026C368.171,25.225,307.274,0,242.5,0S116.829,25.225,71.026,71.026C25.225,116.829,0,177.726,0,242.5
+                  s25.225,125.671,71.026,171.474C116.829,459.775,177.726,485,242.5,485s125.671-25.225,171.474-71.026
+                  C459.775,368.171,485,307.274,485,242.5S459.775,116.829,413.974,71.026z M242.5,455C125.327,455,30,359.673,30,242.5
+                  S125.327,30,242.5,30S455,125.327,455,242.5S359.673,455,242.5,455z"/>
+                <polygon class="path" points="193.228,135.589 299.791,242.5 193.228,349.411 214.476,370.589 342.148,242.5 214.476,114.411 	"/>
+              </svg>
+              <div class="product-image-shelf-container">
+                {% if product.images.count %}
+                  {% for image in product.images.all %}
+                    <div class="product-thumbnail-wrap">
+                      <img alt="{{ image.alt }}" class="product-thumbnail" src="{{ image.original.url }}" data-original="{{ image.original.url }}" data-id="{{ image.id }}" data-description="{{ image.description }}"/>
+                    </div>
+                    {% endfor %}
+                {% endif %}
+              </div>
+            </div>
+          </div>
+          {% if product.extra_description %}
+            <div class="trifold-footer">
+              <div>
+                {{ product.extra_description | safe }}
+              </div>
+            </div>
+          {% endif %}
+        </div>
+        <div class="trifold-data">
+          <div class="product-header">
+            <h1 class="title">{{ product.name }}</h1>
+            <div class="action-group">
+              <a class="download-trigger" href="">{% include "components/icons/icon-download.svg" %}</a>
+            </div>
+          </div>
+          <p class="product-description">{{ product.description }}</p>
+          <div class="product-uses">
+            {% for use in product.uses %}
+              {% if use == 'patio' %}
+                <div class="product-use">
+                  <img src="{% static 'images/icon-patio.png' %}" />
+                  <span>Patio</span>
+                </div>
+              {% endif %}
+              {% if use == 'walkway' %}
+                <div class="product-use">
+                  <img src="{% static 'images/icon-walkway.png' %}" />
+                  <span>Walkway</span>
+                </div>
+              {% endif %}
+              {% if use == 'driveway' %}
+                <div class="product-use">
+                  <img src="{% static 'images/icon-driveway.png' %}" />
+                  <span>Driveway</span>
+                </div>
+              {% endif %}
+              {% if use == 'pool' %}
+                <div class="product-use">
+                  <img src="{% static 'images/icon-pool.png' %}" />
+                  <span>Pool</span>
+                </div>
+              {% endif %}
+            {% endfor %}
+          </div>
+          <div class="social-tools-wrap">
+              <span class="title">Share this image</span>
+              <div class="socialshare-bar">
+                {% include "../components/social/facebook_share.html" %}
+                {% if selected_image %}
+                  {% include "../components/social/houzz_share.html" with title=product.name image=selected_image.url %}
+                {% endif %}
+                {% include "../components/social/twitter_share.html" %}
+                {% if product.images.count %}
+                  {% include "../components/social/pinterest_share.html" with media_url=product.images.first.url %}
+                {% endif %}
+                {% include "../components/social/mail_share.html" %}
+              </div>
+              <div class="action-group">
+                {% if user.is_authenticated and selected_image %}
+                  <a class="link" id="gallery-add" href="{% url 'galleries:add-product-image-to-gallery' selected_image.id %}">{% include "components/icons/icon-grid.svg" %}<span>Add To<br/>Gallery</span></a>
+                {% endif %}
+                <div
+                  id="like"
+                  data-url="/rest/products/{{product.id}}/like/"
+                  data-video="{{ product.id }}"
+                  data-type="product"
+                  data-count={{product.like_count}}
+                  ></div>
+              </div>
+          </div>
+          
+          {% if product.specs.count %}
+          <div class="product-section product-specs">
+            <h4 class="title">Specs</h4>
+            <div class="product-section-content">
+              <div class="spec-wrap">
+                {% for spec in product.specs.all %}
+                  <div class="spec-container">
+                    <span class="spec-label">{{ spec.label }}</span>
+                    <img class="spec-icon" src="{{ spec.icon.url }}" />
+                  </div>
+                {% endfor %}
+              </div>
+              {% if product.spec_chart_thumbnail.name %}
+                <img class="spec-chart spec-chart-trigger" src="{{ product.spec_chart_thumbnail.url }}"  alt="Spec Chart" />
+              {% endif %}
+            </div>
+          </div>
+          {% endif %}
+
+          {% if product.patterns.count %}
+            <div class="product-section product-patterns">
+              <h4 class="title">Patterns</h4>
+              <div class="product-section-content">
+                <div class="pattern-wrap">
+                  {% for pattern in product.patterns.all %}
+                    <div class="pattern-container">
+                      <img class="pattern-thumbnail product-modal-trigger"
+                        src="{{ pattern.thumbnail.url }}"
+                        data-original="{{ pattern.thumbnail.url }}"
+                        data-title="{{ pattern.name }}"
+                        data-description="{{ pattern.description }}"
+                      />
+                    </div>
+                  {% endfor %}
+                </div>
+              </div>
+            </div>
+          {% endif %}
+          
+          {% if product.accessories.count %}
+            <div class="product-section product-accessories">
+              <h4 class="title">Accessories</h4>
+              <div class="product-section-content">
+                <div class="accessory-wrap">
+                  {% for accessory in product.accessories.all %}
+                    <div class="accessory-container">
+                      <img class="accessory-thumbnail product-modal-trigger"
+                        src="{{ accessory.thumbnail.url }}"
+                        data-original="{{ accessory.thumbnail.url }}"
+                        data-title="{{ accessory.name }}"
+                        data-description="{{ accessory.description }}"
+                      />
+                    </div>
+                  {% endfor %}
+                </div>
+              </div>
+            </div>
+          {% endif %}
+          
+          {% if product.colors.count %}
+            <div class="product-section product-colors">
+              <h4 class="title">Colors</h4>
+              <div class="product-section-content">
+                <div class="color-wrap">
+                  {% for color in product.colors.all %}
+                    <div class="color-container">
+                      <img class="color-thumbnail product-modal-trigger"
+                        src="{{ color.thumbnail.url }}"
+                        data-original="{{ color.thumbnail.url }}"
+                        data-title="{{ color.name }}"
+                        data-description="{{ color.description }}"
+                      />
+                      {% if color.color_type == 'premium' %}
+                        {% include "../components/icons/icon-premium.svg" %}
+                      {% endif %}
+                      {% if color.color_type == 'deluxe' %}
+                        {% include "../components/icons/icon-deluxe.svg" %}
+                      {% endif %}
+                    </div>
+                  {% endfor %}
+                </div>
+              </div>
+            </div>
+          {% endif %}
+          
+          {% if product.countertops.count %}
+            <div class="product-section product-countertops">
+              <h4 class="title">Countertops</h4>
+              <div class="product-section-content">
+                <div class="countertop-wrap">
+                  {% for countertop in product.countertops.all %}
+                    <div class="countertop-container">
+                      <img class="countertop-thumbnail product-modal-trigger"
+                        src="{{ countertop.thumbnail.url }}"
+                        data-original="{{ countertop.thumbnail.url }}"
+                        data-title="{{ countertop.name }}"
+                        data-description="{{ countertop.description }}"
+                      />
+                    </div>
+                  {% endfor %}
+                </div>
+              </div>
+            </div>
+          {% endif %}
+
+          {% if product.related_products.count %}
+            <div class="product-section">
+              <h4 class="title">Related Products</h4>
+              <div class="product-section-content">
+                <div class="related-product-wrap">
+                  {% for related_product in product.related_products.all %}
+                    <div class="related-product-container">
+                      <a href="{{ related_product.get_absolute_url }}"><img class="related-product-thumbnail" src="{{ related_product.images.first.thumbnail.url }}" /></a>
+                    </div>
+                  {% endfor %}
+                </div>
+              </div>
+            </div>
+          {% endif %}
+
+          {% if product.related_videos.count %}
+            <div class="product-section">
+              <h4 class="title">Related Videos</h4>
+              <div class="product-section-content">
+                <div class="related-video-wrap">
+                  {% for related_video in product.related_videos.all %}
+                    <div class="related-video-container">
+                      <img class="related-video-thumbnail related-video-modal-trigger" 
+                        src="{{ related_video.thumbnail_url }}"
+                        data-video="https://www.youtube.com/embed/{{ related_video.video_id }}"
+                      />
+                    </div>
+                  {% endfor %}
+                </div>
+              </div>
+            </div>
+          {% endif %}
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+<div class="product-modal-wrap">
+  <div class="product-modal">
+    {% include "../components/icons/icon-close.svg" %}
+    <div class="product-modal-container">
+      {% include "../components/color_pattern_modal.html" %}
+    </div>
+  </div>
+</div>
+
+{% if user.is_authenticated and selected_image %}
+  <div class="add-gallery-modal-wrap">
+    <div class="add-gallery-modal">
+      {% include "../components/icons/icon-close.svg" %}
+      <div class="add-gallery-modal-container">
+        {% include "../components/add_gallery_modal.html" %}
+      </div>
+    </div>
+  </div>
+{% endif %}
+
+<div class="download-modal-wrap">
+  <div class="download-modal">
+    <div class="download-modal-container">
+      {% include "../components/download_modal.html" %}
+    </div>
+  </div>
+</div>
+
+<div class="spec-chart-modal-wrap">
+  <div class="spec-chart-modal">
+    {% include "../components/icons/icon-close.svg" %}
+    <div class="spec-chart-modal-container">
+      {% if product.spec_chart_thumbnail.name %}
+        {% include "../components/spec_chart_modal.html" %}
+      {% endif %}
+    </div>
+  </div>
+</div>
+
+<div class="related-video-modal-wrap">
+  <div class="related-video-modal">
+    {% include "../components/icons/icon-close.svg" %}
+    {% include "../components/related_video_modal.html" %}
+  </div>
+</div>
+
+{% endblock %}
+
+{% block javascript %}
+  {% include "../components/social/social_scripts.html" %}
+  {{ block.super }}
+  {% render_bundle 'liking' %}
+  {% if user.is_authenticated and selected_image %}
+    {% render_bundle 'product' %}
+  {% endif %}
+{% endblock javascript %}

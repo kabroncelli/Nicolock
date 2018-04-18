@@ -1,0 +1,45 @@
+{% extends "base.html" %}
+{% load staticfiles i18n %}
+
+{% block head %}
+  {% define 'title' 'Nicolock | Event' %}
+  {{ block.super }}
+{% endblock %}
+
+{% block bodyclass %}{% endblock %}
+
+{% block content %}
+  <div class="trifold-wrap">
+  	<div class="trifold-sidebar">
+   		<div class="trifold-breadcrumb">
+        <a class="link neutral-0" href="{% url 'events:list' %}">Events</a>>
+   			<span class="breadcrumb-active">{{ object.name }}</span>
+  		</div>
+  		<div class="misc-menu-wrap">
+        {% include "components/dynamic_menu.html" %}
+      </div>
+  	</div>
+
+  	<div class="trifold-detail">
+      {% include "components/icons/icon-vertical-ellipsis.svg" %}
+  		<div class="trifold-content">
+  			<div class="trifold-middle">
+          <div class="event-wrap">
+            <span class="title">{{ object.name }}</span>
+            <p class="date-time">{{ object.start_date }} / {{ object.start_time }} - {{ object.end_time }}</p>
+            <p class="address">{{ object.address }}<br />{{ object.city }}, {{ object.state }} {{ object.postal_code }}</p>
+            {% if object.register_link %}
+              <a class="address link neutral-0" href="{{ object.register_link }}" target="_blank">{{ object.register_link }}</a>
+            {% endif %}
+            <hr />
+            <p class="description">{{ object.description|safe }}</p>
+          </div>
+        </div>
+      </div>
+  </div>
+{% endblock content %}
+
+
+{% block javascript %}
+  {{ block.super }}
+{% endblock javascript %}

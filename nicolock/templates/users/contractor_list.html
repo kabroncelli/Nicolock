@@ -1,0 +1,44 @@
+{% extends "base.html" %}
+{% load staticfiles %}
+{% load render_bundle from webpack_loader %}
+
+{% block head %}
+  {% define 'title' 'Nicolock | Contractors' %}
+  {{ block.super }}
+{% endblock %}
+
+{% block bodyclass %}{% endblock %}
+
+{% block content %}
+<div class="trifold-wrap">
+  <div class="trifold-sidebar">
+    <div class="trifold-breadcrumb">
+      <a class="link neutral-1" href="{% url 'pages' 'contractor' %}">Contractors</a> >
+      <span class="breadcrumb-active">Locate a Contractor</span>
+    </div>
+    <div class="misc-menu-wrap">
+      {% include "components/dynamic_menu.html" %}
+    </div>
+  </div>
+
+  <div class="trifold-detail">
+    {% include "components/icons/icon-vertical-ellipsis.svg" %}
+    <div
+    id="app"
+    data-url="{% url 'rest-users:contractor-list' %}"
+    {% if user.is_authenticated %}
+    data-authenticated="true"
+    {% else %}
+    data-authenticated="false"
+    {% endif %}
+    ></div>
+    <div id="modal-root"></div>
+  </div>
+
+</div>
+{% endblock content %}
+
+{% block javascript %}
+  {{ block.super }}
+  {% render_bundle 'findContractors' %}
+{% endblock javascript %}

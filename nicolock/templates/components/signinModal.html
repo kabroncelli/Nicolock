@@ -1,0 +1,28 @@
+<div class="modal-view">
+  <div class="modal-header">
+    <h4 class="title">Login</h4>
+  </div>
+
+  <div class="modal-content">
+    <form class="form" method="post" action="{% url 'account_login' %}">
+      {% csrf_token %}
+      <input type="hidden" name="next" value="{{ request.path }}" />
+      <div class="input-group">
+        {% include "components/icons/icon-envelope.svg" %}
+        <input class="input" name="login" placeholder="E-mail address" type="email" required="" />
+      </div>
+      <div class="input-group">
+        {% include "components/icons/icon-lock.svg" %}
+        <input class="input" name="password" placeholder="Password" type="password" required="" />
+      </div>
+      <button class="btn btn-md neutral-0" type="submit">LOGIN</button>
+      <div class="input-group">
+        <a class="link neutral-0 modal-transition" data-authentication="reset" href="">Forgot your password?</a>
+      </div>
+    </form>
+  </div>
+
+  <div class="modal-footer">
+    <p class="paragraph">Don't have an account? &nbsp; <a class="link neutral-0 modal-transition" data-authentication="register" href="">Sign up.</a></p>
+  </div>
+</div>

@@ -1,0 +1,40 @@
+{% extends "base.html" %}
+{% load staticfiles %}
+{% load render_bundle from webpack_loader %}
+
+{% block head %}
+  {% define 'title' 'Nicolock | Sales Reps' %}
+  {{ block.super }}
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.3/dist/leaflet.css" />
+{% endblock %}
+
+{% block bodyclass %}{% endblock %}
+
+{% block content %}
+<div class="trifold-wrap">
+  <div class="trifold-sidebar">
+    <div class="trifold-breadcrumb">
+      <a class="link neutral-1" href="{% url 'pages' 'retail' %}">Retail</a> >
+      <span class="breadcrumb-active">Locate a Dealer</span>
+    </div>
+    <div class="misc-menu-wrap">
+      {% include "components/dynamic_menu.html" %}
+    </div>
+  </div>
+
+  <div class="trifold-detail">
+    {% include "components/icons/icon-vertical-ellipsis.svg" %}
+    <div
+    id="app"
+    data-type="Sales Rep"
+    data-url="{% url 'rest-salesreps:list' %}"
+    data-desc="Enter your zip code to find sales reps in your area"></div>
+  </div>
+
+</div>
+{% endblock content %}
+
+{% block javascript %}
+  {{ block.super }}
+  {% render_bundle 'map' %}
+{% endblock javascript %}

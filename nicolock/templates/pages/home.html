@@ -1,0 +1,78 @@
+{% extends "base.html" %}
+{% load staticfiles i18n %}
+
+{% block head %}
+  {% define 'title' 'Nicolock | Home' %}
+  {{ block.super }}
+{% endblock %}
+
+{% block bodyclass %}bg-light{% endblock %}
+
+{% block content %}
+  <div class="home-hero">
+    <div class="lk-squeeze">
+      <div class="shadow-box">
+        <img src="{% static 'images/nico-logo.png' %}" />
+        <p class="paragraph">Paving the way to your perfect project. Turn your landscaping befores into stunning ever-afters. With Nicolock Pavers, paving slabs, retaining walls and accents, <strong>the outdoor space you've always dreamed of is closer than you ever imagined.</strong></p>
+      </div>
+    </div>
+  </div>
+  <div class="home-products-wrap">
+    <div class="lk-squeeze">
+      <div class="home-products">
+        <a class="product-link" href="/products/pavers">
+            <img src="{% static 'images/home-pavers.jpg' %}" />
+            <span class="title">Paving Stones</span>
+        </a>
+        <a class="product-link" href="/products/nicostone">
+            <img src="{% static 'images/home-nicostone.jpg' %}" />
+            <span class="title">Nicostone</span>
+        </a>
+        <a class="product-link" href="/products/environmental-pavers">
+            <img src="{% static 'images/home-environmental.jpg' %}" />
+            <span class="title">Environmental Pavers</span>
+        </a>
+        <a class="product-link" href="/products/wall-systems">
+            <img src="{% static 'images/home-wall.jpg' %}" />
+            <span class="title">Wall Systems</span>
+        </a>
+        <a class="product-link" href="/products/accents">
+            <img src="{% static 'images/home-accents.jpg' %}" />
+            <span class="title">Accents<br />Circles | Inlays</span>
+        </a>
+        <a class="product-link" href="/products/outdoor-living">
+            <img src="{% static 'images/home-outdoor.jpg' %}" />
+            <span class="title">Outdoor Living</span>
+        </a>
+        <!-- <a class="product-link" href="/products/cliffrock-tm-by-nicolock">
+            <img src="{% static 'images/home-cliffrock.jpg' %}" />
+            <span class="title">Cliffrock<sup>TM</sup> By Nicolock</span>
+        </a> -->
+      </div>
+    </div>
+  </div>
+  <div class="home-callouts">
+    <div class="callout-squeeze">
+      <div class="row">
+        <div class="shadow-box">
+          <h2 class="title">Get Inspired</h2>
+          <div class="paragraph">Browse through a collection of design and installation ideas. Big or small, whatever your dream project is, dream it with Nicolock!</div>
+        </div>
+        <div class="shadow-box">
+          <h2 class="title">Locked-In Color!</h2>
+          <div class="paragraph">No other paver has the vibrance and lasting color like Nicolock! Our color technology surpasses the competition… and with our huge selection of color choices; your sure get your project done in your dream color.</div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="shadow-box">
+          <h2 class="title">Upcoming Events</h2>
+          <div class="paragraph">Check our calendar for <a class="link neutral-0" href="{% url 'events:list' %}">show, dealer events, training and more!</a></div>
+        </div>
+        <div class="shadow-box">
+          <h2 class="title">Increase your property value</h2>
+          <div class="paragraph">Find out today how installing Nicolock paving stones and retaining walls can increase the value of your home and property.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+{% endblock content %}

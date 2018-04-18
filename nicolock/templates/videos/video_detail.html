@@ -1,0 +1,62 @@
+{% extends "base.html" %}
+{% load static i18n %}
+{% load render_bundle from webpack_loader %}
+
+{% block title %}Videos: {{ object.name }}{% endblock %}
+
+{% block content %}
+<div class="trifold-wrap">
+  <div class="trifold-sidebar">
+    <div class="trifold-breadcrumb">
+      {% if base_breadcrumb %}
+        <a class="link neutral-1" href=""></a> >
+      {% endif %}
+      <span class="breadcrumb-active">{% trans "Videos" %}</span>
+    </div>
+    <div class="misc-menu-wrap">
+      {% include "components/dynamic_menu.html" %}
+    </div>
+  </div>
+
+  <div class="trifold-detail">
+    {% include "../components/icons/icon-vertical-ellipsis.svg" %}
+    <div class="trifold-content">
+      <div class="trifold-middle">
+        <div class="video-wrap">
+          <iframe class="video-iframe" src="https://www.youtube.com/embed/{{ video.video_id }}" frameborder="0" allowfullscreen></iframe>
+        </div>
+        <div class="trifold-footer">
+          <div class="socialshare-bar">
+            {% include "../components/social/facebook_share.html" %}
+            {% include "../components/social/houzz_share.html" with title=product.name image=selected_image.url %}
+            {% include "../components/social/twitter_share.html" %}
+            {% include "../components/social/pinterest_share.html" with media_url=product.images.first.url %}
+            {% include "../components/social/mail_share.html" %}
+          </div>
+          <div class="action-group">
+            <div
+              id="like"
+              data-url="/rest/videos/{{video.id}}/like/"
+              data-video="{{ video.id }}"
+              data-type="video"
+              data-count={{video.like_count}}
+              ></div>
+          </div>
+        </div>
+      </div>
+      <div class="trifold-data video-data">
+          <h1 class="title">{{ video.name }}</h1>
+          <p class="paragraph">{{ video.description }}</p>
+        </div>
+    </div>
+  </div>
+</div>
+
+{% endblock content %}
+
+
+{% block javascript %}
+  {{ block.super }}
+  {% include "../components/social/social_scripts.html" %}
+  {% render_bundle 'liking' %}
+{% endblock javascript %}

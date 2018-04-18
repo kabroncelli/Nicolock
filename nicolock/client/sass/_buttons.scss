@@ -1,0 +1,73 @@
+/*------------------------------------*\
+              ¡BUTTONS
+\*------------------------------------*/
+
+.btn {
+    border: none;
+    color: color(neutral-0);
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 400;
+    letter-spacing: 1px;
+    outline: none;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    &.btn-lg {
+        font-size: 1.5rem;
+    }
+    &.btn-md {
+        font-size: 0.875rem;
+        padding: .7em 2.3em;
+    }
+    &.btn-sm {
+        font-size: 0.6875rem;
+        padding: .5em 1.2em;
+    }
+    &.neutral-0 {
+      background: rgba(255, 255, 255, .85);
+      color: color(neutral-6);
+      &.hollow {
+        border-color: rgba(255, 255, 255, .5);
+      }
+    }
+    &.neutral-6 {
+      background: rgba(0, 0, 0, .85);
+      color: color(neutral-0);
+      &.hollow {
+        border-color: rgba(0, 0, 0, .5);
+      }
+    }
+    &.neutral-4 {
+      background: color(neutral-4);
+      &.hollow {
+        background: transparent;
+        border-color: color(neutral-4);
+        color: color(neutral-4);
+      }
+    }
+    &.color-1 {
+        background: color(color-1);
+        border-color: color(color-1);
+        &.hollow {
+            color: color(color-1);
+        }
+    }
+    &.hollow {
+      background: transparent;
+      border: solid .125em;
+    }
+}
+
+.custom {
+  border: solid 1px color(neutral-0);
+  padding: 10px;
+  .text-wrap {
+    background: rgba(255, 255, 255, .8);
+    color: color(neutral-4);
+    display: block;
+    font-size: 0.75rem;
+    padding: 1em 2em;
+    text-align: center;
+  }
+}

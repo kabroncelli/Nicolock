@@ -1,0 +1,2 @@
+id,name,address_line_one,address_line_two,city,state,postal_code,website,phone,email,contact_name,contact_email,contact_phone,area_covered,specialities,description,certifications
+,Test Contractor,123 S 345 E,,Logan,UT,84321,https://google.com,435-678-1234,email@mail.com,Test Guy,email@email.com,435-567-8432,,,,"np,nw"

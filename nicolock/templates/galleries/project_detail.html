@@ -1,0 +1,93 @@
+{% extends "galleries/base.html" %}
+{% load static %}
+{% load render_bundle from webpack_loader %}
+
+{% block title %}Project: {{ project.name }}{% endblock %}
+
+{% block bodyclass %}bg-light{% endblock %}
+
+{% block inner %}
+  <h2 class="page-title">{{ project.name }} Project</h2>
+
+  <div class="bifold-wrap is-gallery">
+    <div class="bifold-content">
+      <div class="gallery-header">
+        <span class="title">
+          <a class="link neutral-3" href="{% url 'galleries:project-list' project.user.slug %}">Projects</a> |
+          <a class="link neutral-3" href="">{{ project.name }}</a>
+        </span>
+        <div class="action-group">
+          <a class="link neutral-4 pad-half--right" href="{% url 'galleries:project-edit' project.slug %}">Edit</a>
+          <a class="link neutral-4" href="{% url 'galleries:gallery-add-from-project' project.slug %}">Add</a>
+        </div>
+      </div>
+      <div class="gallery-wrap">
+        {% for gallery in project.galleries.all %}
+          <div class="gallery">
+            <a class="link-gallery" href="{{ gallery.get_absolute_url }}">
+              {% if gallery.items.first %}
+                <img src="{{ gallery.items.first.thumbnail.url }}">
+              {% else %}
+                <img src="http://placehold.it/185x285">
+              {% endif %}
+            </a>
+            <h4 class="title">{{ gallery.name }}</h4>
+            <div class="social-wrap">
+              {% include "../components/social/facebook_share.html" %}
+              {% include "../components/social/houzz_share.html" with title=gallery.name image=selected_image.url %}
+              {% include "../components/social/twitter_share.html" %}
+              {% include "../components/social/pinterest_share.html" with media_url=gallery.images.first.url %}
+              {% include "../components/social/mail_share.html" %}
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+    <div class="bifold-sidebar">
+      <div class="gallery-sidebar-header">
+        <span class="title">
+          {% if user.user_type == 'contractor' %}
+            {{ user.companyprofile.name }}
+          {% else %}
+            Contractors
+          {% endif %}
+        </span>
+      </div>
+      <div class="gallery-sidebar-content">
+        <!--
+          If I am the owner and a homeowner, I will see my list of contractors
+          If I am the owner and a contractor, I will see my company profile
+          If I am a homeowner visiting a contractor, I should see the profile data
+       -->
+        {% if user.user_type == 'contractor' %}
+        <div
+          id="contractor-profile"
+          data-name="{{ user.companyprofile.name }}"
+          data-address-1="{{ user.companyprofile.address_line_one }}"
+          data-address-2="{{ user.companyprofile.address_line_two }}"
+          data-city="{{ user.companyprofile.city }}"
+          data-state="{{ user.companyprofile.state }}"
+          data-postal-code="{{ user.companyprofile.postal_code }}"
+          data-website="{{ user.companyprofile.website }}"
+          data-phone="{{ user.companyprofile.phone }}"
+          data-email="{{ user.companyprofile.email }}"
+          data-contact="{{ user.companyprofile.contact_name }}"
+          data-area="{{ user.companyprofile.area_covered }}"
+          data-specialties="{{ user.companyprofile.specialties }}"
+          data-description="{{ user.companyprofile.description }}"
+          data-editable="true"
+          ></div>
+        {% else %}
+          <div id="contractor-list"></div>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+{% endblock inner %}
+
+{% block javascript %}
+  {% include "../components/social/social_scripts.html" %}
+  {{ block.super }}
+  <script src="{% static 'build/contractor.bundle.js' %}"></script>
+  {% render_bundle 'contractor' %}
+{% endblock javascript %}

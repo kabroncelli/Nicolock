@@ -1,0 +1,51 @@
+{% extends 'base.html' %}
+{% load staticfiles %}
+
+{% block bodyclass %}{% endblock %}
+
+{% block content %}
+  <div class="lk-squeeze">
+
+    <form class="seach-page-form" method="GET" action="{% url 'core:search' %}">
+        <div class="input-group">
+          <label for="q" class="label">Search:</label>
+          <input class="input" id="id_q" name="q" type="text">
+        </div>
+    </form>
+
+    {% if submitted %}
+        {% regroup results|dictsort:"verbose_name_plural" by verbose_name_plural as grouped_objects %}
+        {% for group in grouped_objects %}
+          <div class="search-group">
+            <h4 class="title">{{ group.grouper }}</h4>
+            <div class="search-result-wrapper">
+              {% for result in group.list %}
+                  <div class="search-result {% if group.grouper == 'Specs' %}is-specs{% endif %}">
+                    {% if group.grouper == 'Products' %}
+                      <a class="link" href="{{ result.object.get_absolute_url }}">
+                        {% if result.image %}
+                          <img class="img" src="{{ result.image }}" />
+                        {% endif %}
+                        <span class="result-title">{{ result.object }}</span>
+                      </a>
+                    {% elif group.grouper == 'Images' %}
+                      <a class="link" href="{{ result.object.get_absolute_url }}"><img class="img" src="{{ result.image }}" /></a>
+                    {% elif group.grouper == 'Specs' %}
+                      <a class="link" href="{{ result.object.get_absolute_url }}">
+                        <img src="{% static 'images/icon-pdf.png' %}" />
+                        <span class="result-title">{{ result.object }}</span>
+                      </a>
+                    {% else %}
+                      <a class="link" href="{{ result.object.get_absolute_url }}">{{ result.object }}</a>
+                    {% endif %}
+                  </div>
+              {% endfor %}
+            </div>
+          </div>
+        {% empty %}
+            <p>No results found.</p>
+        {% endfor %}
+    {% endif %}
+
+  </div>
+{% endblock %}

@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% block title %}{% block head_title %}{% endblock head_title %}{% endblock title %}
+
+{% block bodyclass %}bg-light{% endblock %}
+
+{% block content %}
+  <div class="lk-squeeze">
+    <div class="page-content">
+      {% block inner %}{% endblock %}
+    </div>
+  </div>
+{% endblock %}

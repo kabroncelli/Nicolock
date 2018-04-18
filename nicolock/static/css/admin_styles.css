@@ -1,0 +1,116 @@
+/** 
+ * theming styles
+ * 
+ */
+
+
+/* Make the breadcrumb bar not clash with the nav bar*/
+div.breadcrumbs {
+    background: none; 
+    padding: 10px 40px;
+    border: none;
+    font-size: 14px;
+    color: black; 
+    text-align: left;
+}
+
+div.breadcrumbs a {
+    color: #fff;
+}
+
+div.breadcrumbs a:link, div.breadcrumbs a:visited {
+    color: #447e9b;
+    text-decoration: none;
+}
+
+div.breadcrumbs a:focus, div.breadcrumbs a:hover {
+    color: #036;
+}
+
+/* Get rid of the close buttons */
+.close-icon {
+    display: none !important;
+}
+
+/* Override navbar color */
+#header {
+    background: #242424 !important;
+    color: white !important;
+    height: 60px !important;
+}
+
+#header #branding h1 {
+    padding: 10px 10px !important;
+}
+
+#user-tools a:hover {
+    color: #9a9898;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+}
+
+#user-tools a:focus, #user-tools a:hover {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+}
+
+#user-tools a {
+    border-bottom: ;
+}
+
+#header #user-tools {
+    padding-top: 8px;
+}
+
+/* Override that terrible home icon */
+#header ul#navigation-menu li.first a {
+    text-indent: 0;
+    background: none;
+}
+
+#content {
+    padding: 0;
+    margin: 15px;
+}
+
+#header {
+    background: #205067;
+
+    /* Reset the indents of django-flat-theme
+      (need to restore 40px on branding+user-tools instead) */
+    padding-left: 0;
+    padding-right: 0;
+}
+
+#header #branding {
+    padding-left: 10px;
+}
+
+#header #branding h1 {
+    margin: 0;
+    padding: 5px 10px;
+    text-indent: -9999px;
+    background-image: url(../images/logo.png);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: center;
+}
+
+#header #user-tools {
+    /* Old Django: 1.2em, flat theme: 40px; */
+    padding-right: 1.2em;
+}
+
+#bookmark-form {
+    clear: both;
+}
+
+div.breadcrumbs {
+    display: block;
+    padding: 10px 15px;
+    border: 0;
+    background-position: 0 -8px;
+    border-bottom: 1px solid #ededed;
+}
+
+div.breadcrumbs a {
+    display: inline;
+}

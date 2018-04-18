@@ -1,0 +1,9 @@
+{% if user_galleries %}
+  <div
+    id="add-image-to-gallery"
+    data-galleries='{{ user_galleries_json }}'
+    ></div>
+{% else %}
+  <h4 class="title">Add To Gallery</h4>
+  <p class="paragraph">You currently don't have any galleries. Click <a class="link neutral-0" href="{% url 'galleries:gallery-add' %}?from={{ request.path|urlencode }}">here</a> to add a gallery.</p>
+{% endif %}

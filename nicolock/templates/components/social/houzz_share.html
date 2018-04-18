@@ -1,0 +1,8 @@
+<a class="link houzz-share-button" 
+   data-url="http://{{ request.META.HTTP_HOST }}{{ request.path }}" 
+   data-hzid="{{ HOUZZ_ID }}" 
+   data-title="{{ title }}" 
+   data-img="{{ selected_image.url }}" 
+   href="#">
+    {% include "../icons/icon-houzz.svg" %}
+</a>

@@ -1,0 +1,58 @@
+{% extends "users/base.html" %}
+{% load crispy_forms_tags %}
+
+{% block title %}{{ user.name }}{% endblock %}
+
+{% block bodyclass %}bg-light{% endblock %}
+
+{% block inner %}
+  <h2 class="page-title">{{ user.name }}</h2>
+  <form class="account-form" method="post">
+    {% csrf_token %}
+    <div class="input-group">
+      <label class="label">Company name</label>
+      <input class="input" maxlength="255" name="name" type="text" value="{{ companyprofile.name }}">
+    </div>
+    <div id="div_id_address" class="input-group">
+      <label class="label">Company address</label>
+      <textarea class="textarea" cols="40" name="address" rows="10">{{ companyprofile.address }}</textarea>
+    </div>
+    <div id="div_id_website" class="input-group">
+      <label class="label">Company website</label>
+      <input class="input" maxlength="200" name="website" type="url" value="{{ companyprofile.website }}">
+    </div>
+    <div id="div_id_phone" class="input-group">
+      <label class="label">Company phone number</label>
+      <input class="input" maxlength="16" name="phone" type="text" value="{{ companyprofile.phone }}">
+    </div>
+    <div id="div_id_email" class="input-group">
+      <label class="label">Company email</label>
+      <input class="input" maxlength="254" name="email" type="email" value="{{ companyprofile.email }}">
+    </div>
+    <div id="div_id_contact_name" class="input-group">
+      <label class="label">Contact name</label>
+      <input class="input" maxlength="255" name="contact_name" type="text" value="{{ companyprofile.contact_name }}">
+    </div>
+    <div id="div_id_contact_email" class="input-group">
+      <label class="label">Contact email</label>
+      <input class="input" maxlength="254" name="contact_email" type="email" value="{{ companyprofile.contact_email }}">
+    </div>
+    <div id="div_id_contact_phone" class="input-group">
+      <label class="label">Contact phone number</label>
+      <input class="input" maxlength="16" name="contact_phone" type="text" value="{{ companyprofile.contact_phone }}">
+    </div>
+    <div id="div_id_area_covered" class="input-group">
+      <label class="label">Area_covered</label>
+      <input class="input" maxlength="255" name="area_covered" type="text" value="{{ companyprofile.area_covered }}">
+    </div>
+    <div id="div_id_specialties" class="input-group">
+      <label class="label">Specialties</label>
+      <input class="input" maxlength="255" name="specialties" type="text" value="{{ companyprofile.specialties }}">
+    </div>
+    <div id="div_id_description" class="input-group">
+      <label class="label">Description</label>
+      <textarea class="textarea" cols="40" name="description" rows="10">{{ companyprofile.description }}</textarea>
+    </div>
+    <button class="btn btn-md neutral-6" type="submit">UPDATE</button>
+  </form>
+{% endblock %}

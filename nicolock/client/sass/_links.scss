@@ -1,0 +1,69 @@
+/*------------------------------------*\
+                ¡LINKS
+\*------------------------------------*/
+
+
+.link {
+    cursor: pointer;
+    text-decoration: none;
+    &.neutral-0 {
+      color: color(neutral-0);
+      &:link,
+      &:visited {
+        color: color(neutral-0);
+      }
+      &:hover,
+      &:active,
+      &.is-active {
+        color: color(neutral-2);
+      }
+    }
+    &.neutral-1 {
+      color: color(neutral-1);
+      &:link,
+      &:visited {
+        color: color(neutral-1);
+      }
+      &:hover,
+      &:active,
+      &.is-active {
+        color: color(neutral-0);
+      }
+    }
+    &.neutral-2 {
+      color: color(neutral-2);
+      &:link,
+      &:visited {
+        color: color(neutral-2);
+      }
+      &:hover,
+      &:active,
+      &.is-active {
+        color: color(neutral-1);
+      }
+    }
+    &.neutral-3 {
+      color: color(neutral-3);
+      &:link,
+      &:visited {
+        color: color(neutral-3);
+      }
+      &:hover,
+      &:active,
+      &.is-active {
+        color: color(neutral-3);
+      }
+    }
+    &.neutral-4 {
+      color: color(neutral-4);
+      &:link,
+      &:visited {
+        color: color(neutral-4);
+      }
+      &:hover,
+      &:active,
+      &.is-active {
+        color: color(neutral-3);
+      }
+    }
+}

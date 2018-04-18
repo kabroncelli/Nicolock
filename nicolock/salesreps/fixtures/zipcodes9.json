@@ -1,0 +1,9002 @@
+[
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8001,
+    "fields": {
+      "postal_code": "17074",
+      "lat": "40.478894",
+      "lng": "-77.148769"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8002,
+    "fields": {
+      "postal_code": "17075",
+      "lat": "40.393869",
+      "lng": "-77.835169"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8003,
+    "fields": {
+      "postal_code": "17076",
+      "lat": "40.616178",
+      "lng": "-77.311485"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8004,
+    "fields": {
+      "postal_code": "17077",
+      "lat": "40.403035",
+      "lng": "-76.535705"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8005,
+    "fields": {
+      "postal_code": "17078",
+      "lat": "40.287471",
+      "lng": "-76.580969"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8006,
+    "fields": {
+      "postal_code": "17080",
+      "lat": "40.640698",
+      "lng": "-76.803271"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8007,
+    "fields": {
+      "postal_code": "17081",
+      "lat": "40.201011",
+      "lng": "-77.283413"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8008,
+    "fields": {
+      "postal_code": "17082",
+      "lat": "40.495054",
+      "lng": "-77.448423"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8009,
+    "fields": {
+      "postal_code": "17083",
+      "lat": "40.277615",
+      "lng": "-76.437726"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8010,
+    "fields": {
+      "postal_code": "17084",
+      "lat": "40.675648",
+      "lng": "-77.626616"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8011,
+    "fields": {
+      "postal_code": "17085",
+      "lat": "40.280023",
+      "lng": "-76.390174"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8012,
+    "fields": {
+      "postal_code": "17086",
+      "lat": "40.690603",
+      "lng": "-77.121838"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8013,
+    "fields": {
+      "postal_code": "17087",
+      "lat": "40.435751",
+      "lng": "-76.280734"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8014,
+    "fields": {
+      "postal_code": "17088",
+      "lat": "40.300705",
+      "lng": "-76.294490"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8015,
+    "fields": {
+      "postal_code": "17089",
+      "lat": "40.240029",
+      "lng": "-76.920156"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8016,
+    "fields": {
+      "postal_code": "17090",
+      "lat": "40.318180",
+      "lng": "-77.180851"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8017,
+    "fields": {
+      "postal_code": "17091",
+      "lat": "40.230002",
+      "lng": "-76.920156"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8018,
+    "fields": {
+      "postal_code": "17093",
+      "lat": "40.307238",
+      "lng": "-76.930470"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8019,
+    "fields": {
+      "postal_code": "17094",
+      "lat": "40.581224",
+      "lng": "-77.198042"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8020,
+    "fields": {
+      "postal_code": "17097",
+      "lat": "40.580080",
+      "lng": "-76.677220"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8021,
+    "fields": {
+      "postal_code": "17098",
+      "lat": "40.588959",
+      "lng": "-76.632530"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8022,
+    "fields": {
+      "postal_code": "17099",
+      "lat": "40.632218",
+      "lng": "-77.576196"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8023,
+    "fields": {
+      "postal_code": "17101",
+      "lat": "40.258651",
+      "lng": "-76.894372"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8024,
+    "fields": {
+      "postal_code": "17102",
+      "lat": "40.270396",
+      "lng": "-76.905259"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8025,
+    "fields": {
+      "postal_code": "17103",
+      "lat": "40.275952",
+      "lng": "-76.866300"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8026,
+    "fields": {
+      "postal_code": "17104",
+      "lat": "40.254526",
+      "lng": "-76.862291"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8027,
+    "fields": {
+      "postal_code": "17105",
+      "lat": "40.269996",
+      "lng": "-76.880049"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8028,
+    "fields": {
+      "postal_code": "17106",
+      "lat": "40.269996",
+      "lng": "-76.880049"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8029,
+    "fields": {
+      "postal_code": "17107",
+      "lat": "40.269996",
+      "lng": "-76.880049"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8030,
+    "fields": {
+      "postal_code": "17108",
+      "lat": "40.269996",
+      "lng": "-76.880049"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8031,
+    "fields": {
+      "postal_code": "17109",
+      "lat": "40.289934",
+      "lng": "-76.824472"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8032,
+    "fields": {
+      "postal_code": "17110",
+      "lat": "40.315830",
+      "lng": "-76.886353"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8033,
+    "fields": {
+      "postal_code": "17111",
+      "lat": "40.267817",
+      "lng": "-76.787234"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8034,
+    "fields": {
+      "postal_code": "17112",
+      "lat": "40.373129",
+      "lng": "-76.776346"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8035,
+    "fields": {
+      "postal_code": "17113",
+      "lat": "40.225993",
+      "lng": "-76.827908"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8036,
+    "fields": {
+      "postal_code": "17120",
+      "lat": "40.265181",
+      "lng": "-76.882918"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8037,
+    "fields": {
+      "postal_code": "17121",
+      "lat": "40.269996",
+      "lng": "-76.880049"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8038,
+    "fields": {
+      "postal_code": "17122",
+      "lat": "40.269996",
+      "lng": "-76.880049"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8039,
+    "fields": {
+      "postal_code": "17123",
+      "lat": "40.269996",
+      "lng": "-76.880049"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8040,
+    "fields": {
+      "postal_code": "17124",
+      "lat": "40.269996",
+      "lng": "-76.880049"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8041,
+    "fields": {
+      "postal_code": "17125",
+      "lat": "40.269996",
+      "lng": "-76.880049"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8042,
+    "fields": {
+      "postal_code": "17126",
+      "lat": "40.269996",
+      "lng": "-76.880049"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8043,
+    "fields": {
+      "postal_code": "17127",
+      "lat": "40.269996",
+      "lng": "-76.880049"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8044,
+    "fields": {
+      "postal_code": "17128",
+      "lat": "40.269996",
+      "lng": "-76.880049"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8045,
+    "fields": {
+      "postal_code": "17129",
+      "lat": "40.269996",
+      "lng": "-76.880049"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8046,
+    "fields": {
+      "postal_code": "17130",
+      "lat": "40.269996",
+      "lng": "-76.880049"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8047,
+    "fields": {
+      "postal_code": "17140",
+      "lat": "40.269996",
+      "lng": "-76.880049"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8048,
+    "fields": {
+      "postal_code": "17177",
+      "lat": "40.269996",
+      "lng": "-76.880049"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8049,
+    "fields": {
+      "postal_code": "17201",
+      "lat": "39.961057",
+      "lng": "-77.656410"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8050,
+    "fields": {
+      "postal_code": "17210",
+      "lat": "40.205249",
+      "lng": "-77.659271"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8051,
+    "fields": {
+      "postal_code": "17212",
+      "lat": "39.812660",
+      "lng": "-78.064356"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8052,
+    "fields": {
+      "postal_code": "17213",
+      "lat": "40.244212",
+      "lng": "-77.771000"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8053,
+    "fields": {
+      "postal_code": "17214",
+      "lat": "39.748088",
+      "lng": "-77.471346"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8054,
+    "fields": {
+      "postal_code": "17215",
+      "lat": "40.078225",
+      "lng": "-77.893041"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8055,
+    "fields": {
+      "postal_code": "17217",
+      "lat": "40.238598",
+      "lng": "-77.721727"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8056,
+    "fields": {
+      "postal_code": "17219",
+      "lat": "40.249827",
+      "lng": "-77.683334"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8057,
+    "fields": {
+      "postal_code": "17220",
+      "lat": "40.191558",
+      "lng": "-77.738911"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8058,
+    "fields": {
+      "postal_code": "17221",
+      "lat": "40.068140",
+      "lng": "-77.816263"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8059,
+    "fields": {
+      "postal_code": "17222",
+      "lat": "39.896426",
+      "lng": "-77.493687"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8060,
+    "fields": {
+      "postal_code": "17223",
+      "lat": "40.086476",
+      "lng": "-77.942888"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8061,
+    "fields": {
+      "postal_code": "17224",
+      "lat": "39.967931",
+      "lng": "-77.897624"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8062,
+    "fields": {
+      "postal_code": "17225",
+      "lat": "39.783496",
+      "lng": "-77.762981"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8063,
+    "fields": {
+      "postal_code": "17228",
+      "lat": "39.987124",
+      "lng": "-78.093576"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8064,
+    "fields": {
+      "postal_code": "17229",
+      "lat": "40.084014",
+      "lng": "-78.009920"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8065,
+    "fields": {
+      "postal_code": "17231",
+      "lat": "39.850018",
+      "lng": "-77.839752"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8066,
+    "fields": {
+      "postal_code": "17232",
+      "lat": "40.130022",
+      "lng": "-77.639792"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8067,
+    "fields": {
+      "postal_code": "17233",
+      "lat": "39.975608",
+      "lng": "-77.987004"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8068,
+    "fields": {
+      "postal_code": "17235",
+      "lat": "39.857180",
+      "lng": "-77.698231"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8069,
+    "fields": {
+      "postal_code": "17236",
+      "lat": "39.800168",
+      "lng": "-77.947471"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8070,
+    "fields": {
+      "postal_code": "17237",
+      "lat": "39.833916",
+      "lng": "-77.543534"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8071,
+    "fields": {
+      "postal_code": "17238",
+      "lat": "39.858095",
+      "lng": "-78.130814"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8072,
+    "fields": {
+      "postal_code": "17239",
+      "lat": "40.131798",
+      "lng": "-77.836890"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8073,
+    "fields": {
+      "postal_code": "17240",
+      "lat": "40.150878",
+      "lng": "-77.579631"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8074,
+    "fields": {
+      "postal_code": "17241",
+      "lat": "40.176546",
+      "lng": "-77.408317"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8075,
+    "fields": {
+      "postal_code": "17243",
+      "lat": "40.277499",
+      "lng": "-77.819699"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8076,
+    "fields": {
+      "postal_code": "17244",
+      "lat": "40.086763",
+      "lng": "-77.658698"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8077,
+    "fields": {
+      "postal_code": "17246",
+      "lat": "40.054391",
+      "lng": "-77.660993"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8078,
+    "fields": {
+      "postal_code": "17247",
+      "lat": "39.798795",
+      "lng": "-77.579631"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8079,
+    "fields": {
+      "postal_code": "17249",
+      "lat": "40.241405",
+      "lng": "-77.899339"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8080,
+    "fields": {
+      "postal_code": "17250",
+      "lat": "39.737142",
+      "lng": "-77.524054"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8081,
+    "fields": {
+      "postal_code": "17251",
+      "lat": "40.131798",
+      "lng": "-77.685629"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8082,
+    "fields": {
+      "postal_code": "17252",
+      "lat": "39.912354",
+      "lng": "-77.827151"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8083,
+    "fields": {
+      "postal_code": "17253",
+      "lat": "40.213330",
+      "lng": "-78.007058"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8084,
+    "fields": {
+      "postal_code": "17254",
+      "lat": "39.970223",
+      "lng": "-77.590519"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8085,
+    "fields": {
+      "postal_code": "17255",
+      "lat": "40.161246",
+      "lng": "-77.862674"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8086,
+    "fields": {
+      "postal_code": "17256",
+      "lat": "39.782922",
+      "lng": "-77.677037"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8087,
+    "fields": {
+      "postal_code": "17257",
+      "lat": "40.046827",
+      "lng": "-77.493113"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8088,
+    "fields": {
+      "postal_code": "17260",
+      "lat": "40.296064",
+      "lng": "-77.893615"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8089,
+    "fields": {
+      "postal_code": "17261",
+      "lat": "39.860902",
+      "lng": "-77.508010"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8090,
+    "fields": {
+      "postal_code": "17262",
+      "lat": "40.144976",
+      "lng": "-77.740059"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8091,
+    "fields": {
+      "postal_code": "17263",
+      "lat": "39.727232",
+      "lng": "-77.717717"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8092,
+    "fields": {
+      "postal_code": "17264",
+      "lat": "40.179927",
+      "lng": "-77.993882"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8093,
+    "fields": {
+      "postal_code": "17265",
+      "lat": "40.027576",
+      "lng": "-77.781313"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8094,
+    "fields": {
+      "postal_code": "17266",
+      "lat": "40.088597",
+      "lng": "-77.412900"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8095,
+    "fields": {
+      "postal_code": "17267",
+      "lat": "39.807961",
+      "lng": "-78.239680"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8096,
+    "fields": {
+      "postal_code": "17268",
+      "lat": "39.774903",
+      "lng": "-77.575622"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8097,
+    "fields": {
+      "postal_code": "17270",
+      "lat": "39.854714",
+      "lng": "-77.797931"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8098,
+    "fields": {
+      "postal_code": "17271",
+      "lat": "40.097763",
+      "lng": "-77.803088"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8099,
+    "fields": {
+      "postal_code": "17272",
+      "lat": "39.769518",
+      "lng": "-77.622033"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8100,
+    "fields": {
+      "postal_code": "17301",
+      "lat": "39.895224",
+      "lng": "-76.979169"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8101,
+    "fields": {
+      "postal_code": "17302",
+      "lat": "39.817243",
+      "lng": "-76.413663"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8102,
+    "fields": {
+      "postal_code": "17303",
+      "lat": "39.919976",
+      "lng": "-77.300031"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8103,
+    "fields": {
+      "postal_code": "17304",
+      "lat": "39.977271",
+      "lng": "-77.232992"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8104,
+    "fields": {
+      "postal_code": "17306",
+      "lat": "39.980594",
+      "lng": "-77.249610"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8105,
+    "fields": {
+      "postal_code": "17307",
+      "lat": "39.947765",
+      "lng": "-77.326955"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8106,
+    "fields": {
+      "postal_code": "17309",
+      "lat": "39.871332",
+      "lng": "-76.450335"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8107,
+    "fields": {
+      "postal_code": "17310",
+      "lat": "39.879982",
+      "lng": "-77.340138"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8108,
+    "fields": {
+      "postal_code": "17311",
+      "lat": "39.816557",
+      "lng": "-76.842237"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8109,
+    "fields": {
+      "postal_code": "17312",
+      "lat": "39.949998",
+      "lng": "-76.540288"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8110,
+    "fields": {
+      "postal_code": "17313",
+      "lat": "39.883991",
+      "lng": "-76.660035"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8111,
+    "fields": {
+      "postal_code": "17314",
+      "lat": "39.755478",
+      "lng": "-76.326572"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8112,
+    "fields": {
+      "postal_code": "17315",
+      "lat": "40.026602",
+      "lng": "-76.864005"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8113,
+    "fields": {
+      "postal_code": "17316",
+      "lat": "39.965469",
+      "lng": "-77.007822"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8114,
+    "fields": {
+      "postal_code": "17317",
+      "lat": "39.970738",
+      "lng": "-76.523097"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8115,
+    "fields": {
+      "postal_code": "17318",
+      "lat": "40.022248",
+      "lng": "-76.723057"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8116,
+    "fields": {
+      "postal_code": "17319",
+      "lat": "40.160501",
+      "lng": "-76.794105"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8117,
+    "fields": {
+      "postal_code": "17320",
+      "lat": "39.770720",
+      "lng": "-77.388837"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8118,
+    "fields": {
+      "postal_code": "17321",
+      "lat": "39.749693",
+      "lng": "-76.444604"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8119,
+    "fields": {
+      "postal_code": "17322",
+      "lat": "39.855919",
+      "lng": "-76.532837"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8120,
+    "fields": {
+      "postal_code": "17323",
+      "lat": "40.069974",
+      "lng": "-77.019850"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8121,
+    "fields": {
+      "postal_code": "17324",
+      "lat": "40.030383",
+      "lng": "-77.237002"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8122,
+    "fields": {
+      "postal_code": "17325",
+      "lat": "39.826239",
+      "lng": "-77.227836"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8123,
+    "fields": {
+      "postal_code": "17326",
+      "lat": "39.830019",
+      "lng": "-77.230124"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8124,
+    "fields": {
+      "postal_code": "17327",
+      "lat": "39.779486",
+      "lng": "-76.753424"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8125,
+    "fields": {
+      "postal_code": "17329",
+      "lat": "39.761837",
+      "lng": "-76.851403"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8126,
+    "fields": {
+      "postal_code": "17331",
+      "lat": "39.789684",
+      "lng": "-76.978028"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8127,
+    "fields": {
+      "postal_code": "17332",
+      "lat": "39.810024",
+      "lng": "-76.979743"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8128,
+    "fields": {
+      "postal_code": "17333",
+      "lat": "39.810024",
+      "lng": "-76.979743"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8129,
+    "fields": {
+      "postal_code": "17334",
+      "lat": "39.799997",
+      "lng": "-76.979743"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8130,
+    "fields": {
+      "postal_code": "17337",
+      "lat": "40.009988",
+      "lng": "-77.199764"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8131,
+    "fields": {
+      "postal_code": "17339",
+      "lat": "40.134721",
+      "lng": "-76.885206"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8132,
+    "fields": {
+      "postal_code": "17340",
+      "lat": "39.755249",
+      "lng": "-77.116681"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8133,
+    "fields": {
+      "postal_code": "17342",
+      "lat": "39.850018",
+      "lng": "-76.700142"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8134,
+    "fields": {
+      "postal_code": "17343",
+      "lat": "39.869269",
+      "lng": "-77.334981"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8135,
+    "fields": {
+      "postal_code": "17344",
+      "lat": "39.805670",
+      "lng": "-77.019276"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8136,
+    "fields": {
+      "postal_code": "17345",
+      "lat": "40.078112",
+      "lng": "-76.747694"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8137,
+    "fields": {
+      "postal_code": "17347",
+      "lat": "40.057543",
+      "lng": "-76.688107"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8138,
+    "fields": {
+      "postal_code": "17349",
+      "lat": "39.744994",
+      "lng": "-76.647427"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8139,
+    "fields": {
+      "postal_code": "17350",
+      "lat": "39.890067",
+      "lng": "-77.079436"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8140,
+    "fields": {
+      "postal_code": "17352",
+      "lat": "39.761209",
+      "lng": "-76.499608"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8141,
+    "fields": {
+      "postal_code": "17353",
+      "lat": "39.883076",
+      "lng": "-77.371645"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8142,
+    "fields": {
+      "postal_code": "17354",
+      "lat": "39.850018",
+      "lng": "-76.880049"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8143,
+    "fields": {
+      "postal_code": "17355",
+      "lat": "39.759890",
+      "lng": "-76.696133"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8144,
+    "fields": {
+      "postal_code": "17356",
+      "lat": "39.896597",
+      "lng": "-76.582110"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8145,
+    "fields": {
+      "postal_code": "17358",
+      "lat": "40.069974",
+      "lng": "-76.920156"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8146,
+    "fields": {
+      "postal_code": "17360",
+      "lat": "39.854372",
+      "lng": "-76.750562"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8147,
+    "fields": {
+      "postal_code": "17361",
+      "lat": "39.765505",
+      "lng": "-76.677220"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8148,
+    "fields": {
+      "postal_code": "17362",
+      "lat": "39.847669",
+      "lng": "-76.868588"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8149,
+    "fields": {
+      "postal_code": "17363",
+      "lat": "39.768599",
+      "lng": "-76.586126"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8150,
+    "fields": {
+      "postal_code": "17364",
+      "lat": "39.929371",
+      "lng": "-76.899529"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8151,
+    "fields": {
+      "postal_code": "17365",
+      "lat": "40.060750",
+      "lng": "-76.933905"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8152,
+    "fields": {
+      "postal_code": "17366",
+      "lat": "39.932810",
+      "lng": "-76.556899"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8153,
+    "fields": {
+      "postal_code": "17368",
+      "lat": "39.983859",
+      "lng": "-76.518514"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8154,
+    "fields": {
+      "postal_code": "17370",
+      "lat": "40.121426",
+      "lng": "-76.778635"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8155,
+    "fields": {
+      "postal_code": "17371",
+      "lat": "39.902730",
+      "lng": "-76.787801"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8156,
+    "fields": {
+      "postal_code": "17372",
+      "lat": "40.001450",
+      "lng": "-77.106368"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8157,
+    "fields": {
+      "postal_code": "17375",
+      "lat": "40.020015",
+      "lng": "-77.230124"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8158,
+    "fields": {
+      "postal_code": "17401",
+      "lat": "39.959451",
+      "lng": "-76.733371"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8159,
+    "fields": {
+      "postal_code": "17402",
+      "lat": "39.958478",
+      "lng": "-76.658888"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8160,
+    "fields": {
+      "postal_code": "17403",
+      "lat": "39.923241",
+      "lng": "-76.712744"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8161,
+    "fields": {
+      "postal_code": "17404",
+      "lat": "40.002594",
+      "lng": "-76.773478"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8162,
+    "fields": {
+      "postal_code": "17405",
+      "lat": "39.960025",
+      "lng": "-76.729935"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8163,
+    "fields": {
+      "postal_code": "17406",
+      "lat": "40.014684",
+      "lng": "-76.641129"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8164,
+    "fields": {
+      "postal_code": "17407",
+      "lat": "39.883763",
+      "lng": "-76.712170"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8165,
+    "fields": {
+      "postal_code": "17408",
+      "lat": "39.928856",
+      "lng": "-76.799262"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8166,
+    "fields": {
+      "postal_code": "17415",
+      "lat": "39.960025",
+      "lng": "-76.729935"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8167,
+    "fields": {
+      "postal_code": "17501",
+      "lat": "40.156434",
+      "lng": "-76.203963"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8168,
+    "fields": {
+      "postal_code": "17502",
+      "lat": "40.100915",
+      "lng": "-76.660035"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8169,
+    "fields": {
+      "postal_code": "17503",
+      "lat": "39.919976",
+      "lng": "-76.069886"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8170,
+    "fields": {
+      "postal_code": "17504",
+      "lat": "40.000016",
+      "lng": "-76.320267"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8171,
+    "fields": {
+      "postal_code": "17505",
+      "lat": "40.063503",
+      "lng": "-76.192502"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8172,
+    "fields": {
+      "postal_code": "17506",
+      "lat": "40.119995",
+      "lng": "-76.029779"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8173,
+    "fields": {
+      "postal_code": "17507",
+      "lat": "40.198030",
+      "lng": "-76.016030"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8174,
+    "fields": {
+      "postal_code": "17508",
+      "lat": "40.124749",
+      "lng": "-76.218860"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8175,
+    "fields": {
+      "postal_code": "17509",
+      "lat": "39.912067",
+      "lng": "-76.036657"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8176,
+    "fields": {
+      "postal_code": "17512",
+      "lat": "40.040239",
+      "lng": "-76.486425"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8177,
+    "fields": {
+      "postal_code": "17516",
+      "lat": "39.941461",
+      "lng": "-76.371262"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8178,
+    "fields": {
+      "postal_code": "17517",
+      "lat": "40.244728",
+      "lng": "-76.132915"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8179,
+    "fields": {
+      "postal_code": "17518",
+      "lat": "39.808935",
+      "lng": "-76.253236"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8180,
+    "fields": {
+      "postal_code": "17519",
+      "lat": "40.141425",
+      "lng": "-76.023475"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8181,
+    "fields": {
+      "postal_code": "17520",
+      "lat": "40.097534",
+      "lng": "-76.348920"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8182,
+    "fields": {
+      "postal_code": "17521",
+      "lat": "40.159986",
+      "lng": "-76.419968"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8183,
+    "fields": {
+      "postal_code": "17522",
+      "lat": "40.173680",
+      "lng": "-76.170727"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8184,
+    "fields": {
+      "postal_code": "17527",
+      "lat": "40.008899",
+      "lng": "-75.991394"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8185,
+    "fields": {
+      "postal_code": "17528",
+      "lat": "39.890009",
+      "lng": "-76.320267"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8186,
+    "fields": {
+      "postal_code": "17529",
+      "lat": "40.041957",
+      "lng": "-76.097392"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8187,
+    "fields": {
+      "postal_code": "17532",
+      "lat": "39.858153",
+      "lng": "-76.288186"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8188,
+    "fields": {
+      "postal_code": "17533",
+      "lat": "40.199980",
+      "lng": "-76.199947"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8189,
+    "fields": {
+      "postal_code": "17534",
+      "lat": "40.060005",
+      "lng": "-76.139786"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8190,
+    "fields": {
+      "postal_code": "17535",
+      "lat": "39.982025",
+      "lng": "-76.022908"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8191,
+    "fields": {
+      "postal_code": "17536",
+      "lat": "39.848010",
+      "lng": "-76.073896"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8192,
+    "fields": {
+      "postal_code": "17537",
+      "lat": "40.009988",
+      "lng": "-76.240054"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8193,
+    "fields": {
+      "postal_code": "17538",
+      "lat": "40.082637",
+      "lng": "-76.414811"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8194,
+    "fields": {
+      "postal_code": "17540",
+      "lat": "40.097534",
+      "lng": "-76.189633"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8195,
+    "fields": {
+      "postal_code": "17543",
+      "lat": "40.181016",
+      "lng": "-76.295631"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8196,
+    "fields": {
+      "postal_code": "17545",
+      "lat": "40.178666",
+      "lng": "-76.434291"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8197,
+    "fields": {
+      "postal_code": "17547",
+      "lat": "40.068427",
+      "lng": "-76.586693"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8198,
+    "fields": {
+      "postal_code": "17549",
+      "lat": "40.170012",
+      "lng": "-76.170154"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8199,
+    "fields": {
+      "postal_code": "17550",
+      "lat": "40.075875",
+      "lng": "-76.583257"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8200,
+    "fields": {
+      "postal_code": "17551",
+      "lat": "39.982199",
+      "lng": "-76.371262"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8201,
+    "fields": {
+      "postal_code": "17552",
+      "lat": "40.108363",
+      "lng": "-76.511062"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8202,
+    "fields": {
+      "postal_code": "17554",
+      "lat": "40.040297",
+      "lng": "-76.423977"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8203,
+    "fields": {
+      "postal_code": "17555",
+      "lat": "40.122399",
+      "lng": "-75.959306"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8204,
+    "fields": {
+      "postal_code": "17557",
+      "lat": "40.099825",
+      "lng": "-76.072755"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8205,
+    "fields": {
+      "postal_code": "17560",
+      "lat": "39.912699",
+      "lng": "-76.227452"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8206,
+    "fields": {
+      "postal_code": "17562",
+      "lat": "39.970451",
+      "lng": "-76.092235"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8207,
+    "fields": {
+      "postal_code": "17563",
+      "lat": "39.760751",
+      "lng": "-76.193076"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8208,
+    "fields": {
+      "postal_code": "17564",
+      "lat": "40.159986",
+      "lng": "-76.419968"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8209,
+    "fields": {
+      "postal_code": "17565",
+      "lat": "39.897686",
+      "lng": "-76.331155"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8210,
+    "fields": {
+      "postal_code": "17566",
+      "lat": "39.867206",
+      "lng": "-76.147238"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8211,
+    "fields": {
+      "postal_code": "17567",
+      "lat": "40.210007",
+      "lng": "-76.109993"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8212,
+    "fields": {
+      "postal_code": "17568",
+      "lat": "40.009988",
+      "lng": "-76.240054"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8213,
+    "fields": {
+      "postal_code": "17569",
+      "lat": "40.271427",
+      "lng": "-76.096818"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8214,
+    "fields": {
+      "postal_code": "17570",
+      "lat": "40.129964",
+      "lng": "-76.568934"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8215,
+    "fields": {
+      "postal_code": "17572",
+      "lat": "39.974406",
+      "lng": "-76.119159"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8216,
+    "fields": {
+      "postal_code": "17573",
+      "lat": "40.009988",
+      "lng": "-76.159840"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8217,
+    "fields": {
+      "postal_code": "17575",
+      "lat": "40.060005",
+      "lng": "-76.430281"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8218,
+    "fields": {
+      "postal_code": "17576",
+      "lat": "40.037203",
+      "lng": "-76.196511"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8219,
+    "fields": {
+      "postal_code": "17578",
+      "lat": "40.226105",
+      "lng": "-76.159840"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8220,
+    "fields": {
+      "postal_code": "17579",
+      "lat": "39.960425",
+      "lng": "-76.180467"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8221,
+    "fields": {
+      "postal_code": "17580",
+      "lat": "40.119995",
+      "lng": "-76.179893"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8222,
+    "fields": {
+      "postal_code": "17581",
+      "lat": "40.160501",
+      "lng": "-76.049833"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8223,
+    "fields": {
+      "postal_code": "17582",
+      "lat": "39.993141",
+      "lng": "-76.469241"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8224,
+    "fields": {
+      "postal_code": "17583",
+      "lat": "39.890009",
+      "lng": "-76.320267"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8225,
+    "fields": {
+      "postal_code": "17584",
+      "lat": "39.954465",
+      "lng": "-76.260107"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8226,
+    "fields": {
+      "postal_code": "17585",
+      "lat": "40.009988",
+      "lng": "-76.240054"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8227,
+    "fields": {
+      "postal_code": "17601",
+      "lat": "40.074216",
+      "lng": "-76.315111"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8228,
+    "fields": {
+      "postal_code": "17602",
+      "lat": "40.014629",
+      "lng": "-76.246358"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8229,
+    "fields": {
+      "postal_code": "17603",
+      "lat": "40.030844",
+      "lng": "-76.330581"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8230,
+    "fields": {
+      "postal_code": "17604",
+      "lat": "40.040010",
+      "lng": "-76.300214"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8231,
+    "fields": {
+      "postal_code": "17605",
+      "lat": "40.040010",
+      "lng": "-76.300214"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8232,
+    "fields": {
+      "postal_code": "17606",
+      "lat": "40.111686",
+      "lng": "-76.303656"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8233,
+    "fields": {
+      "postal_code": "17607",
+      "lat": "40.040010",
+      "lng": "-76.300214"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8234,
+    "fields": {
+      "postal_code": "17608",
+      "lat": "40.040010",
+      "lng": "-76.300214"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8235,
+    "fields": {
+      "postal_code": "17611",
+      "lat": "40.009988",
+      "lng": "-76.370114"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8236,
+    "fields": {
+      "postal_code": "17699",
+      "lat": "40.040010",
+      "lng": "-76.300214"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8237,
+    "fields": {
+      "postal_code": "17701",
+      "lat": "41.345037",
+      "lng": "-76.857134"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8238,
+    "fields": {
+      "postal_code": "17702",
+      "lat": "41.183462",
+      "lng": "-77.077148"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8239,
+    "fields": {
+      "postal_code": "17703",
+      "lat": "41.229986",
+      "lng": "-77.030163"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8240,
+    "fields": {
+      "postal_code": "17705",
+      "lat": "41.229986",
+      "lng": "-77.030163"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8241,
+    "fields": {
+      "postal_code": "17720",
+      "lat": "41.229986",
+      "lng": "-77.039903"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8242,
+    "fields": {
+      "postal_code": "17721",
+      "lat": "41.183633",
+      "lng": "-77.318363"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8243,
+    "fields": {
+      "postal_code": "17723",
+      "lat": "41.435049",
+      "lng": "-77.471346"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8244,
+    "fields": {
+      "postal_code": "17724",
+      "lat": "41.642516",
+      "lng": "-76.804992"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8245,
+    "fields": {
+      "postal_code": "17726",
+      "lat": "41.119979",
+      "lng": "-77.419778"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8246,
+    "fields": {
+      "postal_code": "17727",
+      "lat": "41.510676",
+      "lng": "-77.496556"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8247,
+    "fields": {
+      "postal_code": "17728",
+      "lat": "41.334778",
+      "lng": "-77.078295"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8248,
+    "fields": {
+      "postal_code": "17729",
+      "lat": "41.511250",
+      "lng": "-77.736050"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8249,
+    "fields": {
+      "postal_code": "17730",
+      "lat": "41.110468",
+      "lng": "-76.878328"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8250,
+    "fields": {
+      "postal_code": "17731",
+      "lat": "41.429431",
+      "lng": "-76.578674"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8251,
+    "fields": {
+      "postal_code": "17735",
+      "lat": "41.610028",
+      "lng": "-76.859996"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8252,
+    "fields": {
+      "postal_code": "17737",
+      "lat": "41.299258",
+      "lng": "-76.685819"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8253,
+    "fields": {
+      "postal_code": "17738",
+      "lat": "41.330024",
+      "lng": "-77.639792"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8254,
+    "fields": {
+      "postal_code": "17739",
+      "lat": "41.388180",
+      "lng": "-77.418630"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8255,
+    "fields": {
+      "postal_code": "17740",
+      "lat": "41.249466",
+      "lng": "-77.269664"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8256,
+    "fields": {
+      "postal_code": "17742",
+      "lat": "41.238524",
+      "lng": "-76.602163"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8257,
+    "fields": {
+      "postal_code": "17744",
+      "lat": "41.240986",
+      "lng": "-77.153352"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8258,
+    "fields": {
+      "postal_code": "17745",
+      "lat": "41.285048",
+      "lng": "-77.471346"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8259,
+    "fields": {
+      "postal_code": "17747",
+      "lat": "41.032600",
+      "lng": "-77.331538"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8260,
+    "fields": {
+      "postal_code": "17748",
+      "lat": "41.150401",
+      "lng": "-77.352739"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8261,
+    "fields": {
+      "postal_code": "17749",
+      "lat": "41.072250",
+      "lng": "-76.818741"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8262,
+    "fields": {
+      "postal_code": "17750",
+      "lat": "41.057869",
+      "lng": "-77.482226"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8263,
+    "fields": {
+      "postal_code": "17751",
+      "lat": "41.153553",
+      "lng": "-77.544681"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8264,
+    "fields": {
+      "postal_code": "17752",
+      "lat": "41.180139",
+      "lng": "-76.930470"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8265,
+    "fields": {
+      "postal_code": "17754",
+      "lat": "41.311631",
+      "lng": "-76.889215"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8266,
+    "fields": {
+      "postal_code": "17756",
+      "lat": "41.207983",
+      "lng": "-76.739675"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8267,
+    "fields": {
+      "postal_code": "17758",
+      "lat": "41.360163",
+      "lng": "-76.535705"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8268,
+    "fields": {
+      "postal_code": "17760",
+      "lat": "41.413561",
+      "lng": "-77.657557"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8269,
+    "fields": {
+      "postal_code": "17762",
+      "lat": "41.284245",
+      "lng": "-76.700142"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8270,
+    "fields": {
+      "postal_code": "17763",
+      "lat": "41.507353",
+      "lng": "-76.976307"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8271,
+    "fields": {
+      "postal_code": "17764",
+      "lat": "41.334778",
+      "lng": "-77.813401"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8272,
+    "fields": {
+      "postal_code": "17765",
+      "lat": "41.565738",
+      "lng": "-76.973445"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8273,
+    "fields": {
+      "postal_code": "17767",
+      "lat": "41.083882",
+      "lng": "-77.463320"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8274,
+    "fields": {
+      "postal_code": "17768",
+      "lat": "41.558863",
+      "lng": "-76.755719"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8275,
+    "fields": {
+      "postal_code": "17769",
+      "lat": "41.469999",
+      "lng": "-77.490251"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8276,
+    "fields": {
+      "postal_code": "17771",
+      "lat": "41.437282",
+      "lng": "-77.035320"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8277,
+    "fields": {
+      "postal_code": "17772",
+      "lat": "41.125078",
+      "lng": "-76.712744"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8278,
+    "fields": {
+      "postal_code": "17773",
+      "lat": "40.989973",
+      "lng": "-77.419778"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8279,
+    "fields": {
+      "postal_code": "17774",
+      "lat": "41.281209",
+      "lng": "-76.532837"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8280,
+    "fields": {
+      "postal_code": "17776",
+      "lat": "41.414651",
+      "lng": "-77.292579"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8281,
+    "fields": {
+      "postal_code": "17777",
+      "lat": "41.106513",
+      "lng": "-76.821610"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8282,
+    "fields": {
+      "postal_code": "17778",
+      "lat": "41.284932",
+      "lng": "-77.984142"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8283,
+    "fields": {
+      "postal_code": "17779",
+      "lat": "41.207238",
+      "lng": "-77.376802"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8284,
+    "fields": {
+      "postal_code": "17801",
+      "lat": "40.834703",
+      "lng": "-76.755146"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8285,
+    "fields": {
+      "postal_code": "17810",
+      "lat": "41.111383",
+      "lng": "-77.031311"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8286,
+    "fields": {
+      "postal_code": "17812",
+      "lat": "40.740507",
+      "lng": "-77.227836"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8287,
+    "fields": {
+      "postal_code": "17813",
+      "lat": "40.780386",
+      "lng": "-77.172258"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8288,
+    "fields": {
+      "postal_code": "17814",
+      "lat": "41.273245",
+      "lng": "-76.363243"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8289,
+    "fields": {
+      "postal_code": "17815",
+      "lat": "41.020053",
+      "lng": "-76.419968"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8290,
+    "fields": {
+      "postal_code": "17820",
+      "lat": "40.895665",
+      "lng": "-76.403924"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8291,
+    "fields": {
+      "postal_code": "17821",
+      "lat": "40.990144",
+      "lng": "-76.643991"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8292,
+    "fields": {
+      "postal_code": "17822",
+      "lat": "40.968028",
+      "lng": "-76.605032"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8293,
+    "fields": {
+      "postal_code": "17823",
+      "lat": "40.745493",
+      "lng": "-76.776346"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8294,
+    "fields": {
+      "postal_code": "17824",
+      "lat": "40.852406",
+      "lng": "-76.505338"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8295,
+    "fields": {
+      "postal_code": "17827",
+      "lat": "40.752884",
+      "lng": "-76.968288"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8296,
+    "fields": {
+      "postal_code": "17829",
+      "lat": "40.900535",
+      "lng": "-77.155641"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8297,
+    "fields": {
+      "postal_code": "17830",
+      "lat": "40.686078",
+      "lng": "-76.804992"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8298,
+    "fields": {
+      "postal_code": "17831",
+      "lat": "40.830003",
+      "lng": "-76.830203"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8299,
+    "fields": {
+      "postal_code": "17832",
+      "lat": "40.805941",
+      "lng": "-76.458927"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8300,
+    "fields": {
+      "postal_code": "17833",
+      "lat": "40.799981",
+      "lng": "-76.949949"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8301,
+    "fields": {
+      "postal_code": "17834",
+      "lat": "40.780215",
+      "lng": "-76.466946"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8302,
+    "fields": {
+      "postal_code": "17835",
+      "lat": "40.878993",
+      "lng": "-77.204347"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8303,
+    "fields": {
+      "postal_code": "17836",
+      "lat": "40.714324",
+      "lng": "-76.606179"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8304,
+    "fields": {
+      "postal_code": "17837",
+      "lat": "40.974961",
+      "lng": "-76.945366"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8305,
+    "fields": {
+      "postal_code": "17839",
+      "lat": "41.030022",
+      "lng": "-76.410228"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8306,
+    "fields": {
+      "postal_code": "17840",
+      "lat": "40.772077",
+      "lng": "-76.433143"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8307,
+    "fields": {
+      "postal_code": "17841",
+      "lat": "40.724866",
+      "lng": "-77.352739"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8308,
+    "fields": {
+      "postal_code": "17842",
+      "lat": "40.802959",
+      "lng": "-77.039903"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8309,
+    "fields": {
+      "postal_code": "17843",
+      "lat": "40.739992",
+      "lng": "-77.219817"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8310,
+    "fields": {
+      "postal_code": "17844",
+      "lat": "40.973987",
+      "lng": "-77.085167"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8311,
+    "fields": {
+      "postal_code": "17845",
+      "lat": "40.884379",
+      "lng": "-77.211792"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8312,
+    "fields": {
+      "postal_code": "17846",
+      "lat": "41.141750",
+      "lng": "-76.517366"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8313,
+    "fields": {
+      "postal_code": "17847",
+      "lat": "41.007964",
+      "lng": "-76.811297"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8314,
+    "fields": {
+      "postal_code": "17850",
+      "lat": "40.965624",
+      "lng": "-76.857708"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8315,
+    "fields": {
+      "postal_code": "17851",
+      "lat": "40.803133",
+      "lng": "-76.434291"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8316,
+    "fields": {
+      "postal_code": "17853",
+      "lat": "40.694728",
+      "lng": "-77.006674"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8317,
+    "fields": {
+      "postal_code": "17855",
+      "lat": "40.890393",
+      "lng": "-76.966567"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8318,
+    "fields": {
+      "postal_code": "17856",
+      "lat": "41.065375",
+      "lng": "-76.947088"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8319,
+    "fields": {
+      "postal_code": "17857",
+      "lat": "40.932163",
+      "lng": "-76.772904"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8320,
+    "fields": {
+      "postal_code": "17858",
+      "lat": "40.889993",
+      "lng": "-76.410228"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8321,
+    "fields": {
+      "postal_code": "17859",
+      "lat": "41.116769",
+      "lng": "-76.398767"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8322,
+    "fields": {
+      "postal_code": "17860",
+      "lat": "40.866958",
+      "lng": "-76.610762"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8323,
+    "fields": {
+      "postal_code": "17861",
+      "lat": "40.773224",
+      "lng": "-77.082305"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8324,
+    "fields": {
+      "postal_code": "17862",
+      "lat": "40.860487",
+      "lng": "-77.056521"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8325,
+    "fields": {
+      "postal_code": "17864",
+      "lat": "40.704755",
+      "lng": "-76.905833"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8326,
+    "fields": {
+      "postal_code": "17865",
+      "lat": "40.990202",
+      "lng": "-76.786660"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8327,
+    "fields": {
+      "postal_code": "17866",
+      "lat": "40.802273",
+      "lng": "-76.547733"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8328,
+    "fields": {
+      "postal_code": "17867",
+      "lat": "40.714095",
+      "lng": "-76.688681"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8329,
+    "fields": {
+      "postal_code": "17868",
+      "lat": "40.957718",
+      "lng": "-76.634251"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8330,
+    "fields": {
+      "postal_code": "17870",
+      "lat": "40.817340",
+      "lng": "-76.888642"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8331,
+    "fields": {
+      "postal_code": "17872",
+      "lat": "40.753399",
+      "lng": "-76.697847"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8332,
+    "fields": {
+      "postal_code": "17876",
+      "lat": "40.858137",
+      "lng": "-76.825619"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8333,
+    "fields": {
+      "postal_code": "17877",
+      "lat": "40.869998",
+      "lng": "-76.669775"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8334,
+    "fields": {
+      "postal_code": "17878",
+      "lat": "41.176014",
+      "lng": "-76.323710"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8335,
+    "fields": {
+      "postal_code": "17880",
+      "lat": "40.892226",
+      "lng": "-77.121838"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8336,
+    "fields": {
+      "postal_code": "17881",
+      "lat": "40.782906",
+      "lng": "-76.669775"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8337,
+    "fields": {
+      "postal_code": "17882",
+      "lat": "40.810008",
+      "lng": "-77.199764"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8338,
+    "fields": {
+      "postal_code": "17883",
+      "lat": "40.940010",
+      "lng": "-76.979743"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8339,
+    "fields": {
+      "postal_code": "17884",
+      "lat": "41.055977",
+      "lng": "-76.669201"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8340,
+    "fields": {
+      "postal_code": "17885",
+      "lat": "40.866330",
+      "lng": "-77.313780"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8341,
+    "fields": {
+      "postal_code": "17886",
+      "lat": "41.016731",
+      "lng": "-76.875466"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8342,
+    "fields": {
+      "postal_code": "17887",
+      "lat": "41.129203",
+      "lng": "-76.932765"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8343,
+    "fields": {
+      "postal_code": "17888",
+      "lat": "40.806798",
+      "lng": "-76.378713"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8344,
+    "fields": {
+      "postal_code": "17889",
+      "lat": "40.877733",
+      "lng": "-76.921304"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8345,
+    "fields": {
+      "postal_code": "17901",
+      "lat": "40.683841",
+      "lng": "-76.277299"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8346,
+    "fields": {
+      "postal_code": "17920",
+      "lat": "40.819632",
+      "lng": "-76.327145"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8347,
+    "fields": {
+      "postal_code": "17921",
+      "lat": "40.751566",
+      "lng": "-76.360374"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8348,
+    "fields": {
+      "postal_code": "17922",
+      "lat": "40.582488",
+      "lng": "-76.110567"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8349,
+    "fields": {
+      "postal_code": "17923",
+      "lat": "40.632850",
+      "lng": "-76.319701"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8350,
+    "fields": {
+      "postal_code": "17925",
+      "lat": "40.754946",
+      "lng": "-76.072755"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8351,
+    "fields": {
+      "postal_code": "17929",
+      "lat": "40.630729",
+      "lng": "-76.194216"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8352,
+    "fields": {
+      "postal_code": "17930",
+      "lat": "40.708651",
+      "lng": "-76.115150"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8353,
+    "fields": {
+      "postal_code": "17931",
+      "lat": "40.786516",
+      "lng": "-76.214843"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8354,
+    "fields": {
+      "postal_code": "17932",
+      "lat": "40.779986",
+      "lng": "-76.229740"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8355,
+    "fields": {
+      "postal_code": "17933",
+      "lat": "40.604488",
+      "lng": "-76.242922"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8356,
+    "fields": {
+      "postal_code": "17934",
+      "lat": "40.796430",
+      "lng": "-76.211408"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8357,
+    "fields": {
+      "postal_code": "17935",
+      "lat": "40.796143",
+      "lng": "-76.279587"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8358,
+    "fields": {
+      "postal_code": "17936",
+      "lat": "40.750135",
+      "lng": "-76.339754"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8359,
+    "fields": {
+      "postal_code": "17938",
+      "lat": "40.653074",
+      "lng": "-76.517366"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8360,
+    "fields": {
+      "postal_code": "17941",
+      "lat": "40.685733",
+      "lng": "-76.609041"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8361,
+    "fields": {
+      "postal_code": "17942",
+      "lat": "40.620016",
+      "lng": "-76.119733"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8362,
+    "fields": {
+      "postal_code": "17943",
+      "lat": "40.756664",
+      "lng": "-76.387879"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8363,
+    "fields": {
+      "postal_code": "17944",
+      "lat": "40.672554",
+      "lng": "-76.279020"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8364,
+    "fields": {
+      "postal_code": "17945",
+      "lat": "40.785372",
+      "lng": "-76.375271"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8365,
+    "fields": {
+      "postal_code": "17946",
+      "lat": "40.810353",
+      "lng": "-76.256098"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8366,
+    "fields": {
+      "postal_code": "17948",
+      "lat": "40.845358",
+      "lng": "-76.117445"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8367,
+    "fields": {
+      "postal_code": "17949",
+      "lat": "40.793906",
+      "lng": "-76.242349"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8368,
+    "fields": {
+      "postal_code": "17951",
+      "lat": "40.678571",
+      "lng": "-76.245210"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8369,
+    "fields": {
+      "postal_code": "17952",
+      "lat": "40.755462",
+      "lng": "-76.058425"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8370,
+    "fields": {
+      "postal_code": "17953",
+      "lat": "40.751910",
+      "lng": "-76.120307"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8371,
+    "fields": {
+      "postal_code": "17954",
+      "lat": "40.690432",
+      "lng": "-76.259533"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8372,
+    "fields": {
+      "postal_code": "17957",
+      "lat": "40.591824",
+      "lng": "-76.517940"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8373,
+    "fields": {
+      "postal_code": "17959",
+      "lat": "40.732028",
+      "lng": "-76.150100"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8374,
+    "fields": {
+      "postal_code": "17960",
+      "lat": "40.697248",
+      "lng": "-75.947278"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8375,
+    "fields": {
+      "postal_code": "17961",
+      "lat": "40.649693",
+      "lng": "-76.060720"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8376,
+    "fields": {
+      "postal_code": "17963",
+      "lat": "40.561574",
+      "lng": "-76.382149"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8377,
+    "fields": {
+      "postal_code": "17964",
+      "lat": "40.702979",
+      "lng": "-76.514504"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8378,
+    "fields": {
+      "postal_code": "17965",
+      "lat": "40.698625",
+      "lng": "-76.164997"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8379,
+    "fields": {
+      "postal_code": "17966",
+      "lat": "40.560027",
+      "lng": "-76.330007"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8380,
+    "fields": {
+      "postal_code": "17967",
+      "lat": "40.856245",
+      "lng": "-76.215991"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8381,
+    "fields": {
+      "postal_code": "17968",
+      "lat": "40.638693",
+      "lng": "-76.612477"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8382,
+    "fields": {
+      "postal_code": "17970",
+      "lat": "40.720225",
+      "lng": "-76.191928"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8383,
+    "fields": {
+      "postal_code": "17972",
+      "lat": "40.592169",
+      "lng": "-76.205677"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8384,
+    "fields": {
+      "postal_code": "17974",
+      "lat": "40.695701",
+      "lng": "-76.236044"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8385,
+    "fields": {
+      "postal_code": "17976",
+      "lat": "40.819864",
+      "lng": "-76.210834"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8386,
+    "fields": {
+      "postal_code": "17978",
+      "lat": "40.625456",
+      "lng": "-76.614772"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8387,
+    "fields": {
+      "postal_code": "17979",
+      "lat": "40.561574",
+      "lng": "-76.199947"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8388,
+    "fields": {
+      "postal_code": "17980",
+      "lat": "40.518714",
+      "lng": "-76.644565"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8389,
+    "fields": {
+      "postal_code": "17981",
+      "lat": "40.634110",
+      "lng": "-76.389601"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8390,
+    "fields": {
+      "postal_code": "17982",
+      "lat": "40.785942",
+      "lng": "-76.021187"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8391,
+    "fields": {
+      "postal_code": "17983",
+      "lat": "40.642648",
+      "lng": "-76.547159"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8392,
+    "fields": {
+      "postal_code": "17985",
+      "lat": "40.912280",
+      "lng": "-76.216565"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8393,
+    "fields": {
+      "postal_code": "18001",
+      "lat": "40.660007",
+      "lng": "-75.550218"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8394,
+    "fields": {
+      "postal_code": "18002",
+      "lat": "40.660007",
+      "lng": "-75.550218"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8395,
+    "fields": {
+      "postal_code": "18003",
+      "lat": "40.660007",
+      "lng": "-75.550218"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8396,
+    "fields": {
+      "postal_code": "18010",
+      "lat": "40.839972",
+      "lng": "-75.169770"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8397,
+    "fields": {
+      "postal_code": "18011",
+      "lat": "40.477979",
+      "lng": "-75.645896"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8398,
+    "fields": {
+      "postal_code": "18012",
+      "lat": "40.839972",
+      "lng": "-75.570272"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8399,
+    "fields": {
+      "postal_code": "18013",
+      "lat": "40.848739",
+      "lng": "-75.177222"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8400,
+    "fields": {
+      "postal_code": "18014",
+      "lat": "40.764458",
+      "lng": "-75.409270"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8401,
+    "fields": {
+      "postal_code": "18015",
+      "lat": "40.585865",
+      "lng": "-75.367442"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8402,
+    "fields": {
+      "postal_code": "18016",
+      "lat": "40.632106",
+      "lng": "-75.392653"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8403,
+    "fields": {
+      "postal_code": "18017",
+      "lat": "40.659949",
+      "lng": "-75.387496"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8404,
+    "fields": {
+      "postal_code": "18018",
+      "lat": "40.627577",
+      "lng": "-75.395514"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8405,
+    "fields": {
+      "postal_code": "18020",
+      "lat": "40.672383",
+      "lng": "-75.327335"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8406,
+    "fields": {
+      "postal_code": "18025",
+      "lat": "40.620016",
+      "lng": "-75.359991"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8407,
+    "fields": {
+      "postal_code": "18030",
+      "lat": "40.802273",
+      "lng": "-75.663661"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8408,
+    "fields": {
+      "postal_code": "18031",
+      "lat": "40.552063",
+      "lng": "-75.648764"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8409,
+    "fields": {
+      "postal_code": "18032",
+      "lat": "40.656168",
+      "lng": "-75.467710"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8410,
+    "fields": {
+      "postal_code": "18034",
+      "lat": "40.546332",
+      "lng": "-75.414994"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8411,
+    "fields": {
+      "postal_code": "18035",
+      "lat": "40.745319",
+      "lng": "-75.538757"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8412,
+    "fields": {
+      "postal_code": "18036",
+      "lat": "40.509148",
+      "lng": "-75.385775"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8413,
+    "fields": {
+      "postal_code": "18037",
+      "lat": "40.683096",
+      "lng": "-75.547923"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8414,
+    "fields": {
+      "postal_code": "18038",
+      "lat": "40.794883",
+      "lng": "-75.486042"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8415,
+    "fields": {
+      "postal_code": "18039",
+      "lat": "40.550000",
+      "lng": "-75.240244"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8416,
+    "fields": {
+      "postal_code": "18040",
+      "lat": "40.746009",
+      "lng": "-75.225921"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8417,
+    "fields": {
+      "postal_code": "18041",
+      "lat": "40.420455",
+      "lng": "-75.510105"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8418,
+    "fields": {
+      "postal_code": "18042",
+      "lat": "40.654164",
+      "lng": "-75.223059"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8419,
+    "fields": {
+      "postal_code": "18043",
+      "lat": "40.680002",
+      "lng": "-75.220190"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8420,
+    "fields": {
+      "postal_code": "18044",
+      "lat": "40.680002",
+      "lng": "-75.220190"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8421,
+    "fields": {
+      "postal_code": "18045",
+      "lat": "40.693468",
+      "lng": "-75.272906"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8422,
+    "fields": {
+      "postal_code": "18046",
+      "lat": "40.547995",
+      "lng": "-75.560525"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8423,
+    "fields": {
+      "postal_code": "18049",
+      "lat": "40.515736",
+      "lng": "-75.489484"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8424,
+    "fields": {
+      "postal_code": "18050",
+      "lat": "40.839972",
+      "lng": "-75.169770"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8425,
+    "fields": {
+      "postal_code": "18051",
+      "lat": "40.595608",
+      "lng": "-75.667096"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8426,
+    "fields": {
+      "postal_code": "18052",
+      "lat": "40.657428",
+      "lng": "-75.504381"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8427,
+    "fields": {
+      "postal_code": "18053",
+      "lat": "40.719252",
+      "lng": "-75.704341"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8428,
+    "fields": {
+      "postal_code": "18054",
+      "lat": "40.352385",
+      "lng": "-75.438490"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8429,
+    "fields": {
+      "postal_code": "18055",
+      "lat": "40.591596",
+      "lng": "-75.304413"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8430,
+    "fields": {
+      "postal_code": "18056",
+      "lat": "40.450935",
+      "lng": "-75.550218"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8431,
+    "fields": {
+      "postal_code": "18058",
+      "lat": "40.888733",
+      "lng": "-75.494067"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8432,
+    "fields": {
+      "postal_code": "18059",
+      "lat": "40.723490",
+      "lng": "-75.543340"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8433,
+    "fields": {
+      "postal_code": "18060",
+      "lat": "40.499979",
+      "lng": "-75.440204"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8434,
+    "fields": {
+      "postal_code": "18062",
+      "lat": "40.503934",
+      "lng": "-75.585168"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8435,
+    "fields": {
+      "postal_code": "18063",
+      "lat": "40.782619",
+      "lng": "-75.166908"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8436,
+    "fields": {
+      "postal_code": "18064",
+      "lat": "40.757009",
+      "lng": "-75.315874"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8437,
+    "fields": {
+      "postal_code": "18065",
+      "lat": "40.690029",
+      "lng": "-75.550218"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8438,
+    "fields": {
+      "postal_code": "18066",
+      "lat": "40.664477",
+      "lng": "-75.739865"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8439,
+    "fields": {
+      "postal_code": "18067",
+      "lat": "40.715010",
+      "lng": "-75.474588"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8440,
+    "fields": {
+      "postal_code": "18068",
+      "lat": "40.484853",
+      "lng": "-75.519851"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8441,
+    "fields": {
+      "postal_code": "18069",
+      "lat": "40.625286",
+      "lng": "-75.614962"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8442,
+    "fields": {
+      "postal_code": "18070",
+      "lat": "40.434891",
+      "lng": "-75.535888"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8443,
+    "fields": {
+      "postal_code": "18071",
+      "lat": "40.834187",
+      "lng": "-75.555368"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8444,
+    "fields": {
+      "postal_code": "18072",
+      "lat": "40.844156",
+      "lng": "-75.259150"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8445,
+    "fields": {
+      "postal_code": "18073",
+      "lat": "40.386478",
+      "lng": "-75.474588"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8446,
+    "fields": {
+      "postal_code": "18074",
+      "lat": "40.316749",
+      "lng": "-75.515835"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8447,
+    "fields": {
+      "postal_code": "18076",
+      "lat": "40.374788",
+      "lng": "-75.480885"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8448,
+    "fields": {
+      "postal_code": "18077",
+      "lat": "40.570053",
+      "lng": "-75.237382"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8449,
+    "fields": {
+      "postal_code": "18078",
+      "lat": "40.673298",
+      "lng": "-75.620685"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8450,
+    "fields": {
+      "postal_code": "18079",
+      "lat": "40.743888",
+      "lng": "-75.658504"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8451,
+    "fields": {
+      "postal_code": "18080",
+      "lat": "40.735866",
+      "lng": "-75.635589"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8452,
+    "fields": {
+      "postal_code": "18081",
+      "lat": "40.563694",
+      "lng": "-75.281498"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8453,
+    "fields": {
+      "postal_code": "18083",
+      "lat": "40.754946",
+      "lng": "-75.267175"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8454,
+    "fields": {
+      "postal_code": "18084",
+      "lat": "40.309987",
+      "lng": "-75.499798"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8455,
+    "fields": {
+      "postal_code": "18085",
+      "lat": "40.741252",
+      "lng": "-75.255140"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8456,
+    "fields": {
+      "postal_code": "18086",
+      "lat": "40.736785",
+      "lng": "-75.547923"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8457,
+    "fields": {
+      "postal_code": "18087",
+      "lat": "40.556816",
+      "lng": "-75.593761"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8458,
+    "fields": {
+      "postal_code": "18088",
+      "lat": "40.765718",
+      "lng": "-75.557663"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8459,
+    "fields": {
+      "postal_code": "18091",
+      "lat": "40.831380",
+      "lng": "-75.319884"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8460,
+    "fields": {
+      "postal_code": "18092",
+      "lat": "40.469670",
+      "lng": "-75.512973"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8461,
+    "fields": {
+      "postal_code": "18098",
+      "lat": "40.530004",
+      "lng": "-75.490051"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8462,
+    "fields": {
+      "postal_code": "18099",
+      "lat": "40.530004",
+      "lng": "-75.490051"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8463,
+    "fields": {
+      "postal_code": "18101",
+      "lat": "40.602654",
+      "lng": "-75.469431"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8464,
+    "fields": {
+      "postal_code": "18102",
+      "lat": "40.608497",
+      "lng": "-75.476302"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8465,
+    "fields": {
+      "postal_code": "18103",
+      "lat": "40.570282",
+      "lng": "-75.488910"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8466,
+    "fields": {
+      "postal_code": "18104",
+      "lat": "40.611649",
+      "lng": "-75.546776"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8467,
+    "fields": {
+      "postal_code": "18105",
+      "lat": "40.601394",
+      "lng": "-75.494067"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8468,
+    "fields": {
+      "postal_code": "18106",
+      "lat": "40.564726",
+      "lng": "-75.568550"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8469,
+    "fields": {
+      "postal_code": "18109",
+      "lat": "40.636917",
+      "lng": "-75.439631"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8470,
+    "fields": {
+      "postal_code": "18175",
+      "lat": "40.600017",
+      "lng": "-75.460258"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8471,
+    "fields": {
+      "postal_code": "18195",
+      "lat": "40.584263",
+      "lng": "-75.624701"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8472,
+    "fields": {
+      "postal_code": "18201",
+      "lat": "40.949064",
+      "lng": "-75.955870"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8473,
+    "fields": {
+      "postal_code": "18202",
+      "lat": "40.954449",
+      "lng": "-76.045824"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8474,
+    "fields": {
+      "postal_code": "18210",
+      "lat": "41.004412",
+      "lng": "-75.576569"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8475,
+    "fields": {
+      "postal_code": "18211",
+      "lat": "40.744059",
+      "lng": "-75.830393"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8476,
+    "fields": {
+      "postal_code": "18212",
+      "lat": "40.775229",
+      "lng": "-75.709498"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8477,
+    "fields": {
+      "postal_code": "18214",
+      "lat": "40.800268",
+      "lng": "-76.084209"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8478,
+    "fields": {
+      "postal_code": "18216",
+      "lat": "40.941503",
+      "lng": "-75.892841"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8479,
+    "fields": {
+      "postal_code": "18218",
+      "lat": "40.819748",
+      "lng": "-75.916337"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8480,
+    "fields": {
+      "postal_code": "18219",
+      "lat": "40.990776",
+      "lng": "-76.057285"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8481,
+    "fields": {
+      "postal_code": "18220",
+      "lat": "40.840433",
+      "lng": "-76.060146"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8482,
+    "fields": {
+      "postal_code": "18221",
+      "lat": "41.001776",
+      "lng": "-75.917477"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8483,
+    "fields": {
+      "postal_code": "18222",
+      "lat": "41.035237",
+      "lng": "-76.003422"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8484,
+    "fields": {
+      "postal_code": "18223",
+      "lat": "40.982354",
+      "lng": "-75.950139"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8485,
+    "fields": {
+      "postal_code": "18224",
+      "lat": "41.026300",
+      "lng": "-75.873361"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8486,
+    "fields": {
+      "postal_code": "18225",
+      "lat": "40.981323",
+      "lng": "-75.971340"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8487,
+    "fields": {
+      "postal_code": "18229",
+      "lat": "40.931073",
+      "lng": "-75.673974"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8488,
+    "fields": {
+      "postal_code": "18230",
+      "lat": "40.921104",
+      "lng": "-75.934669"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8489,
+    "fields": {
+      "postal_code": "18231",
+      "lat": "40.904316",
+      "lng": "-76.008005"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8490,
+    "fields": {
+      "postal_code": "18232",
+      "lat": "40.833039",
+      "lng": "-75.884249"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8491,
+    "fields": {
+      "postal_code": "18234",
+      "lat": "40.992610",
+      "lng": "-75.964462"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8492,
+    "fields": {
+      "postal_code": "18235",
+      "lat": "40.829775",
+      "lng": "-75.698037"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8493,
+    "fields": {
+      "postal_code": "18237",
+      "lat": "40.886554",
+      "lng": "-75.979359"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8494,
+    "fields": {
+      "postal_code": "18239",
+      "lat": "40.989345",
+      "lng": "-75.988525"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8495,
+    "fields": {
+      "postal_code": "18240",
+      "lat": "40.864667",
+      "lng": "-75.872214"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8496,
+    "fields": {
+      "postal_code": "18241",
+      "lat": "40.951530",
+      "lng": "-76.130620"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8497,
+    "fields": {
+      "postal_code": "18242",
+      "lat": "40.911365",
+      "lng": "-76.124316"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8498,
+    "fields": {
+      "postal_code": "18244",
+      "lat": "40.822442",
+      "lng": "-75.670539"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8499,
+    "fields": {
+      "postal_code": "18245",
+      "lat": "40.853209",
+      "lng": "-76.033789"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8500,
+    "fields": {
+      "postal_code": "18246",
+      "lat": "40.957202",
+      "lng": "-76.195364"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8501,
+    "fields": {
+      "postal_code": "18247",
+      "lat": "41.030022",
+      "lng": "-75.979933"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8502,
+    "fields": {
+      "postal_code": "18248",
+      "lat": "40.901164",
+      "lng": "-76.092808"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8503,
+    "fields": {
+      "postal_code": "18249",
+      "lat": "40.987798",
+      "lng": "-76.116297"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8504,
+    "fields": {
+      "postal_code": "18250",
+      "lat": "40.824963",
+      "lng": "-75.846437"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8505,
+    "fields": {
+      "postal_code": "18251",
+      "lat": "41.008022",
+      "lng": "-76.077338"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8506,
+    "fields": {
+      "postal_code": "18252",
+      "lat": "40.766978",
+      "lng": "-75.974202"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8507,
+    "fields": {
+      "postal_code": "18254",
+      "lat": "40.915890",
+      "lng": "-75.965610"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8508,
+    "fields": {
+      "postal_code": "18255",
+      "lat": "40.933481",
+      "lng": "-75.829819"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8509,
+    "fields": {
+      "postal_code": "18256",
+      "lat": "40.940871",
+      "lng": "-76.146664"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8510,
+    "fields": {
+      "postal_code": "18301",
+      "lat": "41.042685",
+      "lng": "-75.175500"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8511,
+    "fields": {
+      "postal_code": "18302",
+      "lat": "41.096545",
+      "lng": "-75.111331"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8512,
+    "fields": {
+      "postal_code": "18320",
+      "lat": "41.000000",
+      "lng": "-75.279777"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8513,
+    "fields": {
+      "postal_code": "18321",
+      "lat": "41.025726",
+      "lng": "-75.283219"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8514,
+    "fields": {
+      "postal_code": "18322",
+      "lat": "40.918526",
+      "lng": "-75.393226"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8515,
+    "fields": {
+      "postal_code": "18323",
+      "lat": "41.196583",
+      "lng": "-75.273479"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8516,
+    "fields": {
+      "postal_code": "18324",
+      "lat": "41.158136",
+      "lng": "-75.000750"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8517,
+    "fields": {
+      "postal_code": "18325",
+      "lat": "41.204718",
+      "lng": "-75.225347"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8518,
+    "fields": {
+      "postal_code": "18326",
+      "lat": "41.167305",
+      "lng": "-75.252852"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8519,
+    "fields": {
+      "postal_code": "18327",
+      "lat": "40.967857",
+      "lng": "-75.133672"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8520,
+    "fields": {
+      "postal_code": "18328",
+      "lat": "41.228497",
+      "lng": "-74.973819"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8521,
+    "fields": {
+      "postal_code": "18330",
+      "lat": "40.968776",
+      "lng": "-75.449377"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8522,
+    "fields": {
+      "postal_code": "18331",
+      "lat": "40.909930",
+      "lng": "-75.443647"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8523,
+    "fields": {
+      "postal_code": "18332",
+      "lat": "41.094769",
+      "lng": "-75.261445"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8524,
+    "fields": {
+      "postal_code": "18333",
+      "lat": "40.906092",
+      "lng": "-75.490051"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8525,
+    "fields": {
+      "postal_code": "18334",
+      "lat": "41.054945",
+      "lng": "-75.431612"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8526,
+    "fields": {
+      "postal_code": "18335",
+      "lat": "41.068124",
+      "lng": "-75.103305"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8527,
+    "fields": {
+      "postal_code": "18336",
+      "lat": "41.374714",
+      "lng": "-74.742917"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8528,
+    "fields": {
+      "postal_code": "18337",
+      "lat": "41.329106",
+      "lng": "-74.871830"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8529,
+    "fields": {
+      "postal_code": "18340",
+      "lat": "41.417745",
+      "lng": "-74.765832"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8530,
+    "fields": {
+      "postal_code": "18341",
+      "lat": "41.000000",
+      "lng": "-75.130237"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8531,
+    "fields": {
+      "postal_code": "18342",
+      "lat": "41.170628",
+      "lng": "-75.273479"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8532,
+    "fields": {
+      "postal_code": "18343",
+      "lat": "40.898531",
+      "lng": "-75.110183"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8533,
+    "fields": {
+      "postal_code": "18344",
+      "lat": "41.122899",
+      "lng": "-75.343953"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8534,
+    "fields": {
+      "postal_code": "18346",
+      "lat": "41.142782",
+      "lng": "-75.421298"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8535,
+    "fields": {
+      "postal_code": "18347",
+      "lat": "41.138885",
+      "lng": "-75.559958"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8536,
+    "fields": {
+      "postal_code": "18348",
+      "lat": "41.110007",
+      "lng": "-75.559958"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8537,
+    "fields": {
+      "postal_code": "18349",
+      "lat": "41.101240",
+      "lng": "-75.366295"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8538,
+    "fields": {
+      "postal_code": "18350",
+      "lat": "41.123818",
+      "lng": "-75.465988"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8539,
+    "fields": {
+      "postal_code": "18351",
+      "lat": "40.922710",
+      "lng": "-75.099296"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8540,
+    "fields": {
+      "postal_code": "18352",
+      "lat": "41.006820",
+      "lng": "-75.355981"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8541,
+    "fields": {
+      "postal_code": "18353",
+      "lat": "40.895321",
+      "lng": "-75.357703"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8542,
+    "fields": {
+      "postal_code": "18354",
+      "lat": "40.922593",
+      "lng": "-75.322179"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8543,
+    "fields": {
+      "postal_code": "18355",
+      "lat": "41.076949",
+      "lng": "-75.362859"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8544,
+    "fields": {
+      "postal_code": "18356",
+      "lat": "41.011058",
+      "lng": "-75.118202"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8545,
+    "fields": {
+      "postal_code": "18357",
+      "lat": "41.231646",
+      "lng": "-75.210450"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8546,
+    "fields": {
+      "postal_code": "18360",
+      "lat": "40.967400",
+      "lng": "-75.287802"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8547,
+    "fields": {
+      "postal_code": "18370",
+      "lat": "41.092419",
+      "lng": "-75.339363"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8548,
+    "fields": {
+      "postal_code": "18371",
+      "lat": "41.149943",
+      "lng": "-75.044866"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8549,
+    "fields": {
+      "postal_code": "18372",
+      "lat": "41.044003",
+      "lng": "-75.336502"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8550,
+    "fields": {
+      "postal_code": "18373",
+      "lat": "41.139974",
+      "lng": "-75.000176"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8551,
+    "fields": {
+      "postal_code": "18403",
+      "lat": "41.509703",
+      "lng": "-75.535315"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8552,
+    "fields": {
+      "postal_code": "18405",
+      "lat": "41.599602",
+      "lng": "-75.103879"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8553,
+    "fields": {
+      "postal_code": "18407",
+      "lat": "41.591751",
+      "lng": "-75.534748"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8554,
+    "fields": {
+      "postal_code": "18410",
+      "lat": "41.469999",
+      "lng": "-75.669965"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8555,
+    "fields": {
+      "postal_code": "18411",
+      "lat": "41.454471",
+      "lng": "-75.744448"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8556,
+    "fields": {
+      "postal_code": "18413",
+      "lat": "41.648130",
+      "lng": "-75.589178"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8557,
+    "fields": {
+      "postal_code": "18414",
+      "lat": "41.541043",
+      "lng": "-75.741013"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8558,
+    "fields": {
+      "postal_code": "18415",
+      "lat": "41.743528",
+      "lng": "-75.124506"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8559,
+    "fields": {
+      "postal_code": "18416",
+      "lat": "41.370015",
+      "lng": "-75.539905"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8560,
+    "fields": {
+      "postal_code": "18417",
+      "lat": "41.809705",
+      "lng": "-75.201284"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8561,
+    "fields": {
+      "postal_code": "18419",
+      "lat": "41.585907",
+      "lng": "-75.792574"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8562,
+    "fields": {
+      "postal_code": "18420",
+      "lat": "41.602006",
+      "lng": "-75.710072"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8563,
+    "fields": {
+      "postal_code": "18421",
+      "lat": "41.664229",
+      "lng": "-75.492920"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8564,
+    "fields": {
+      "postal_code": "18424",
+      "lat": "41.230502",
+      "lng": "-75.525008"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8565,
+    "fields": {
+      "postal_code": "18425",
+      "lat": "41.438426",
+      "lng": "-75.043145"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8566,
+    "fields": {
+      "postal_code": "18426",
+      "lat": "41.325496",
+      "lng": "-75.239096"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8567,
+    "fields": {
+      "postal_code": "18427",
+      "lat": "41.404965",
+      "lng": "-75.406975"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8568,
+    "fields": {
+      "postal_code": "18428",
+      "lat": "41.404279",
+      "lng": "-75.118202"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8569,
+    "fields": {
+      "postal_code": "18430",
+      "lat": "41.756478",
+      "lng": "-75.472293"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8570,
+    "fields": {
+      "postal_code": "18431",
+      "lat": "41.616503",
+      "lng": "-75.257435"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8571,
+    "fields": {
+      "postal_code": "18433",
+      "lat": "41.573302",
+      "lng": "-75.581152"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8572,
+    "fields": {
+      "postal_code": "18434",
+      "lat": "41.453955",
+      "lng": "-75.542766"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8573,
+    "fields": {
+      "postal_code": "18435",
+      "lat": "41.455618",
+      "lng": "-74.982985"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8574,
+    "fields": {
+      "postal_code": "18436",
+      "lat": "41.442781",
+      "lng": "-75.393226"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8575,
+    "fields": {
+      "postal_code": "18437",
+      "lat": "41.871986",
+      "lng": "-75.316448"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8576,
+    "fields": {
+      "postal_code": "18438",
+      "lat": "41.439171",
+      "lng": "-75.256288"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8577,
+    "fields": {
+      "postal_code": "18439",
+      "lat": "41.825517",
+      "lng": "-75.349103"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8578,
+    "fields": {
+      "postal_code": "18440",
+      "lat": "41.549984",
+      "lng": "-75.750179"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8579,
+    "fields": {
+      "postal_code": "18441",
+      "lat": "41.656036",
+      "lng": "-75.613814"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8580,
+    "fields": {
+      "postal_code": "18443",
+      "lat": "41.662914",
+      "lng": "-75.102165"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8581,
+    "fields": {
+      "postal_code": "18444",
+      "lat": "41.329051",
+      "lng": "-75.552506"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8582,
+    "fields": {
+      "postal_code": "18445",
+      "lat": "41.297882",
+      "lng": "-75.359417"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8583,
+    "fields": {
+      "postal_code": "18446",
+      "lat": "41.656152",
+      "lng": "-75.759345"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8584,
+    "fields": {
+      "postal_code": "18447",
+      "lat": "41.513429",
+      "lng": "-75.606936"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8585,
+    "fields": {
+      "postal_code": "18448",
+      "lat": "41.450000",
+      "lng": "-75.589751"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8586,
+    "fields": {
+      "postal_code": "18449",
+      "lat": "41.809992",
+      "lng": "-75.440204"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8587,
+    "fields": {
+      "postal_code": "18451",
+      "lat": "41.397001",
+      "lng": "-75.217902"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8588,
+    "fields": {
+      "postal_code": "18452",
+      "lat": "41.483635",
+      "lng": "-75.590325"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8589,
+    "fields": {
+      "postal_code": "18453",
+      "lat": "41.758482",
+      "lng": "-75.370878"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8590,
+    "fields": {
+      "postal_code": "18454",
+      "lat": "41.827293",
+      "lng": "-75.425881"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8591,
+    "fields": {
+      "postal_code": "18455",
+      "lat": "41.893013",
+      "lng": "-75.359417"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8592,
+    "fields": {
+      "postal_code": "18456",
+      "lat": "41.612777",
+      "lng": "-75.340511"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8593,
+    "fields": {
+      "postal_code": "18457",
+      "lat": "41.472116",
+      "lng": "-75.048876"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8594,
+    "fields": {
+      "postal_code": "18458",
+      "lat": "41.395741",
+      "lng": "-74.919389"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8595,
+    "fields": {
+      "postal_code": "18459",
+      "lat": "41.504088",
+      "lng": "-75.428750"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8596,
+    "fields": {
+      "postal_code": "18460",
+      "lat": "41.249869",
+      "lng": "-75.313013"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8597,
+    "fields": {
+      "postal_code": "18461",
+      "lat": "41.928995",
+      "lng": "-75.327909"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8598,
+    "fields": {
+      "postal_code": "18462",
+      "lat": "41.914327",
+      "lng": "-75.409270"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8599,
+    "fields": {
+      "postal_code": "18463",
+      "lat": "41.357584",
+      "lng": "-75.396662"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8600,
+    "fields": {
+      "postal_code": "18464",
+      "lat": "41.403019",
+      "lng": "-75.177222"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8601,
+    "fields": {
+      "postal_code": "18465",
+      "lat": "41.831306",
+      "lng": "-75.516983"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8602,
+    "fields": {
+      "postal_code": "18466",
+      "lat": "41.196467",
+      "lng": "-75.394367"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8603,
+    "fields": {
+      "postal_code": "18469",
+      "lat": "41.703708",
+      "lng": "-75.130237"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8604,
+    "fields": {
+      "postal_code": "18470",
+      "lat": "41.724734",
+      "lng": "-75.535315"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8605,
+    "fields": {
+      "postal_code": "18471",
+      "lat": "41.529070",
+      "lng": "-75.691159"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8606,
+    "fields": {
+      "postal_code": "18472",
+      "lat": "41.583387",
+      "lng": "-75.396662"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8607,
+    "fields": {
+      "postal_code": "18473",
+      "lat": "41.522079",
+      "lng": "-75.217328"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8608,
+    "fields": {
+      "postal_code": "18501",
+      "lat": "41.399983",
+      "lng": "-75.660225"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8609,
+    "fields": {
+      "postal_code": "18502",
+      "lat": "41.399983",
+      "lng": "-75.660225"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8610,
+    "fields": {
+      "postal_code": "18503",
+      "lat": "41.411099",
+      "lng": "-75.667670"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8611,
+    "fields": {
+      "postal_code": "18504",
+      "lat": "41.425534",
+      "lng": "-75.699758"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8612,
+    "fields": {
+      "postal_code": "18505",
+      "lat": "41.386230",
+      "lng": "-75.651626"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8613,
+    "fields": {
+      "postal_code": "18507",
+      "lat": "41.359015",
+      "lng": "-75.681993"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8614,
+    "fields": {
+      "postal_code": "18508",
+      "lat": "41.454928",
+      "lng": "-75.657930"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8615,
+    "fields": {
+      "postal_code": "18509",
+      "lat": "41.430807",
+      "lng": "-75.643034"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8616,
+    "fields": {
+      "postal_code": "18510",
+      "lat": "41.407373",
+      "lng": "-75.636729"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8617,
+    "fields": {
+      "postal_code": "18512",
+      "lat": "41.426224",
+      "lng": "-75.601206"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8618,
+    "fields": {
+      "postal_code": "18514",
+      "lat": "41.370015",
+      "lng": "-75.680279"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8619,
+    "fields": {
+      "postal_code": "18515",
+      "lat": "41.399983",
+      "lng": "-75.660225"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8620,
+    "fields": {
+      "postal_code": "18517",
+      "lat": "41.394655",
+      "lng": "-75.713508"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8621,
+    "fields": {
+      "postal_code": "18518",
+      "lat": "41.375059",
+      "lng": "-75.739292"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8622,
+    "fields": {
+      "postal_code": "18519",
+      "lat": "41.461919",
+      "lng": "-75.630999"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8623,
+    "fields": {
+      "postal_code": "18522",
+      "lat": "41.430005",
+      "lng": "-75.640172"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8624,
+    "fields": {
+      "postal_code": "18540",
+      "lat": "41.399983",
+      "lng": "-75.660225"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8625,
+    "fields": {
+      "postal_code": "18577",
+      "lat": "41.399983",
+      "lng": "-75.660225"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8626,
+    "fields": {
+      "postal_code": "18601",
+      "lat": "41.059990",
+      "lng": "-76.170154"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8627,
+    "fields": {
+      "postal_code": "18602",
+      "lat": "41.185925",
+      "lng": "-75.754188"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8628,
+    "fields": {
+      "postal_code": "18603",
+      "lat": "41.082048",
+      "lng": "-76.258393"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8629,
+    "fields": {
+      "postal_code": "18610",
+      "lat": "41.069330",
+      "lng": "-75.549644"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8630,
+    "fields": {
+      "postal_code": "18611",
+      "lat": "41.189992",
+      "lng": "-76.300214"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8631,
+    "fields": {
+      "postal_code": "18612",
+      "lat": "41.346065",
+      "lng": "-75.986237"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8632,
+    "fields": {
+      "postal_code": "18614",
+      "lat": "41.524944",
+      "lng": "-76.496739"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8633,
+    "fields": {
+      "postal_code": "18615",
+      "lat": "41.461690",
+      "lng": "-75.857317"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8634,
+    "fields": {
+      "postal_code": "18616",
+      "lat": "41.504833",
+      "lng": "-76.635972"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8635,
+    "fields": {
+      "postal_code": "18617",
+      "lat": "41.170512",
+      "lng": "-76.077338"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8636,
+    "fields": {
+      "postal_code": "18618",
+      "lat": "41.365203",
+      "lng": "-76.041241"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8637,
+    "fields": {
+      "postal_code": "18619",
+      "lat": "41.461690",
+      "lng": "-76.717901"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8638,
+    "fields": {
+      "postal_code": "18621",
+      "lat": "41.248605",
+      "lng": "-76.098532"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8639,
+    "fields": {
+      "postal_code": "18622",
+      "lat": "41.201224",
+      "lng": "-76.273289"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8640,
+    "fields": {
+      "postal_code": "18623",
+      "lat": "41.664803",
+      "lng": "-76.151821"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8641,
+    "fields": {
+      "postal_code": "18624",
+      "lat": "41.060676",
+      "lng": "-75.647043"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8642,
+    "fields": {
+      "postal_code": "18625",
+      "lat": "41.513371",
+      "lng": "-75.848725"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8643,
+    "fields": {
+      "postal_code": "18626",
+      "lat": "41.398265",
+      "lng": "-76.523670"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8644,
+    "fields": {
+      "postal_code": "18627",
+      "lat": "41.309971",
+      "lng": "-76.029779"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8645,
+    "fields": {
+      "postal_code": "18628",
+      "lat": "41.430121",
+      "lng": "-76.313970"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8646,
+    "fields": {
+      "postal_code": "18629",
+      "lat": "41.517609",
+      "lng": "-76.141508"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8647,
+    "fields": {
+      "postal_code": "18630",
+      "lat": "41.662166",
+      "lng": "-76.023475"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8648,
+    "fields": {
+      "postal_code": "18631",
+      "lat": "41.029909",
+      "lng": "-76.304230"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8649,
+    "fields": {
+      "postal_code": "18632",
+      "lat": "41.459340",
+      "lng": "-76.377566"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8650,
+    "fields": {
+      "postal_code": "18634",
+      "lat": "41.185525",
+      "lng": "-76.022908"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8651,
+    "fields": {
+      "postal_code": "18635",
+      "lat": "41.029220",
+      "lng": "-76.201094"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8652,
+    "fields": {
+      "postal_code": "18636",
+      "lat": "41.391387",
+      "lng": "-76.113436"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8653,
+    "fields": {
+      "postal_code": "18640",
+      "lat": "41.298227",
+      "lng": "-75.738718"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8654,
+    "fields": {
+      "postal_code": "18641",
+      "lat": "41.340509",
+      "lng": "-75.725542"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8655,
+    "fields": {
+      "postal_code": "18642",
+      "lat": "41.356324",
+      "lng": "-75.773094"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8656,
+    "fields": {
+      "postal_code": "18643",
+      "lat": "41.370818",
+      "lng": "-75.840706"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8657,
+    "fields": {
+      "postal_code": "18644",
+      "lat": "41.327904",
+      "lng": "-75.882527"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8658,
+    "fields": {
+      "postal_code": "18651",
+      "lat": "41.254049",
+      "lng": "-75.959879"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8659,
+    "fields": {
+      "postal_code": "18653",
+      "lat": "41.393337",
+      "lng": "-75.822941"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8660,
+    "fields": {
+      "postal_code": "18654",
+      "lat": "41.359989",
+      "lng": "-76.029779"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8661,
+    "fields": {
+      "postal_code": "18655",
+      "lat": "41.187700",
+      "lng": "-76.203389"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8662,
+    "fields": {
+      "postal_code": "18656",
+      "lat": "41.332545",
+      "lng": "-76.185624"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8663,
+    "fields": {
+      "postal_code": "18657",
+      "lat": "41.522537",
+      "lng": "-75.959306"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8664,
+    "fields": {
+      "postal_code": "18660",
+      "lat": "41.097747",
+      "lng": "-76.061868"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8665,
+    "fields": {
+      "postal_code": "18661",
+      "lat": "41.076375",
+      "lng": "-75.741013"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8666,
+    "fields": {
+      "postal_code": "18690",
+      "lat": "41.330024",
+      "lng": "-75.959879"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8667,
+    "fields": {
+      "postal_code": "18701",
+      "lat": "41.243623",
+      "lng": "-75.884822"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8668,
+    "fields": {
+      "postal_code": "18702",
+      "lat": "41.230502",
+      "lng": "-75.757624"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8669,
+    "fields": {
+      "postal_code": "18703",
+      "lat": "41.240013",
+      "lng": "-75.869926"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8670,
+    "fields": {
+      "postal_code": "18704",
+      "lat": "41.262529",
+      "lng": "-75.914616"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8671,
+    "fields": {
+      "postal_code": "18705",
+      "lat": "41.271811",
+      "lng": "-75.842994"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8672,
+    "fields": {
+      "postal_code": "18706",
+      "lat": "41.203287",
+      "lng": "-75.914616"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8673,
+    "fields": {
+      "postal_code": "18707",
+      "lat": "41.135733",
+      "lng": "-75.933522"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8674,
+    "fields": {
+      "postal_code": "18708",
+      "lat": "41.295877",
+      "lng": "-75.963315"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8675,
+    "fields": {
+      "postal_code": "18709",
+      "lat": "41.285447",
+      "lng": "-75.896283"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8676,
+    "fields": {
+      "postal_code": "18710",
+      "lat": "41.240013",
+      "lng": "-75.869926"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8677,
+    "fields": {
+      "postal_code": "18711",
+      "lat": "41.240013",
+      "lng": "-75.869926"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8678,
+    "fields": {
+      "postal_code": "18762",
+      "lat": "41.240013",
+      "lng": "-75.869926"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8679,
+    "fields": {
+      "postal_code": "18764",
+      "lat": "41.240013",
+      "lng": "-75.869926"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8680,
+    "fields": {
+      "postal_code": "18765",
+      "lat": "41.240013",
+      "lng": "-75.869926"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8681,
+    "fields": {
+      "postal_code": "18766",
+      "lat": "41.240013",
+      "lng": "-75.869926"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8682,
+    "fields": {
+      "postal_code": "18767",
+      "lat": "41.240013",
+      "lng": "-75.869926"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8683,
+    "fields": {
+      "postal_code": "18769",
+      "lat": "41.240013",
+      "lng": "-75.869926"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8684,
+    "fields": {
+      "postal_code": "18773",
+      "lat": "41.240013",
+      "lng": "-75.869926"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8685,
+    "fields": {
+      "postal_code": "18801",
+      "lat": "41.826378",
+      "lng": "-75.939826"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8686,
+    "fields": {
+      "postal_code": "18810",
+      "lat": "41.933291",
+      "lng": "-76.507053"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8687,
+    "fields": {
+      "postal_code": "18812",
+      "lat": "41.973227",
+      "lng": "-75.964462"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8688,
+    "fields": {
+      "postal_code": "18813",
+      "lat": "41.750003",
+      "lng": "-75.800026"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8689,
+    "fields": {
+      "postal_code": "18814",
+      "lat": "41.784037",
+      "lng": "-76.607320"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8690,
+    "fields": {
+      "postal_code": "18815",
+      "lat": "41.730007",
+      "lng": "-76.229740"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8691,
+    "fields": {
+      "postal_code": "18816",
+      "lat": "41.757164",
+      "lng": "-75.915763"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8692,
+    "fields": {
+      "postal_code": "18817",
+      "lat": "41.872731",
+      "lng": "-76.631389"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8693,
+    "fields": {
+      "postal_code": "18818",
+      "lat": "41.911233",
+      "lng": "-76.044102"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8694,
+    "fields": {
+      "postal_code": "18820",
+      "lat": "41.800020",
+      "lng": "-75.640172"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8695,
+    "fields": {
+      "postal_code": "18821",
+      "lat": "41.989729",
+      "lng": "-75.722674"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8696,
+    "fields": {
+      "postal_code": "18822",
+      "lat": "41.970420",
+      "lng": "-75.794295"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8697,
+    "fields": {
+      "postal_code": "18823",
+      "lat": "41.778307",
+      "lng": "-75.690019"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8698,
+    "fields": {
+      "postal_code": "18824",
+      "lat": "41.697349",
+      "lng": "-75.787417"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8699,
+    "fields": {
+      "postal_code": "18825",
+      "lat": "41.807871",
+      "lng": "-75.607510"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8700,
+    "fields": {
+      "postal_code": "18826",
+      "lat": "41.745761",
+      "lng": "-75.749031"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8701,
+    "fields": {
+      "postal_code": "18827",
+      "lat": "41.959990",
+      "lng": "-75.580012"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8702,
+    "fields": {
+      "postal_code": "18828",
+      "lat": "41.806724",
+      "lng": "-76.096244"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8703,
+    "fields": {
+      "postal_code": "18829",
+      "lat": "41.837665",
+      "lng": "-76.173596"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8704,
+    "fields": {
+      "postal_code": "18830",
+      "lat": "41.959075",
+      "lng": "-76.114576"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8705,
+    "fields": {
+      "postal_code": "18831",
+      "lat": "41.894215",
+      "lng": "-76.598154"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8706,
+    "fields": {
+      "postal_code": "18832",
+      "lat": "41.678269",
+      "lng": "-76.568934"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8707,
+    "fields": {
+      "postal_code": "18833",
+      "lat": "41.597194",
+      "lng": "-76.483564"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8708,
+    "fields": {
+      "postal_code": "18834",
+      "lat": "41.830961",
+      "lng": "-75.720959"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8709,
+    "fields": {
+      "postal_code": "18837",
+      "lat": "41.915071",
+      "lng": "-76.303083"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8710,
+    "fields": {
+      "postal_code": "18840",
+      "lat": "41.971564",
+      "lng": "-76.535131"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8711,
+    "fields": {
+      "postal_code": "18842",
+      "lat": "41.749716",
+      "lng": "-75.623554"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8712,
+    "fields": {
+      "postal_code": "18843",
+      "lat": "41.794464",
+      "lng": "-75.899719"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8713,
+    "fields": {
+      "postal_code": "18844",
+      "lat": "41.690986",
+      "lng": "-75.905450"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8714,
+    "fields": {
+      "postal_code": "18845",
+      "lat": "41.787360",
+      "lng": "-76.182188"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8715,
+    "fields": {
+      "postal_code": "18846",
+      "lat": "41.621431",
+      "lng": "-76.229740"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8716,
+    "fields": {
+      "postal_code": "18847",
+      "lat": "41.928824",
+      "lng": "-75.578864"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8717,
+    "fields": {
+      "postal_code": "18848",
+      "lat": "41.751034",
+      "lng": "-76.454918"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8718,
+    "fields": {
+      "postal_code": "18850",
+      "lat": "41.854279",
+      "lng": "-76.462363"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8719,
+    "fields": {
+      "postal_code": "18851",
+      "lat": "41.933923",
+      "lng": "-76.176458"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8720,
+    "fields": {
+      "postal_code": "18853",
+      "lat": "41.721411",
+      "lng": "-76.276725"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8721,
+    "fields": {
+      "postal_code": "18854",
+      "lat": "41.790683",
+      "lng": "-76.355791"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8722,
+    "fields": {
+      "postal_code": "18901",
+      "lat": "40.306265",
+      "lng": "-75.147428"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8723,
+    "fields": {
+      "postal_code": "18902",
+      "lat": "40.352157",
+      "lng": "-75.095860"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8724,
+    "fields": {
+      "postal_code": "18910",
+      "lat": "40.419994",
+      "lng": "-75.169770"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8725,
+    "fields": {
+      "postal_code": "18911",
+      "lat": "40.380003",
+      "lng": "-75.279777"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8726,
+    "fields": {
+      "postal_code": "18912",
+      "lat": "40.323968",
+      "lng": "-75.056327"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8727,
+    "fields": {
+      "postal_code": "18913",
+      "lat": "40.379371",
+      "lng": "-75.059763"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8728,
+    "fields": {
+      "postal_code": "18914",
+      "lat": "40.288960",
+      "lng": "-75.209303"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8729,
+    "fields": {
+      "postal_code": "18915",
+      "lat": "40.272114",
+      "lng": "-75.256862"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8730,
+    "fields": {
+      "postal_code": "18916",
+      "lat": "40.329982",
+      "lng": "-75.119923"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8731,
+    "fields": {
+      "postal_code": "18917",
+      "lat": "40.376909",
+      "lng": "-75.205867"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8732,
+    "fields": {
+      "postal_code": "18918",
+      "lat": "40.320014",
+      "lng": "-75.369730"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8733,
+    "fields": {
+      "postal_code": "18920",
+      "lat": "40.497745",
+      "lng": "-75.083826"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8734,
+    "fields": {
+      "postal_code": "18921",
+      "lat": "40.530004",
+      "lng": "-75.169770"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8735,
+    "fields": {
+      "postal_code": "18922",
+      "lat": "40.289992",
+      "lng": "-75.050023"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8736,
+    "fields": {
+      "postal_code": "18923",
+      "lat": "40.359318",
+      "lng": "-75.173779"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8737,
+    "fields": {
+      "postal_code": "18924",
+      "lat": "40.289992",
+      "lng": "-75.330197"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8738,
+    "fields": {
+      "postal_code": "18925",
+      "lat": "40.288789",
+      "lng": "-75.058042"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8739,
+    "fields": {
+      "postal_code": "18926",
+      "lat": "40.369977",
+      "lng": "-75.099870"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8740,
+    "fields": {
+      "postal_code": "18927",
+      "lat": "40.320014",
+      "lng": "-75.229930"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8741,
+    "fields": {
+      "postal_code": "18928",
+      "lat": "40.329982",
+      "lng": "-75.119923"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8742,
+    "fields": {
+      "postal_code": "18929",
+      "lat": "40.255499",
+      "lng": "-75.080390"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8743,
+    "fields": {
+      "postal_code": "18930",
+      "lat": "40.521064",
+      "lng": "-75.218469"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8744,
+    "fields": {
+      "postal_code": "18931",
+      "lat": "40.340009",
+      "lng": "-75.029970"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8745,
+    "fields": {
+      "postal_code": "18932",
+      "lat": "40.291597",
+      "lng": "-75.250557"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8746,
+    "fields": {
+      "postal_code": "18933",
+      "lat": "40.389972",
+      "lng": "-75.050023"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8747,
+    "fields": {
+      "postal_code": "18934",
+      "lat": "40.340009",
+      "lng": "-75.070076"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8748,
+    "fields": {
+      "postal_code": "18935",
+      "lat": "40.437011",
+      "lng": "-75.403540"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8749,
+    "fields": {
+      "postal_code": "18936",
+      "lat": "40.224043",
+      "lng": "-75.231078"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8750,
+    "fields": {
+      "postal_code": "18938",
+      "lat": "40.351067",
+      "lng": "-74.997881"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8751,
+    "fields": {
+      "postal_code": "18940",
+      "lat": "40.261342",
+      "lng": "-74.937721"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8752,
+    "fields": {
+      "postal_code": "18942",
+      "lat": "40.471159",
+      "lng": "-75.160604"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8753,
+    "fields": {
+      "postal_code": "18943",
+      "lat": "40.260024",
+      "lng": "-74.980123"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8754,
+    "fields": {
+      "postal_code": "18944",
+      "lat": "40.389285",
+      "lng": "-75.234513"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8755,
+    "fields": {
+      "postal_code": "18946",
+      "lat": "40.289992",
+      "lng": "-75.000176"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8756,
+    "fields": {
+      "postal_code": "18947",
+      "lat": "40.422917",
+      "lng": "-75.117635"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8757,
+    "fields": {
+      "postal_code": "18949",
+      "lat": "40.419994",
+      "lng": "-75.110183"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8758,
+    "fields": {
+      "postal_code": "18950",
+      "lat": "40.445204",
+      "lng": "-75.074659"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8759,
+    "fields": {
+      "postal_code": "18951",
+      "lat": "40.452939",
+      "lng": "-75.349103"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8760,
+    "fields": {
+      "postal_code": "18953",
+      "lat": "40.530004",
+      "lng": "-75.189823"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8761,
+    "fields": {
+      "postal_code": "18954",
+      "lat": "40.225419",
+      "lng": "-74.992725"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8762,
+    "fields": {
+      "postal_code": "18955",
+      "lat": "40.476661",
+      "lng": "-75.313586"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8763,
+    "fields": {
+      "postal_code": "18956",
+      "lat": "40.249997",
+      "lng": "-75.009916"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8764,
+    "fields": {
+      "postal_code": "18957",
+      "lat": "40.289992",
+      "lng": "-75.449944"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8765,
+    "fields": {
+      "postal_code": "18958",
+      "lat": "40.289992",
+      "lng": "-75.429891"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8766,
+    "fields": {
+      "postal_code": "18960",
+      "lat": "40.366251",
+      "lng": "-75.325614"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8767,
+    "fields": {
+      "postal_code": "18962",
+      "lat": "40.346713",
+      "lng": "-75.271185"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8768,
+    "fields": {
+      "postal_code": "18963",
+      "lat": "40.380003",
+      "lng": "-75.000176"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8769,
+    "fields": {
+      "postal_code": "18964",
+      "lat": "40.303454",
+      "lng": "-75.337649"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8770,
+    "fields": {
+      "postal_code": "18966",
+      "lat": "40.188464",
+      "lng": "-75.009916"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8771,
+    "fields": {
+      "postal_code": "18968",
+      "lat": "40.430021",
+      "lng": "-75.429891"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8772,
+    "fields": {
+      "postal_code": "18969",
+      "lat": "40.326318",
+      "lng": "-75.368590"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8773,
+    "fields": {
+      "postal_code": "18970",
+      "lat": "40.412030",
+      "lng": "-75.381192"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8774,
+    "fields": {
+      "postal_code": "18971",
+      "lat": "40.340009",
+      "lng": "-75.380044"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8775,
+    "fields": {
+      "postal_code": "18972",
+      "lat": "40.527310",
+      "lng": "-75.124506"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8776,
+    "fields": {
+      "postal_code": "18974",
+      "lat": "40.217052",
+      "lng": "-75.072938"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8777,
+    "fields": {
+      "postal_code": "18976",
+      "lat": "40.248795",
+      "lng": "-75.143412"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8778,
+    "fields": {
+      "postal_code": "18977",
+      "lat": "40.286839",
+      "lng": "-74.882144"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8779,
+    "fields": {
+      "postal_code": "18979",
+      "lat": "40.300018",
+      "lng": "-75.440204"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8780,
+    "fields": {
+      "postal_code": "18980",
+      "lat": "40.269938",
+      "lng": "-75.017361"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8781,
+    "fields": {
+      "postal_code": "18981",
+      "lat": "40.450020",
+      "lng": "-75.330197"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8782,
+    "fields": {
+      "postal_code": "18991",
+      "lat": "40.210007",
+      "lng": "-75.070076"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8783,
+    "fields": {
+      "postal_code": "19001",
+      "lat": "40.125896",
+      "lng": "-75.125654"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8784,
+    "fields": {
+      "postal_code": "19002",
+      "lat": "40.187204",
+      "lng": "-75.207015"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8785,
+    "fields": {
+      "postal_code": "19003",
+      "lat": "40.001563",
+      "lng": "-75.298690"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8786,
+    "fields": {
+      "postal_code": "19004",
+      "lat": "40.009756",
+      "lng": "-75.231651"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8787,
+    "fields": {
+      "postal_code": "19006",
+      "lat": "40.150420",
+      "lng": "-75.033979"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8788,
+    "fields": {
+      "postal_code": "19007",
+      "lat": "40.113175",
+      "lng": "-74.857507"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8789,
+    "fields": {
+      "postal_code": "19008",
+      "lat": "39.972630",
+      "lng": "-75.359991"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8790,
+    "fields": {
+      "postal_code": "19009",
+      "lat": "40.137815",
+      "lng": "-75.064346"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8791,
+    "fields": {
+      "postal_code": "19010",
+      "lat": "40.023624",
+      "lng": "-75.329624"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8792,
+    "fields": {
+      "postal_code": "19012",
+      "lat": "40.059777",
+      "lng": "-75.105600"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8793,
+    "fields": {
+      "postal_code": "19013",
+      "lat": "39.848297",
+      "lng": "-75.377756"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8794,
+    "fields": {
+      "postal_code": "19014",
+      "lat": "39.864915",
+      "lng": "-75.432759"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8795,
+    "fields": {
+      "postal_code": "19015",
+      "lat": "39.868637",
+      "lng": "-75.393226"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8796,
+    "fields": {
+      "postal_code": "19016",
+      "lat": "39.839991",
+      "lng": "-75.369730"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8797,
+    "fields": {
+      "postal_code": "19017",
+      "lat": "39.892358",
+      "lng": "-75.460258"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8798,
+    "fields": {
+      "postal_code": "19018",
+      "lat": "39.923070",
+      "lng": "-75.298690"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8799,
+    "fields": {
+      "postal_code": "19019",
+      "lat": "39.949998",
+      "lng": "-75.160030"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8800,
+    "fields": {
+      "postal_code": "19020",
+      "lat": "40.100570",
+      "lng": "-74.938868"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8801,
+    "fields": {
+      "postal_code": "19021",
+      "lat": "40.089628",
+      "lng": "-74.892457"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8802,
+    "fields": {
+      "postal_code": "19022",
+      "lat": "39.861418",
+      "lng": "-75.337075"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8803,
+    "fields": {
+      "postal_code": "19023",
+      "lat": "39.917111",
+      "lng": "-75.267175"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8804,
+    "fields": {
+      "postal_code": "19025",
+      "lat": "40.146465",
+      "lng": "-75.161751"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8805,
+    "fields": {
+      "postal_code": "19026",
+      "lat": "39.950343",
+      "lng": "-75.303840"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8806,
+    "fields": {
+      "postal_code": "19027",
+      "lat": "40.073126",
+      "lng": "-75.124506"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8807,
+    "fields": {
+      "postal_code": "19028",
+      "lat": "39.899978",
+      "lng": "-75.499798"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8808,
+    "fields": {
+      "postal_code": "19029",
+      "lat": "39.868350",
+      "lng": "-75.292385"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8809,
+    "fields": {
+      "postal_code": "19030",
+      "lat": "40.180442",
+      "lng": "-74.837454"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8810,
+    "fields": {
+      "postal_code": "19031",
+      "lat": "40.109166",
+      "lng": "-75.216755"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8811,
+    "fields": {
+      "postal_code": "19032",
+      "lat": "39.891269",
+      "lng": "-75.278636"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8812,
+    "fields": {
+      "postal_code": "19033",
+      "lat": "39.890869",
+      "lng": "-75.328483"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8813,
+    "fields": {
+      "postal_code": "19034",
+      "lat": "40.134260",
+      "lng": "-75.204720"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8814,
+    "fields": {
+      "postal_code": "19035",
+      "lat": "40.051355",
+      "lng": "-75.277489"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8815,
+    "fields": {
+      "postal_code": "19036",
+      "lat": "39.903587",
+      "lng": "-75.293533"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8816,
+    "fields": {
+      "postal_code": "19037",
+      "lat": "39.919976",
+      "lng": "-75.409837"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8817,
+    "fields": {
+      "postal_code": "19038",
+      "lat": "40.100399",
+      "lng": "-75.171491"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8818,
+    "fields": {
+      "postal_code": "19039",
+      "lat": "39.899978",
+      "lng": "-75.499798"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8819,
+    "fields": {
+      "postal_code": "19040",
+      "lat": "40.176890",
+      "lng": "-75.105600"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8820,
+    "fields": {
+      "postal_code": "19041",
+      "lat": "40.007410",
+      "lng": "-75.315874"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8821,
+    "fields": {
+      "postal_code": "19043",
+      "lat": "39.900264",
+      "lng": "-75.308996"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8822,
+    "fields": {
+      "postal_code": "19044",
+      "lat": "40.186057",
+      "lng": "-75.152585"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8823,
+    "fields": {
+      "postal_code": "19046",
+      "lat": "40.101431",
+      "lng": "-75.105600"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8824,
+    "fields": {
+      "postal_code": "19047",
+      "lat": "40.180097",
+      "lng": "-74.911937"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8825,
+    "fields": {
+      "postal_code": "19048",
+      "lat": "40.170012",
+      "lng": "-74.910223"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8826,
+    "fields": {
+      "postal_code": "19049",
+      "lat": "40.170012",
+      "lng": "-74.910223"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8827,
+    "fields": {
+      "postal_code": "19050",
+      "lat": "39.937564",
+      "lng": "-75.263733"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8828,
+    "fields": {
+      "postal_code": "19052",
+      "lat": "39.919976",
+      "lng": "-75.409837"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8829,
+    "fields": {
+      "postal_code": "19053",
+      "lat": "40.153914",
+      "lng": "-74.974966"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8830,
+    "fields": {
+      "postal_code": "19054",
+      "lat": "40.173052",
+      "lng": "-74.818548"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8831,
+    "fields": {
+      "postal_code": "19055",
+      "lat": "40.150304",
+      "lng": "-74.839175"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8832,
+    "fields": {
+      "postal_code": "19056",
+      "lat": "40.149331",
+      "lng": "-74.885586"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8833,
+    "fields": {
+      "postal_code": "19057",
+      "lat": "40.140793",
+      "lng": "-74.854072"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8834,
+    "fields": {
+      "postal_code": "19058",
+      "lat": "40.150017",
+      "lng": "-74.850062"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8835,
+    "fields": {
+      "postal_code": "19061",
+      "lat": "39.828817",
+      "lng": "-75.435048"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8836,
+    "fields": {
+      "postal_code": "19063",
+      "lat": "39.920434",
+      "lng": "-75.416142"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8837,
+    "fields": {
+      "postal_code": "19064",
+      "lat": "39.933152",
+      "lng": "-75.341085"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8838,
+    "fields": {
+      "postal_code": "19065",
+      "lat": "39.910004",
+      "lng": "-75.380044"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8839,
+    "fields": {
+      "postal_code": "19066",
+      "lat": "40.002594",
+      "lng": "-75.248836"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8840,
+    "fields": {
+      "postal_code": "19067",
+      "lat": "40.206226",
+      "lng": "-74.818548"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8841,
+    "fields": {
+      "postal_code": "19070",
+      "lat": "39.906224",
+      "lng": "-75.324467"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8842,
+    "fields": {
+      "postal_code": "19072",
+      "lat": "40.023908",
+      "lng": "-75.258009"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8843,
+    "fields": {
+      "postal_code": "19073",
+      "lat": "39.983231",
+      "lng": "-75.429324"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8844,
+    "fields": {
+      "postal_code": "19074",
+      "lat": "39.886000",
+      "lng": "-75.295821"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8845,
+    "fields": {
+      "postal_code": "19075",
+      "lat": "40.113865",
+      "lng": "-75.185240"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8846,
+    "fields": {
+      "postal_code": "19076",
+      "lat": "39.886112",
+      "lng": "-75.307282"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8847,
+    "fields": {
+      "postal_code": "19078",
+      "lat": "39.874368",
+      "lng": "-75.322179"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8848,
+    "fields": {
+      "postal_code": "19079",
+      "lat": "39.898775",
+      "lng": "-75.267175"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8849,
+    "fields": {
+      "postal_code": "19080",
+      "lat": "40.060005",
+      "lng": "-75.400097"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8850,
+    "fields": {
+      "postal_code": "19081",
+      "lat": "39.898031",
+      "lng": "-75.347389"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8851,
+    "fields": {
+      "postal_code": "19082",
+      "lat": "39.960425",
+      "lng": "-75.270611"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8852,
+    "fields": {
+      "postal_code": "19083",
+      "lat": "39.977043",
+      "lng": "-75.311865"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8853,
+    "fields": {
+      "postal_code": "19085",
+      "lat": "40.036974",
+      "lng": "-75.349677"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8854,
+    "fields": {
+      "postal_code": "19086",
+      "lat": "39.890641",
+      "lng": "-75.370304"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8855,
+    "fields": {
+      "postal_code": "19087",
+      "lat": "40.061897",
+      "lng": "-75.402392"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8856,
+    "fields": {
+      "postal_code": "19088",
+      "lat": "40.060005",
+      "lng": "-75.400097"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8857,
+    "fields": {
+      "postal_code": "19089",
+      "lat": "40.060005",
+      "lng": "-75.400097"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8858,
+    "fields": {
+      "postal_code": "19090",
+      "lat": "40.157465",
+      "lng": "-75.124506"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8859,
+    "fields": {
+      "postal_code": "19091",
+      "lat": "39.910004",
+      "lng": "-75.380044"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8860,
+    "fields": {
+      "postal_code": "19092",
+      "lat": "39.949998",
+      "lng": "-75.160030"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8861,
+    "fields": {
+      "postal_code": "19093",
+      "lat": "39.949998",
+      "lng": "-75.160030"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8862,
+    "fields": {
+      "postal_code": "19094",
+      "lat": "39.874883",
+      "lng": "-75.346815"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8863,
+    "fields": {
+      "postal_code": "19095",
+      "lat": "40.086018",
+      "lng": "-75.151438"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8864,
+    "fields": {
+      "postal_code": "19096",
+      "lat": "39.997899",
+      "lng": "-75.274046"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8865,
+    "fields": {
+      "postal_code": "19098",
+      "lat": "39.899978",
+      "lng": "-75.299830"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8866,
+    "fields": {
+      "postal_code": "19099",
+      "lat": "39.949998",
+      "lng": "-75.160030"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8867,
+    "fields": {
+      "postal_code": "19101",
+      "lat": "39.949998",
+      "lng": "-75.160030"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8868,
+    "fields": {
+      "postal_code": "19102",
+      "lat": "39.952806",
+      "lng": "-75.165761"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8869,
+    "fields": {
+      "postal_code": "19103",
+      "lat": "39.952918",
+      "lng": "-75.174353"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8870,
+    "fields": {
+      "postal_code": "19104",
+      "lat": "39.958536",
+      "lng": "-75.198989"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8871,
+    "fields": {
+      "postal_code": "19105",
+      "lat": "39.949998",
+      "lng": "-75.160030"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8872,
+    "fields": {
+      "postal_code": "19106",
+      "lat": "39.948622",
+      "lng": "-75.142845"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8873,
+    "fields": {
+      "postal_code": "19107",
+      "lat": "39.951716",
+      "lng": "-75.158883"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8874,
+    "fields": {
+      "postal_code": "19108",
+      "lat": "39.949998",
+      "lng": "-75.160030"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8875,
+    "fields": {
+      "postal_code": "19109",
+      "lat": "39.949654",
+      "lng": "-75.163466"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8876,
+    "fields": {
+      "postal_code": "19110",
+      "lat": "39.949998",
+      "lng": "-75.160030"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8877,
+    "fields": {
+      "postal_code": "19111",
+      "lat": "40.060637",
+      "lng": "-75.080390"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8878,
+    "fields": {
+      "postal_code": "19112",
+      "lat": "39.889896",
+      "lng": "-75.169196"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8879,
+    "fields": {
+      "postal_code": "19113",
+      "lat": "39.870700",
+      "lng": "-75.247122"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8880,
+    "fields": {
+      "postal_code": "19114",
+      "lat": "40.069404",
+      "lng": "-75.000176"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8881,
+    "fields": {
+      "postal_code": "19115",
+      "lat": "40.090717",
+      "lng": "-75.043145"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8882,
+    "fields": {
+      "postal_code": "19116",
+      "lat": "40.115583",
+      "lng": "-75.013352"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8883,
+    "fields": {
+      "postal_code": "19118",
+      "lat": "40.073871",
+      "lng": "-75.211024"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8884,
+    "fields": {
+      "postal_code": "19119",
+      "lat": "40.053360",
+      "lng": "-75.190971"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8885,
+    "fields": {
+      "postal_code": "19120",
+      "lat": "40.034167",
+      "lng": "-75.119349"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8886,
+    "fields": {
+      "postal_code": "19121",
+      "lat": "39.981971",
+      "lng": "-75.178936"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8887,
+    "fields": {
+      "postal_code": "19122",
+      "lat": "39.977729",
+      "lng": "-75.145707"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8888,
+    "fields": {
+      "postal_code": "19123",
+      "lat": "39.964492",
+      "lng": "-75.145707"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8889,
+    "fields": {
+      "postal_code": "19124",
+      "lat": "40.017091",
+      "lng": "-75.092992"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8890,
+    "fields": {
+      "postal_code": "19125",
+      "lat": "39.976240",
+      "lng": "-75.125080"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8891,
+    "fields": {
+      "postal_code": "19126",
+      "lat": "40.055364",
+      "lng": "-75.137688"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8892,
+    "fields": {
+      "postal_code": "19127",
+      "lat": "40.028149",
+      "lng": "-75.227642"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8893,
+    "fields": {
+      "postal_code": "19128",
+      "lat": "40.048490",
+      "lng": "-75.228216"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8894,
+    "fields": {
+      "postal_code": "19129",
+      "lat": "40.013024",
+      "lng": "-75.185240"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8895,
+    "fields": {
+      "postal_code": "19130",
+      "lat": "39.967931",
+      "lng": "-75.176074"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8896,
+    "fields": {
+      "postal_code": "19131",
+      "lat": "39.990163",
+      "lng": "-75.217902"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8897,
+    "fields": {
+      "postal_code": "19132",
+      "lat": "39.996235",
+      "lng": "-75.170917"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8898,
+    "fields": {
+      "postal_code": "19133",
+      "lat": "39.993083",
+      "lng": "-75.141698"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8899,
+    "fields": {
+      "postal_code": "19134",
+      "lat": "39.989590",
+      "lng": "-75.109036"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8900,
+    "fields": {
+      "postal_code": "19135",
+      "lat": "40.022132",
+      "lng": "-75.048302"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8901,
+    "fields": {
+      "postal_code": "19136",
+      "lat": "40.039378",
+      "lng": "-75.018508"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8902,
+    "fields": {
+      "postal_code": "19137",
+      "lat": "39.993083",
+      "lng": "-75.071798"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8903,
+    "fields": {
+      "postal_code": "19138",
+      "lat": "40.055996",
+      "lng": "-75.158883"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8904,
+    "fields": {
+      "postal_code": "19139",
+      "lat": "39.961343",
+      "lng": "-75.229356"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8905,
+    "fields": {
+      "postal_code": "19140",
+      "lat": "40.012163",
+      "lng": "-75.145707"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8906,
+    "fields": {
+      "postal_code": "19141",
+      "lat": "40.037602",
+      "lng": "-75.145707"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8907,
+    "fields": {
+      "postal_code": "19142",
+      "lat": "39.921752",
+      "lng": "-75.233373"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8908,
+    "fields": {
+      "postal_code": "19143",
+      "lat": "39.942550",
+      "lng": "-75.225921"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8909,
+    "fields": {
+      "postal_code": "19144",
+      "lat": "40.033880",
+      "lng": "-75.174353"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8910,
+    "fields": {
+      "postal_code": "19145",
+      "lat": "39.909834",
+      "lng": "-75.198416"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8911,
+    "fields": {
+      "postal_code": "19146",
+      "lat": "39.939514",
+      "lng": "-75.184093"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8912,
+    "fields": {
+      "postal_code": "19147",
+      "lat": "39.935331",
+      "lng": "-75.152585"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8913,
+    "fields": {
+      "postal_code": "19148",
+      "lat": "39.911609",
+      "lng": "-75.151438"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8914,
+    "fields": {
+      "postal_code": "19149",
+      "lat": "40.037719",
+      "lng": "-75.065493"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8915,
+    "fields": {
+      "postal_code": "19150",
+      "lat": "40.072498",
+      "lng": "-75.172065"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8916,
+    "fields": {
+      "postal_code": "19151",
+      "lat": "39.979563",
+      "lng": "-75.256862"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8917,
+    "fields": {
+      "postal_code": "19152",
+      "lat": "40.060924",
+      "lng": "-75.047161"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8918,
+    "fields": {
+      "postal_code": "19153",
+      "lat": "39.893448",
+      "lng": "-75.229930"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8919,
+    "fields": {
+      "postal_code": "19154",
+      "lat": "40.096503",
+      "lng": "-74.982985"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8920,
+    "fields": {
+      "postal_code": "19155",
+      "lat": "39.949998",
+      "lng": "-75.160030"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8921,
+    "fields": {
+      "postal_code": "19160",
+      "lat": "39.949998",
+      "lng": "-75.160030"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8922,
+    "fields": {
+      "postal_code": "19161",
+      "lat": "39.949998",
+      "lng": "-75.160030"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8923,
+    "fields": {
+      "postal_code": "19162",
+      "lat": "39.949998",
+      "lng": "-75.160030"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8924,
+    "fields": {
+      "postal_code": "19170",
+      "lat": "39.949998",
+      "lng": "-75.160030"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8925,
+    "fields": {
+      "postal_code": "19171",
+      "lat": "39.949998",
+      "lng": "-75.160030"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8926,
+    "fields": {
+      "postal_code": "19172",
+      "lat": "39.949998",
+      "lng": "-75.160030"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8927,
+    "fields": {
+      "postal_code": "19173",
+      "lat": "39.949998",
+      "lng": "-75.160030"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8928,
+    "fields": {
+      "postal_code": "19175",
+      "lat": "39.949998",
+      "lng": "-75.160030"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8929,
+    "fields": {
+      "postal_code": "19176",
+      "lat": "39.899978",
+      "lng": "-75.229930"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8930,
+    "fields": {
+      "postal_code": "19177",
+      "lat": "39.949998",
+      "lng": "-75.160030"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8931,
+    "fields": {
+      "postal_code": "19178",
+      "lat": "39.949998",
+      "lng": "-75.160030"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8932,
+    "fields": {
+      "postal_code": "19179",
+      "lat": "39.949998",
+      "lng": "-75.160030"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8933,
+    "fields": {
+      "postal_code": "19181",
+      "lat": "39.949998",
+      "lng": "-75.160030"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8934,
+    "fields": {
+      "postal_code": "19182",
+      "lat": "39.949998",
+      "lng": "-75.160030"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8935,
+    "fields": {
+      "postal_code": "19183",
+      "lat": "39.949998",
+      "lng": "-75.160030"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8936,
+    "fields": {
+      "postal_code": "19184",
+      "lat": "39.949998",
+      "lng": "-75.160030"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8937,
+    "fields": {
+      "postal_code": "19185",
+      "lat": "39.949998",
+      "lng": "-75.160030"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8938,
+    "fields": {
+      "postal_code": "19187",
+      "lat": "39.949998",
+      "lng": "-75.160030"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8939,
+    "fields": {
+      "postal_code": "19188",
+      "lat": "39.949998",
+      "lng": "-75.160030"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8940,
+    "fields": {
+      "postal_code": "19191",
+      "lat": "39.949998",
+      "lng": "-75.160030"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8941,
+    "fields": {
+      "postal_code": "19192",
+      "lat": "39.949998",
+      "lng": "-75.160030"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8942,
+    "fields": {
+      "postal_code": "19193",
+      "lat": "39.949998",
+      "lng": "-75.160030"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8943,
+    "fields": {
+      "postal_code": "19194",
+      "lat": "39.949998",
+      "lng": "-75.180083"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8944,
+    "fields": {
+      "postal_code": "19195",
+      "lat": "39.949998",
+      "lng": "-75.160030"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8945,
+    "fields": {
+      "postal_code": "19196",
+      "lat": "39.949998",
+      "lng": "-75.160030"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8946,
+    "fields": {
+      "postal_code": "19197",
+      "lat": "39.949998",
+      "lng": "-75.160030"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8947,
+    "fields": {
+      "postal_code": "19244",
+      "lat": "39.949998",
+      "lng": "-75.160030"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8948,
+    "fields": {
+      "postal_code": "19255",
+      "lat": "39.949998",
+      "lng": "-75.160030"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8949,
+    "fields": {
+      "postal_code": "19301",
+      "lat": "40.040297",
+      "lng": "-75.480311"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8950,
+    "fields": {
+      "postal_code": "19310",
+      "lat": "39.935102",
+      "lng": "-75.973055"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8951,
+    "fields": {
+      "postal_code": "19311",
+      "lat": "39.821082",
+      "lng": "-75.771380"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8952,
+    "fields": {
+      "postal_code": "19312",
+      "lat": "40.031302",
+      "lng": "-75.455101"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8953,
+    "fields": {
+      "postal_code": "19316",
+      "lat": "40.054104",
+      "lng": "-75.833828"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8954,
+    "fields": {
+      "postal_code": "19317",
+      "lat": "39.860789",
+      "lng": "-75.599491"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8955,
+    "fields": {
+      "postal_code": "19318",
+      "lat": "39.830019",
+      "lng": "-75.829819"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8956,
+    "fields": {
+      "postal_code": "19319",
+      "lat": "39.924559",
+      "lng": "-75.520992"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8957,
+    "fields": {
+      "postal_code": "19320",
+      "lat": "39.963119",
+      "lng": "-75.832107"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8958,
+    "fields": {
+      "postal_code": "19330",
+      "lat": "39.868296",
+      "lng": "-75.914042"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8959,
+    "fields": {
+      "postal_code": "19331",
+      "lat": "39.879982",
+      "lng": "-75.519851"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8960,
+    "fields": {
+      "postal_code": "19333",
+      "lat": "40.041844",
+      "lng": "-75.423593"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8961,
+    "fields": {
+      "postal_code": "19335",
+      "lat": "40.022593",
+      "lng": "-75.720959"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8962,
+    "fields": {
+      "postal_code": "19339",
+      "lat": "39.879982",
+      "lng": "-75.519851"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8963,
+    "fields": {
+      "postal_code": "19340",
+      "lat": "39.879982",
+      "lng": "-75.519851"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8964,
+    "fields": {
+      "postal_code": "19341",
+      "lat": "40.039952",
+      "lng": "-75.640746"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8965,
+    "fields": {
+      "postal_code": "19342",
+      "lat": "39.904103",
+      "lng": "-75.499224"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8966,
+    "fields": {
+      "postal_code": "19343",
+      "lat": "40.100744",
+      "lng": "-75.754762"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8967,
+    "fields": {
+      "postal_code": "19344",
+      "lat": "40.083556",
+      "lng": "-75.881387"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8968,
+    "fields": {
+      "postal_code": "19345",
+      "lat": "40.029410",
+      "lng": "-75.565115"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8969,
+    "fields": {
+      "postal_code": "19346",
+      "lat": "39.790029",
+      "lng": "-75.869926"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8970,
+    "fields": {
+      "postal_code": "19347",
+      "lat": "39.760006",
+      "lng": "-75.790286"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8971,
+    "fields": {
+      "postal_code": "19348",
+      "lat": "39.870300",
+      "lng": "-75.712934"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8972,
+    "fields": {
+      "postal_code": "19350",
+      "lat": "39.760290",
+      "lng": "-75.796590"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8973,
+    "fields": {
+      "postal_code": "19351",
+      "lat": "39.720012",
+      "lng": "-75.860186"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8974,
+    "fields": {
+      "postal_code": "19352",
+      "lat": "39.775934",
+      "lng": "-75.889405"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8975,
+    "fields": {
+      "postal_code": "19353",
+      "lat": "40.040010",
+      "lng": "-75.620118"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8976,
+    "fields": {
+      "postal_code": "19354",
+      "lat": "40.020015",
+      "lng": "-75.710072"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8977,
+    "fields": {
+      "postal_code": "19355",
+      "lat": "40.046427",
+      "lng": "-75.533027"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8978,
+    "fields": {
+      "postal_code": "19357",
+      "lat": "39.859987",
+      "lng": "-75.710072"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8979,
+    "fields": {
+      "postal_code": "19358",
+      "lat": "39.963922",
+      "lng": "-75.805182"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8980,
+    "fields": {
+      "postal_code": "19360",
+      "lat": "39.769975",
+      "lng": "-75.880239"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8981,
+    "fields": {
+      "postal_code": "19362",
+      "lat": "39.750724",
+      "lng": "-76.070460"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8982,
+    "fields": {
+      "postal_code": "19363",
+      "lat": "39.790544",
+      "lng": "-75.968472"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8983,
+    "fields": {
+      "postal_code": "19365",
+      "lat": "39.966384",
+      "lng": "-75.924929"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8984,
+    "fields": {
+      "postal_code": "19366",
+      "lat": "39.899978",
+      "lng": "-75.620118"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8985,
+    "fields": {
+      "postal_code": "19367",
+      "lat": "39.963003",
+      "lng": "-75.884249"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8986,
+    "fields": {
+      "postal_code": "19369",
+      "lat": "39.960025",
+      "lng": "-75.919772"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8987,
+    "fields": {
+      "postal_code": "19371",
+      "lat": "40.069974",
+      "lng": "-75.880239"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8988,
+    "fields": {
+      "postal_code": "19372",
+      "lat": "39.998414",
+      "lng": "-75.758197"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8989,
+    "fields": {
+      "postal_code": "19373",
+      "lat": "39.901125",
+      "lng": "-75.533600"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8990,
+    "fields": {
+      "postal_code": "19374",
+      "lat": "39.824750",
+      "lng": "-75.759919"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8991,
+    "fields": {
+      "postal_code": "19375",
+      "lat": "39.900439",
+      "lng": "-75.740439"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8992,
+    "fields": {
+      "postal_code": "19376",
+      "lat": "39.960025",
+      "lng": "-75.820079"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8993,
+    "fields": {
+      "postal_code": "19380",
+      "lat": "39.987182",
+      "lng": "-75.602927"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8994,
+    "fields": {
+      "postal_code": "19381",
+      "lat": "39.949998",
+      "lng": "-75.600065"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8995,
+    "fields": {
+      "postal_code": "19382",
+      "lat": "39.927653",
+      "lng": "-75.613240"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8996,
+    "fields": {
+      "postal_code": "19383",
+      "lat": "39.951604",
+      "lng": "-75.601779"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8997,
+    "fields": {
+      "postal_code": "19390",
+      "lat": "39.836095",
+      "lng": "-75.842421"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8998,
+    "fields": {
+      "postal_code": "19395",
+      "lat": "39.930003",
+      "lng": "-75.550218"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 8999,
+    "fields": {
+      "postal_code": "19397",
+      "lat": "40.049979",
+      "lng": "-75.409837"
+    }
+  },
+  {
+    "model": "salesreps.postalcode",
+    "pk": 9000,
+    "fields": {
+      "postal_code": "19398",
+      "lat": "40.049979",
+      "lng": "-75.409837"
+    }
+  }
+]

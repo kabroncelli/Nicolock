@@ -1,0 +1,60 @@
+{% extends "base.html" %}
+{% load staticfiles i18n %}
+
+{% block head %}
+  {% define 'title' 'Nicolock | Design Ideas' %}
+  {{ block.super }}
+{% endblock %}
+
+{% block bodyclass %}{% endblock %}
+
+{% block content %}
+<div class="trifold-wrap">
+	<div class="trifold-sidebar">
+ 		<div class="trifold-breadcrumb">
+ 			{% if base_breadcrumb %}
+ 				<a class="link neutral-1" href="">Locate a Sales Rep</a> >
+ 			{% endif %}
+ 			<span class="breadcrumb-active"></span>
+		</div>
+		<div class="misc-menu-wrap">
+			{% include "components/dynamic_menu.html" %}
+		</div>
+	</div>
+
+	<div class="trifold-detail">
+		<div class="trifold-content">
+			<div class="trifold-middle">
+				<img class="design-idea" src="{% static 'images/backyard-fireplace.jpg' %}"/>
+				<div class="design-desc-outer">
+					<div class="design-description">
+						<span class="desc-title">Backyard Fireplace (Or backend title)</span>
+						<p class="design-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sit amet sapien eu eros viverra tempus ut sit amet enim. Suspendisse in commodo nisi. Nam vel ornare elit. Cras eget sapien vestibulum, blandit metus sit amet, dapibus orci. Duis vitae cursus ex. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nunc vestibulum est tortor, a interdum velit rutrum eu. Pellentesque tempor metus sem, quis mattis tortor eleifend non. Aliquam non sapien id lorem pulvinar placerat vitae ut turpis. Ut tincidunt ultrices purus, quis finibus purus lacinia id. Duis in gravida lacus, quis vulputate ex. Sed at ligula suscipit, pulvinar lectus sit amet, elementum felis.</p>
+					</div>
+				</div>
+             </div>
+	    	<div class="trifold-data sales-rep-data">
+	    		<h1 class="title">Design<br/>Ideas</h1>
+	    		<p class="paragraph">Discover how these perfect outdoor spaces create the perfect atmosphere for lounging, gardening or entertaining.</p>
+	    		<ul class="misc-menu products-link">
+					<li>
+						<a class="link neutral-0" href="">Backyard Fireplace</a>
+					</li>
+					<br>
+					<li>
+						<a class="link neutral-0" href="">Outdoor Kitchen</a>
+					</li>
+					<br>
+					<li>
+						<a class="link neutral-0" href="">For Entertainers</a>
+					</li>
+					<br>
+					<li>
+						<a class="link neutral-0" href="">Garden Oasis</a>
+					</li>
+				</ul>
+	      	</div>
+	    </div>
+    </div>
+</div>
+{% endblock content %}

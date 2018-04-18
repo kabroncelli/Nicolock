@@ -1,0 +1,22 @@
+{% extends "galleries/base.html" %}
+{% load static i18n %}
+{% block title %}Items{% endblock %}
+
+{% block bodyclass %}bg-light{% endblock %}
+
+{% block inner %}
+
+<h2 class="page-title">Delete Gallery Item?</h2>
+
+<form class="account-form" method="post" enctype="multipart/form-data" >{% csrf_token %}
+  <p class="paragraph text--center">Are you sure you would like to delete this image?</p>
+  <div class="input-group text--center">
+    <img src="{{ object.thumbnail.url }}">
+  </div>
+  <button class="btn btn-md neutral-6" type="submit">DELETE</button>
+  <p class="text--center">
+    <a class="link neutral-4" href={% url 'galleries:item-edit' object.slug %}>Cancel</a>
+  </p>
+</form>
+
+{% endblock inner %}

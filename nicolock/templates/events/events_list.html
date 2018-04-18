@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+{% load staticfiles i18n %}
+{% load render_bundle from webpack_loader %}
+
+{% block head %}
+  {% define 'title' 'Nicolock | Events' %}
+  {{ block.super }}
+{% endblock %}
+
+{% block content %}
+<div class="bifold-wrap">
+  <div class="bifold-sidebar small-sidebar">
+    <div class="trifold-breadcrumb">
+      <a class="link neutral-1" href="{% url 'home' %}">Home</a> >
+      <span class="breadcrumb-active">Events</span>
+    </div>
+    {% include "components/dynamic_menu.html" %}
+  </div>
+
+  <div class="bifold-content">
+
+    <div id="events"></div>
+
+  </div>
+</div>
+{% endblock content %}
+
+{% block javascript %}
+  {{ block.super }}
+  {% render_bundle 'events' %}
+{% endblock javascript %}

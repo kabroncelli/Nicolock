@@ -1,0 +1,35 @@
+{% load staticfiles %}
+<style type="text/css">
+    .examples-image-wrapper {
+        display: inline-block;
+    }
+    .examples-image {
+        height: 400px;
+        width: auto;
+    }
+</style>
+
+<div>
+    <div>&nbsp;</div>
+    <div>
+        <div class="examples-image-wrapper">
+            <p>Collage One:</p>
+            <img class="examples-image" src="{% static 'images/template_examples/collage_one_example.png' %}">
+        </div>
+        <div class="examples-image-wrapper">
+            <p>Collage Two:</p>
+            <img class="examples-image" src="{% static 'images/template_examples/collage_two_example.png' %}">
+        </div>
+    </div>
+
+    <div>
+        <div class="examples-image-wrapper">
+            <p>Collage Three:</p>
+            <img class="examples-image" src="{% static 'images/template_examples/collage_three_example.png' %}">
+        </div>
+        <div class="examples-image-wrapper">
+            <p>Button:</p>
+            <img class="examples-image" src="{% static 'images/template_examples/button.png' %}">
+        </div>
+    </div>
+</div>

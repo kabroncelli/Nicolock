@@ -1,0 +1,76 @@
+{% extends "base.html" %}
+{% load static i18n %}
+
+{% block title %}Image Library: {{ object.name }}{% endblock %}
+
+{% block content %}
+<div class="trifold-wrap">
+  <div class="trifold-sidebar">
+    <div class="trifold-breadcrumb">
+      {% if base_breadcrumb %}
+        <a class="link neutral-1" href="">Image Library</a> >
+      {% endif %}
+      <span class="breadcrumb-active">{% trans "Images" %}</span>
+    </div>
+    <div class="misc-menu-wrap">
+      {% include "components/dynamic_menu.html" %}
+    </div>
+  </div>
+
+  <div class="trifold-detail">
+    {% include "../components/icons/icon-vertical-ellipsis.svg" %}
+    <div class="trifold-content">
+      <div class="trifold-middle">
+        <div class="library-image-wrap">
+          <img class="library-detail-pic" src="{{ image.large_thumbnail.url }}"/>
+        </div>
+        <div class="more-image-wrap">
+            {% for image in other_images %}
+              <a class="more-image" href="{{ image.get_absolute_url }}"><img src="{{ image.thumbnail.url }}"></a>
+            {% endfor %}
+        </div>
+      </div>
+      <div class="trifold-data">
+        <div class="library-detail-title">
+          <h1 class="title">{{ image.name }}</h1>
+          <p class="paragraph">{{ image.description }}</p>
+        </div>
+
+        <div class="social-tools-wrap push--top">
+          <span class="title">Share this image</span>
+          <div class="socialshare-bar">
+            {% include "../components/social/facebook_share.html" %}
+            {% include "../components/social/houzz_share.html" with title=product.name image=selected_image.url %}
+            {% include "../components/social/twitter_share.html" %}
+            {% include "../components/social/pinterest_share.html" with media_url=product.images.first.url %}
+            {% include "../components/social/mail_share.html" %}
+          </div>
+
+          <div class="action-group">
+            {% if user.is_authenticated and selected_image %}
+              <!-- <a class="link" id="gallery-add" href="{% url 'galleries:add-product-image-to-gallery' selected_image.id %}">{% include "components/icons/icon-grid.svg" %}<span>Add To<br/>Gallery</span></a> -->
+            {% endif %}
+            <div style="display: block; height: 30px;"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="add-gallery-modal-wrap">
+  <div class="add-gallery-modal">
+    {% include "../components/icons/icon-close.svg" %}
+    <div class="add-gallery-modal-container">
+      {% include "../components/add_gallery_modal.html" %}
+    </div>
+  </div>
+</div>
+
+{% endblock content %}
+
+
+{% block javascript %}
+  {{ block.super }}
+  {% include "../components/social/social_scripts.html" %}
+{% endblock javascript %}

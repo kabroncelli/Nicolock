@@ -1,0 +1,52 @@
+{% extends "base.html" %}
+{% load staticfiles i18n %}
+
+{% block head %}
+  {% define 'title' 'Nicolock | Innovation & Technology' %}
+  {{ block.super }}
+{% endblock %}
+
+{% block bodyclass %}{% endblock %}
+
+{% block content %}
+  <div class="trifold-wrap">
+  	<div class="trifold-sidebar">
+   		<div class="trifold-breadcrumb">
+   			<span class="breadcrumb-active">Innovation & Technology</span>
+  		</div>
+  		<div class="misc-menu-wrap">
+        {% include "components/dynamic_menu.html" %}
+      </div>
+  	</div>
+
+  	<div class="trifold-detail">
+      {% include "components/icons/icon-vertical-ellipsis.svg" %}
+  		<div class="trifold-content">
+  			<div class="trifold-middle">
+          <div class="design-idea-wrap">
+              <div class="design-idea">
+                <img class="img" src="{{ innovation.image.url }}"/>
+                <div class="design-description">
+                  <span class="title">{{ innovation.name }}</span>
+                  <p class="paragraph">{{ innovation.description }}</p>
+                </div>
+              </div>
+          </div>
+        </div>
+  	    	<div class="trifold-data sales-rep-data">
+  	    		<h1 class="title">Innovation &<br/>Technology</h1>
+  	    		<ul class="misc-menu design-links">
+              {% for innovation in innovations %}
+                <li><a class="link neutral-0" href="{{ innovation.get_absolute_url }}">{{ innovation.name }}</a></li>
+              {% endfor %}
+    				</ul>
+  	      	</div>
+  	    </div>
+      </div>
+  </div>
+{% endblock content %}
+
+
+{% block javascript %}
+  {{ block.super }}
+{% endblock javascript %}

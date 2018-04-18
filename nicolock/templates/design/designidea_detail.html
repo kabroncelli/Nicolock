@@ -1,0 +1,53 @@
+{% extends "base.html" %}
+{% load staticfiles i18n %}
+
+{% block head %}
+  {% define 'title' 'Nicolock | Design Ideas' %}
+  {{ block.super }}
+{% endblock %}
+
+{% block bodyclass %}{% endblock %}
+
+{% block content %}
+  <div class="trifold-wrap">
+  	<div class="trifold-sidebar">
+   		<div class="trifold-breadcrumb">
+   			<span class="breadcrumb-active">Design Ideas</span>
+  		</div>
+  		<div class="misc-menu-wrap">
+        {% include "components/dynamic_menu.html" %}
+      </div>
+  	</div>
+
+  	<div class="trifold-detail">
+      {% include "components/icons/icon-vertical-ellipsis.svg" %}
+  		<div class="trifold-content">
+  			<div class="trifold-middle">
+          <div class="design-idea-wrap">
+              <div class="design-idea">
+                <img class="img" src="{{ designidea.image.url }}"/>
+                <div class="design-description">
+                  <span class="title">{{ designidea.name }}</span>
+                  <p class="paragraph">{{ designidea.description }}</p>
+                </div>
+              </div>
+          </div>
+        </div>
+  	    	<div class="trifold-data sales-rep-data">
+  	    		<h1 class="title">Design<br/>Ideas</h1>
+  	    		<p class="paragraph">Discover how these perfect outdoor spaces create the perfect atmosphere for lounging, gardening or entertaining.</p>
+  	    		<ul class="misc-menu design-links">
+              {% for designidea in designideas %}
+                <li><a class="link neutral-0" href="{{ designidea.get_absolute_url }}">{{ designidea.name }}</a></li>
+              {% endfor %}
+    				</ul>
+  	      	</div>
+  	    </div>
+      </div>
+  </div>
+{% endblock content %}
+
+
+{% block javascript %}
+  {{ block.super }}
+{% endblock javascript %}

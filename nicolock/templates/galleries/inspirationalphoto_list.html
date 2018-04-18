@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+{% load static i18n %}
+{% block title %}Inspiration{% endblock %}
+
+{% block bodyclass %}bg-light{% endblock %}
+
+{% block content %}
+<div class="lk-squeeze">
+  <div class="page-content">
+    <h1 class="page-title">Choose Your Inspiration</h2>
+    <div id="inspirational-wrap" class="inspirational-wrap grid" data-masonry='{ "itemSelector": ".inspirational-photo", "gutter": 20, "fitWidth": true }'>
+      {% for photo in inspirationalphoto_list %}
+        <div class="inspirational-photo">
+          <img class="inspirational-list-image" src="{{ photo.list_image.url }}" />
+          <h4 class="title">{{ photo.name }}</h4>
+          <div class="teaser-wrap">
+            <p class="paragraph">{{ photo.brief_description }}</p>
+            <a class="btn btn-md neutral-0" href="{{ photo.get_absolute_url }}">EXPLORE</a>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>
+{% endblock content %}
+
+{% block javascript %}
+  {{ block.super }}
+  <script src="https://unpkg.com/masonry-layout@4.1/dist/masonry.pkgd.min.js"></script>
+{% endblock javascript %}

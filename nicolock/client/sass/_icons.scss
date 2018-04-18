@@ -1,0 +1,61 @@
+/*------------------------------------*\
+                ¡ICONS
+\*------------------------------------*/
+
+.icon {
+  &.neutral-0 {
+    .path {
+        fill: color(neutral-0);
+    }
+    .text {
+        color: color(neutral-0);
+    }
+  }
+  &.neutral-4 {
+    .path {
+        fill: color(neutral-4);
+    }
+    .text {
+        color: color(neutral-4);
+    }
+  }
+}
+
+.modal-icon-wrap {
+  float: right;
+
+  .download-icon {
+    display: inline-block;
+    height: 16px;
+    width: 16px;
+    svg path {
+      fill: white;
+    }
+  }
+  .download-icon:hover {
+    cursor: pointer;
+  }
+
+  .print-icon {
+    display: inline-block;
+    height: 16px;
+    width: 16px;
+    svg path {
+      fill: white;
+    }
+  }
+  .print-icon:hover {
+    cursor: pointer;
+  }
+
+  .gallery-icon {
+    display: inline-block;
+    background-color: blue;
+    height: 16px;
+    width: 16px;
+  }
+  .gallery-icon:hover {
+    cursor: pointer;
+  }
+
+}

@@ -1,0 +1,115 @@
+{% extends 'base.html' %}
+
+{% block bodyclass %}{% endblock %}
+
+{% block content %}
+    <div class="lk-squeeze">
+      <div class="page-content">
+        <h1 class="page-title neutral-0">Customer Service Request</h1>
+        <form class="customer-service-request push--bottom" method="POST" enctype="multipart/form-data">
+          {% csrf_token %}
+            <div class="section">
+              <h3 class="page-title neutral-0">Homeowner Information</h3>
+              <div class="input-group">
+                {% field_attrs form.install_date class='input' placeholder='Install date (Required)' %}
+              </div>
+              <div class="input-group">
+                {% field_attrs form.first_name class='input' placeholder='First name (Required)' %}
+              </div>
+              <div class="input-group">
+                {% field_attrs form.last_name class='input' placeholder='Last name (Required)' %}
+              </div>
+              <div class="input-group">
+                {% field_attrs form.address class='input' placeholder='Address (Required)' %}
+              </div>
+              <div class="input-group">
+                {% field_attrs form.address2 class='input' placeholder='Address 2' %}
+              </div>
+              <div class="input-group">
+                {% field_attrs form.city class='input' placeholder='City (Required)' %}
+              </div>
+              <div class="input-group">
+                {% field_attrs form.state class='input' placeholder='State (Required)' %}
+              </div>
+              <div class="input-group">
+                {% field_attrs form.postal_code class='input' placeholder='Postal code (Required)' %}
+              </div>
+              <div class="input-group">
+                {% field_attrs form.phone class='input' placeholder='Phone (Required)' %}
+              </div>
+              <div class="input-group">
+                {% field_attrs form.email class='input' placeholder='Email (Required)' %}
+              </div>
+            </div>
+            <div class="section">
+              <h3 class="page-title neutral-0">Product Information</h3>
+              <div class="input-group">
+                <label class="label" for="{{ field.pi_product.id_for_label }}">Product:</label>
+                <label class="select">
+                  {{ form.pi_product }}
+                </label>
+              </div>
+              <div class="input-group">
+                <label class="label" for="{{ field.pi_colors.id_for_label }}">Colors:</label>
+                <label class="select">
+                  {{ form.pi_colors }}
+                </label>
+              </div>
+              <div class="input-group">
+                {% field_attrs form.pi_square_feet class='input' placeholder='Total square feet' %}
+              </div>
+              <div class="input-group">
+                {% field_attrs form.pi_describe class='textarea' placeholder='Describe' %}
+              </div>
+              <div class="input-group">
+                <label class="label">Images:</label>
+                <div class="input-group">
+                  {% field_attrs form.pi_image1 class='input btn' %}
+                </div>
+                <div class="input-group">
+                  {% field_attrs form.pi_image2 class='input btn' %}
+                </div>
+                <div class="input-group">
+                  {% field_attrs form.pi_image3 class='input btn' %}
+                </div>
+              </div>
+            </div>
+            <div class="section">
+              <h3 class="page-title neutral-0">Installation Information</h3>
+              <!-- Add in select for Job Installed By -->
+              <div class="input-group">
+                {% field_attrs form.ii_purchased class='input' placeholder='Dealer where the product was purchased:' %}
+              </div>
+              <div class="input-group">
+                {% field_attrs form.ii_name class='input' placeholder='Contractor name' %}
+              </div>
+              <div class="input-group">
+                {% field_attrs form.ii_address class='input' placeholder='Contractor address' %}
+              </div>
+              <div class="input-group">
+                {% field_attrs form.ii_address2 class='input' placeholder='Contractor address 2' %}
+              </div>
+              <div class="input-group">
+                {% field_attrs form.ii_city class='input' placeholder='City' %}
+              </div>
+              <div class="input-group">
+                {% field_attrs form.ii_state class='input' placeholder='State/Province/Region' %}
+              </div>
+              <div class="input-group">
+                {% field_attrs form.ii_postal_code class='input' placeholder='Postal/Zip code' %}
+              </div>
+              <div class="input-group">
+                {% field_attrs form.ii_phone class='input' placeholder='Contractor phone' %}
+              </div>
+              <div class="input-group">
+                {% field_attrs form.ii_cell class='input' placeholder='Contractor cell' %}
+              </div>
+              <div class="input-group">
+                {% field_attrs form.ii_email class='input' placeholder='Contractor email' %}
+              </div>
+            </div>
+            <button class="btn btn-md neutral-0" type="submit">SEND</button>
+          </form>
+        </div>
+      </div>
+{% endblock %}

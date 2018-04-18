@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+{% load staticfiles i18n %}
+
+{% block content %}
+  <div class="bifold-wrap landing-wrap">
+    {% if page.template.button_page_background_image_compressed %}
+      <div class="box" style="background-image: url({{ page.template.button_page_background_image_compressed.url }}); width: 100%;">
+    {% else %}
+      <div class="box" style="background-image: url({% static 'images/grid-com-bg.jpg' %}); width: 100%;">
+    {% endif %}
+      <div class="commercial-content content-container">
+        <p class="paragraph">{{ page.template.button_description }}</p>
+        {% if page.template.button_label %}
+          <a class="btn btn-md neutral-0" href="{{ page.template.button_link }}">{{ page.template.button_label }}</a>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+{% endblock %}

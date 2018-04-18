@@ -1,0 +1,21 @@
+{% extends "galleries/base.html" %}
+{% load static i18n %}
+{% load render_bundle from webpack_loader %}
+
+{% block title %}Galleries{% endblock %}
+
+{% block bodyclass %}bg-light{% endblock %}
+
+{% block inner %}
+
+  <h2 class="page-title">Manage Contractors</h2>
+
+  <div id="contractor-list" data-editable="true"></div>
+
+{% endblock inner %}
+
+
+{% block javascript %}
+  {{ block.super }}
+  {% render_bundle 'contractor' %}
+{% endblock javascript %}

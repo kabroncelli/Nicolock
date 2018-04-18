@@ -1,0 +1,43 @@
+{% extends "base.html" %}
+{% load staticfiles i18n %}
+
+{% block head %}
+  {% define 'title' 'Nicolock | Images' %}
+  {{ block.super }}
+{% endblock %}
+
+{% block content %}
+<div class="bifold-wrap">
+  <div class="bifold-sidebar">
+    <div class="trifold-breadcrumb">
+      <a class="link neutral-1" href="{% url 'pages' 'contractor' %}">Contractor</a> >
+      <span class="breadcrumb-active">Image Library</span>
+    </div>
+    <div class="misc-menu-wrap">
+      {% include "components/dynamic_menu.html" %}
+    </div>
+  </div>
+
+  <div class="bifold-content">
+    {% include "../components/icons/icon-vertical-ellipsis.svg" %}
+    <div class="lk-squeeze">
+      <div class="page-content">
+        <div class="library-wrap grid">
+            {% for image in images %}
+              <a class="library-photo" href="{{ image.get_absolute_url }}">
+                <img class="library-list-image" src="{{ image.large_thumbnail.url }}" />
+                <div class="teaser-wrap">
+                  <p class="paragraph">{% include "../components/icons/icon-add.svg" %} ADD TO GALLERY</p>
+                </div>
+              </a>
+            {% endfor %}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock content %}
+
+{% block javascript %}
+  {{ block.super }}
+{% endblock javascript %}

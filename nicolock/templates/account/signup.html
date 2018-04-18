@@ -1,0 +1,45 @@
+{% extends "account/base.html" %}
+
+{% load i18n %}
+{% load crispy_forms_tags %}
+
+{% block head_title %}{% trans "Signup" %}{% endblock %}
+
+{% block inner %}
+  <h1 class="page-title">{% trans "Sign Up" %}</h1>
+
+  <p class="paragraph text--center">{% blocktrans %}Already have an account? Then please <a class="link neutral-2" href="{{ login_url }}">sign in</a>.{% endblocktrans %}</p>
+
+  <form class="account-form" id="signup_form" method="post" action="{% url 'account_signup' %}">
+    {% csrf_token %}
+    <div class="input-group">
+      <label class="radio">
+        <input type="radio" name="user_type" value="homeowner" />
+        <span></span>
+        Homeowner
+      </label>
+      <label class="radio">
+        <input type="radio" name="user_type" value="contractor" />
+        <span></span>
+        Contractor
+      </label>
+    </div>
+    <div class="input-group">
+      <input class="input" name="name" placeholder="Name" type="text" required="" />
+    </div>
+    <div class="input-group">
+      <input class="input" name="email" placeholder="E-mail address" type="email" required="" />
+    </div>
+    <div class="input-group">
+      <input class="input" name="postal_code" placeholder="Zipcode" type="text" required="" />
+    </div>
+    <div class="input-group">
+      <input class="input" name="password1" placeholder="Password" type="password" required="" />
+    </div>
+    {% if redirect_field_value %}
+    <input type="hidden" name="{{ redirect_field_name }}" value="{{ redirect_field_value }}" />
+    {% endif %}
+    <button class="btn btn-md neutral-0" type="submit">REGISTER</button>
+  </form>
+
+{% endblock %}

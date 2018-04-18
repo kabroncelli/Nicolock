@@ -1,0 +1,93 @@
+{% extends "base.html" %}
+
+{% block head %}
+  {% define 'title' 'Nicolock | Technical Specs' %}
+  {{ block.super }}
+{% endblock %}
+
+{% block bodyclass %}{% endblock %}
+
+{% block content %}
+  <div class="trifold-wrap">
+    <div class="trifold-sidebar">
+      <div class="trifold-breadcrumb">
+        <a class="link neutral-1" href="{% url 'pages' 'retail' %}">Retail</a> >
+        <span class="breadcrumb-active">Locate a Sales Rep</span>
+      </div>
+      <div class="misc-menu-wrap">
+        {% include "components/dynamic_menu.html" %}
+      </div>
+    </div>
+
+    <div class="trifold-detail">
+      {% include "../components/icons/icon-vertical-ellipsis.svg" %}
+      <div class="input-group">
+        <div class="video-filter">
+          <span>SORT BY:</span>
+          <div class="filter-dropdown-wrap">
+            <div class="input-group">
+              <label class="select">
+                <select id="filterSpecs" onChange="filterSpecs()">
+                  <option value="all">All</option>
+                  {% for category in categories %}
+                    <option value="{{ category.slug }}">{{ category.name }}</option>
+                  {% endfor %}
+                </select>
+              </label>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="tech-specs-download-wrap">
+        {% for product in products %}
+          <div class="tech-specs-download">
+            <div class="tech-specs-data">
+              <span class="title">{{ product }}</span><span class="spacers"></span><button class="btn btn-sm neutral-0 product-download-button" data-id="{{ product.id }}">Download</button>
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+
+  {% for product in products %}
+    <div class="download-modal-wrap product{{ product.id }}">
+      <div class="download-modal">
+        <div class="download-modal-container">
+          {% include "../components/download_modal.html" with product=product  %}
+        </div>
+      </div>
+    </div>
+  {% endfor %}
+
+  <script>
+    setDropdown();
+    function getParameterByName(name) {
+      var match = RegExp('[?&]' + name + '=([^&]*)')
+                      .exec(window.location.search);
+      return match ?
+          decodeURIComponent(match[1].replace(/\+/g, ' '))
+          : null;
+    }
+    function setDropdown() {
+      let category = getParameterByName('category');
+      let element = document.getElementById('filterSpecs');
+      if(category === null) {
+        element.value = 'all';
+      } else {
+        element.value = category;
+      }
+    }
+    function filterSpecs() {
+      let element = document.getElementById('filterSpecs');
+      let category = element.options[element.selectedIndex].value;
+      if(category != 'all') {
+        window.history.pushState({}, "", "?category="+category);
+      } else {
+        window.history.pushState({}, "", "?");
+      }
+      location.reload();
+    }
+  </script>
+
+{% endblock content %}

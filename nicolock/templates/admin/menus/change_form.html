@@ -1,0 +1,9 @@
+{% extends "admin/change_form.html" %}
+{% block content %}
+{{ block.super }}
+<datalist id="pages">
+    {% for item in urls %}
+        <option value="{{ item }}">
+    {% endfor %}
+</datalist>
+{% endblock %}

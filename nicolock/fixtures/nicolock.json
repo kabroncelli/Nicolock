@@ -1,0 +1,829 @@
+[
+{
+  "model": "users.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$30000$xK8YZSMlEY7I$vrFjzH/Uqdo0iLkgtt22XJG5sXVjW9oyLpLb8IYXtRw=",
+    "last_login": "2017-04-04T16:32:30.512Z",
+    "is_superuser": true,
+    "name": "Kevin Mann",
+    "email": "kevin@lightningkite.com",
+    "postal_code": "84321",
+    "user_type": "contractor",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2016-12-14T21:46:50Z",
+    "slug": "kevin-mann",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "users.user",
+  "pk": 2,
+  "fields": {
+    "password": "pbkdf2_sha256$30000$rUp2yutNTOMI$Ze40/7WYOckViA5KN2eugqL3HxCE85uzU8P2rBeHKpU=",
+    "last_login": "2017-03-29T16:34:45.634Z",
+    "is_superuser": true,
+    "name": "Brennen Sanders",
+    "email": "brennen@lightningkite.com",
+    "postal_code": "84321",
+    "user_type": "contractor",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2016-12-14T22:08:57Z",
+    "slug": "brennen-sanders",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "users.user",
+  "pk": 3,
+  "fields": {
+    "password": "pbkdf2_sha256$30000$3PjJqbszqoKC$xCSQFE/KbqMvHWBlwvBkm3ZlgBtjjabvYuE6UP6iPAs=",
+    "last_login": "2017-03-30T14:49:37.431Z",
+    "is_superuser": false,
+    "name": "Hayden Calaway",
+    "email": "hayden+home@lightningkite.com",
+    "postal_code": "84321",
+    "user_type": "homeowner",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2016-12-15T15:32:14Z",
+    "slug": "hayden-calaway",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "users.user",
+  "pk": 4,
+  "fields": {
+    "password": "pbkdf2_sha256$30000$3j6h0byZrhPv$2yGgv4QRv0EmxYhU1SMCCNArfQ23+hXmtHYKW8JV/04=",
+    "last_login": "2017-03-30T14:58:46.581Z",
+    "is_superuser": false,
+    "name": "Hayden",
+    "email": "hayden+contractor@lightningkite.com",
+    "postal_code": "84321",
+    "user_type": "contractor",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2016-12-15T15:34:22Z",
+    "slug": "hayden",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "users.user",
+  "pk": 5,
+  "fields": {
+    "password": "pbkdf2_sha256$30000$UmUO8uKw3J9y$ynS+uVCwxRJ6MmwjXaaCNvWayF3nnVgBmG115/+6vLo=",
+    "last_login": "2017-03-29T18:33:52.389Z",
+    "is_superuser": true,
+    "name": "Hayden",
+    "email": "hayden@lightningkite.com",
+    "postal_code": "84321",
+    "user_type": "contractor",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2016-12-15T16:08:02Z",
+    "slug": "hayden-4",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "users.user",
+  "pk": 8,
+  "fields": {
+    "password": "pbkdf2_sha256$30000$MpHz4cBdkHV5$v2pEQxAX7X2lat1JD1IUYfNphrGwf27GesytCOezEYw=",
+    "last_login": "2017-02-27T13:10:24.036Z",
+    "is_superuser": false,
+    "name": "Fran Polito",
+    "email": "fpolito@nicolia.com",
+    "postal_code": "11757",
+    "user_type": "homeowner",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2017-01-02T18:25:40Z",
+    "slug": "fran-polito",
+    "groups": [
+      2
+    ],
+    "user_permissions": []
+  }
+},
+{
+  "model": "users.user",
+  "pk": 9,
+  "fields": {
+    "password": "pbkdf2_sha256$30000$msMrB3C4BeiH$sv2CKtsFhqhuypZPXMILwc7BL7CxhkQuBJ59SEZluGY=",
+    "last_login": null,
+    "is_superuser": false,
+    "name": "Fran Polito",
+    "email": "fpolito+contractor@nicolia.com",
+    "postal_code": "11757",
+    "user_type": "contractor",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2017-01-02T18:27:26Z",
+    "slug": "fran-polito-1",
+    "groups": [
+      2
+    ],
+    "user_permissions": []
+  }
+},
+{
+  "model": "users.user",
+  "pk": 13,
+  "fields": {
+    "password": "pbkdf2_sha256$30000$wMiDUUwJKTtG$EYwXEOTSa4t+/xa8TStjFZOl7xsGAcS7zqPwivkIwDk=",
+    "last_login": "2017-03-20T17:16:43.449Z",
+    "is_superuser": false,
+    "name": "Admin",
+    "email": "admin@nicolock.com",
+    "postal_code": "11757",
+    "user_type": "contractor",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2017-03-06T16:12:04Z",
+    "slug": "admin",
+    "groups": [
+      2
+    ],
+    "user_permissions": []
+  }
+},
+{
+  "model": "users.user",
+  "pk": 14,
+  "fields": {
+    "password": "pbkdf2_sha256$30000$jr88mVbkRQJL$QBm4RErGXeimLC9O9gIL1Rq0sjaugq/kvAzo7qVFdTo=",
+    "last_login": "2017-03-13T23:33:24.622Z",
+    "is_superuser": false,
+    "name": "",
+    "email": "kevin+test@lightningkite.com",
+    "postal_code": "84321",
+    "user_type": "homeowner",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2017-03-13T23:33:23.785Z",
+    "slug": "",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "users.companyprofile",
+  "pk": 1,
+  "fields": {
+    "name": "",
+    "address": "",
+    "longitude": null,
+    "latitude": null,
+    "website": "",
+    "phone": "",
+    "email": "",
+    "contact_name": "",
+    "contact_email": "",
+    "contact_phone": "",
+    "area_covered": "",
+    "specialties": "",
+    "description": "",
+    "slug": "kevin-mann"
+  }
+},
+{
+  "model": "users.companyprofile",
+  "pk": 2,
+  "fields": {
+    "name": "",
+    "address": "",
+    "longitude": null,
+    "latitude": null,
+    "website": "",
+    "phone": "",
+    "email": "",
+    "contact_name": "",
+    "contact_email": "",
+    "contact_phone": "",
+    "area_covered": "",
+    "specialties": "",
+    "description": "",
+    "slug": "brennen-saunders"
+  }
+},
+{
+  "model": "users.companyprofile",
+  "pk": 4,
+  "fields": {
+    "name": "",
+    "address": "",
+    "longitude": null,
+    "latitude": null,
+    "website": "",
+    "phone": "",
+    "email": "",
+    "contact_name": "",
+    "contact_email": "",
+    "contact_phone": "",
+    "area_covered": "",
+    "specialties": "",
+    "description": "",
+    "slug": "-2"
+  }
+},
+{
+  "model": "products.category",
+  "pk": 1,
+  "fields": {
+    "name": "Pavers",
+    "modified": "2016-12-21T01:12:27.294Z",
+    "created": "2016-12-14T19:25:32.037Z",
+    "slug": "pavers",
+    "order": 1
+  }
+},
+{
+  "model": "products.category",
+  "pk": 2,
+  "fields": {
+    "name": "Wall Systems",
+    "modified": "2016-12-21T01:12:27.407Z",
+    "created": "2016-12-14T19:25:32.042Z",
+    "slug": "wall-systems",
+    "order": 1
+  }
+},
+{
+  "model": "products.category",
+  "pk": 3,
+  "fields": {
+    "name": "Outdoor Living",
+    "modified": "2016-12-21T01:12:27.409Z",
+    "created": "2016-12-14T19:25:32.047Z",
+    "slug": "outdoor-living",
+    "order": 1
+  }
+},
+{
+  "model": "products.category",
+  "pk": 4,
+  "fields": {
+    "name": "Accents",
+    "modified": "2016-12-21T01:12:27.411Z",
+    "created": "2016-12-14T19:25:32.052Z",
+    "slug": "accents",
+    "order": 1
+  }
+},
+{
+  "model": "products.category",
+  "pk": 5,
+  "fields": {
+    "name": "Nicostone",
+    "modified": "2016-12-21T01:12:27.412Z",
+    "created": "2016-12-14T19:25:32.056Z",
+    "slug": "nicostone",
+    "order": 1
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1,
+  "fields": {
+    "name": "Red Paint",
+    "description": "",
+    "uses": "pool",
+    "like_count": 9,
+    "order": 1,
+    "category": 3,
+    "modified": "2017-03-27T14:32:58.326Z",
+    "created": "2016-12-15T16:16:37.322Z",
+    "slug": "red-paint"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 2,
+  "fields": {
+    "name": "Ridge Brick",
+    "description": "",
+    "uses": "patio,walkway,driveway,pool",
+    "like_count": 6,
+    "order": 1,
+    "category": 1,
+    "modified": "2017-04-03T16:58:44.406Z",
+    "created": "2017-01-02T16:45:48.966Z",
+    "slug": "ridge-brick"
+  }
+},
+{
+  "model": "products.image",
+  "pk": 1,
+  "fields": {
+    "name": "Image",
+    "description": "Image",
+    "original": "product_images/Y6lA6nc.jpg",
+    "order": 1,
+    "modified": "2016-12-15T16:22:06.094Z",
+    "created": "2016-12-15T16:22:06.094Z",
+    "product": 1
+  }
+},
+{
+  "model": "products.image",
+  "pk": 2,
+  "fields": {
+    "name": "Image2",
+    "description": "Image2",
+    "original": "product_images/Screenshot_2016-12-08-09-12-43.png",
+    "order": 1,
+    "modified": "2016-12-15T16:51:19.552Z",
+    "created": "2016-12-15T16:51:19.552Z",
+    "product": 1
+  }
+},
+{
+  "model": "products.image",
+  "pk": 3,
+  "fields": {
+    "name": "Ridge Brick",
+    "description": "",
+    "original": "product_images/pavers-ridge-brick-main.jpg",
+    "order": 1,
+    "modified": "2017-01-02T16:48:07.932Z",
+    "created": "2017-01-02T16:48:07.932Z",
+    "product": 2
+  }
+},
+{
+  "model": "products.image",
+  "pk": 4,
+  "fields": {
+    "name": "Ridge Brick 2",
+    "description": "",
+    "original": "product_images/image-2.jpg",
+    "order": 2,
+    "modified": "2017-01-02T16:48:26.960Z",
+    "created": "2017-01-02T16:48:26.960Z",
+    "product": 2
+  }
+},
+{
+  "model": "products.image",
+  "pk": 5,
+  "fields": {
+    "name": "Ridge Brick 3",
+    "description": "",
+    "original": "product_images/image-3.jpg",
+    "order": 3,
+    "modified": "2017-01-02T16:48:48.033Z",
+    "created": "2017-01-02T16:48:48.033Z",
+    "product": 2
+  }
+},
+{
+  "model": "products.image",
+  "pk": 6,
+  "fields": {
+    "name": "Ridge Brick 4",
+    "description": "",
+    "original": "product_images/image-4.jpg",
+    "order": 4,
+    "modified": "2017-01-02T16:49:21.365Z",
+    "created": "2017-01-02T16:49:21.365Z",
+    "product": 2
+  }
+},
+{
+  "model": "products.image",
+  "pk": 7,
+  "fields": {
+    "name": "Ridge Brick 5",
+    "description": "",
+    "original": "product_images/image-5.jpg",
+    "order": 5,
+    "modified": "2017-01-02T16:49:42.987Z",
+    "created": "2017-01-02T16:49:42.988Z",
+    "product": 2
+  }
+},
+{
+  "model": "products.spec",
+  "pk": 1,
+  "fields": {
+    "label": "Spec",
+    "icon": "product_specs/Y6lA6nc.jpg",
+    "file": "Screenshot_2016-12-08-09-12-43.png",
+    "order": 1,
+    "modified": "2016-12-15T16:23:32.452Z",
+    "created": "2016-12-15T16:23:32.452Z",
+    "product": 1
+  }
+},
+{
+  "model": "products.spec",
+  "pk": 2,
+  "fields": {
+    "label": "A",
+    "icon": "product_specs/spec.jpg",
+    "file": "test-specs.pdf",
+    "order": 1,
+    "modified": "2017-01-02T16:50:07.521Z",
+    "created": "2017-01-02T16:50:07.521Z",
+    "product": 2
+  }
+},
+{
+  "model": "products.spec",
+  "pk": 3,
+  "fields": {
+    "label": "Spec2",
+    "icon": "product_specs/Y6lA6nc.jpg",
+    "file": "Screenshot_Dec_20_2016_8-36-30_AM.png",
+    "order": 1,
+    "modified": "2017-01-03T17:53:51.198Z",
+    "created": "2017-01-03T17:53:51.198Z",
+    "product": 1
+  }
+},
+{
+  "model": "products.spec",
+  "pk": 4,
+  "fields": {
+    "label": "Spec3",
+    "icon": "product_specs/Y6lA6nc.jpg",
+    "file": "Y6lA6nc.jpg",
+    "order": 1,
+    "modified": "2017-01-03T17:57:27.782Z",
+    "created": "2017-01-03T17:57:13.923Z",
+    "product": 1
+  }
+},
+{
+  "model": "products.spec",
+  "pk": 5,
+  "fields": {
+    "label": "Spec4",
+    "icon": "product_specs/Y6lA6nc.jpg",
+    "file": "Y6lA6nc.jpg",
+    "order": 1,
+    "modified": "2017-01-03T18:08:29.182Z",
+    "created": "2017-01-03T18:05:17.863Z",
+    "product": 1
+  }
+},
+{
+  "model": "products.spec",
+  "pk": 6,
+  "fields": {
+    "label": "Spec5",
+    "icon": "product_specs/Y6lA6nc.jpg",
+    "file": "Y6lA6nc.jpg",
+    "order": 1,
+    "modified": "2017-01-03T18:08:49.877Z",
+    "created": "2017-01-03T18:05:42.006Z",
+    "product": 1
+  }
+},
+{
+  "model": "products.spec",
+  "pk": 7,
+  "fields": {
+    "label": "Spec6",
+    "icon": "product_specs/Y6lA6nc.jpg",
+    "file": "Y6lA6nc.jpg",
+    "order": 1,
+    "modified": "2017-01-03T18:09:41.482Z",
+    "created": "2017-01-03T18:06:03.428Z",
+    "product": 1
+  }
+},
+{
+  "model": "products.spec",
+  "pk": 8,
+  "fields": {
+    "label": "Spec7",
+    "icon": "product_specs/Y6lA6nc.jpg",
+    "file": "Y6lA6nc.jpg",
+    "order": 1,
+    "modified": "2017-01-03T18:09:54.120Z",
+    "created": "2017-01-03T18:06:25.998Z",
+    "product": 1
+  }
+},
+{
+  "model": "products.spec",
+  "pk": 9,
+  "fields": {
+    "label": "Spec8",
+    "icon": "product_specs/Y6lA6nc.jpg",
+    "file": "Y6lA6nc.jpg",
+    "order": 1,
+    "modified": "2017-01-03T18:10:13.668Z",
+    "created": "2017-01-03T18:06:55.029Z",
+    "product": 1
+  }
+},
+{
+  "model": "products.pattern",
+  "pk": 1,
+  "fields": {
+    "name": "Pattern",
+    "description": "pattern",
+    "original": "product_patterns/Screenshot_2016-12-08-09-12-35.png",
+    "order": 1,
+    "modified": "2016-12-15T16:23:32.656Z",
+    "created": "2016-12-15T16:23:32.656Z",
+    "product": 1
+  }
+},
+{
+  "model": "products.pattern",
+  "pk": 2,
+  "fields": {
+    "name": "Herringbone",
+    "description": "This is the herringbone pattern",
+    "original": "product_patterns/pattern-herringbone.jpg",
+    "order": 1,
+    "modified": "2017-01-02T16:50:50.976Z",
+    "created": "2017-01-02T16:50:50.977Z",
+    "product": 2
+  }
+},
+{
+  "model": "products.color",
+  "pk": 1,
+  "fields": {
+    "name": "Blue",
+    "description": "blue",
+    "original": "product_colors/KITTEN_jpg_296556.jpg",
+    "order": 1,
+    "color_type": "",
+    "modified": "2017-01-03T18:24:46.576Z",
+    "created": "2016-12-15T16:17:49.153Z",
+    "product": 1
+  }
+},
+{
+  "model": "products.color",
+  "pk": 2,
+  "fields": {
+    "name": "Warrington",
+    "description": "This is the warrington color",
+    "original": "product_colors/color-warrington.jpg",
+    "order": 1,
+    "color_type": "",
+    "modified": "2017-01-02T16:51:23.976Z",
+    "created": "2017-01-02T16:51:23.976Z",
+    "product": 2
+  }
+},
+{
+  "model": "products.file",
+  "pk": 1,
+  "fields": {
+    "name": "File",
+    "file": "Screenshot_2016-11-30-15-45-07.png",
+    "order": 1,
+    "modified": "2016-12-15T16:24:08.650Z",
+    "created": "2016-12-15T16:24:08.650Z",
+    "product": 1
+  }
+},
+{
+  "model": "videos.tag",
+  "pk": 1,
+  "fields": {
+    "name": "Video"
+  }
+},
+{
+  "model": "videos.tag",
+  "pk": 2,
+  "fields": {
+    "name": "More Videos"
+  }
+},
+{
+  "model": "videos.tag",
+  "pk": 3,
+  "fields": {
+    "name": "How To's"
+  }
+},
+{
+  "model": "videos.tag",
+  "pk": 4,
+  "fields": {
+    "name": "DIY"
+  }
+},
+{
+  "model": "videos.video",
+  "pk": 1,
+  "fields": {
+    "name": "Fire Pit",
+    "description": "Fire pit description",
+    "url": "https://www.youtube.com/watch?v=6EeqixLHZgk",
+    "slug": "fire-pit",
+    "tags": [
+      1
+    ]
+  }
+},
+{
+  "model": "videos.video",
+  "pk": 2,
+  "fields": {
+    "name": "Patio",
+    "description": "",
+    "url": "https://www.youtube.com/watch?v=MPY_q1GEW7s",
+    "slug": "patio",
+    "tags": [
+      2
+    ]
+  }
+},
+{
+  "model": "videos.video",
+  "pk": 3,
+  "fields": {
+    "name": "Pavers",
+    "description": "",
+    "url": "https://www.youtube.com/watch?v=ZiFyXCzIKC0",
+    "slug": "pavers",
+    "tags": [
+      2
+    ]
+  }
+},
+{
+  "model": "videos.video",
+  "pk": 4,
+  "fields": {
+    "name": "Retaining Wall",
+    "description": "",
+    "url": "https://www.youtube.com/watch?v=vPsWb6I50Qk",
+    "slug": "retaining-wall",
+    "tags": [
+      1
+    ]
+  }
+},
+{
+  "model": "videos.video",
+  "pk": 5,
+  "fields": {
+    "name": "Granite",
+    "description": "",
+    "url": "https://www.youtube.com/watch?v=JycgZ7mccqA",
+    "slug": "granite",
+    "tags": [
+      1
+    ]
+  }
+},
+{
+  "model": "dealers.dealer",
+  "pk": 2,
+  "fields": {
+    "name": "Dealer",
+    "address": "255 s 300 w",
+    "city": "Logan",
+    "state": "Utah",
+    "postal_code": "84321",
+    "phone": "846.279.5130",
+    "lat": null,
+    "lng": null
+  }
+},
+{
+  "model": "salesreps.postalcode",
+  "pk": 1,
+  "fields": {
+    "postal_code": "84321",
+    "lat": "41.717744",
+    "lng": "-111.836780"
+  }
+},
+{
+  "model": "salesreps.salesrep",
+  "pk": 1,
+  "fields": {
+    "name": "Sales Rep",
+    "city": "Logan",
+    "state": "Utah",
+    "phone": "987.654.3210",
+    "email": "salesrep@example.com",
+    "original": "salesreps_images/KITTEN_jpg_296556_1.jpg",
+    "postal_codes": [
+      1
+    ]
+  }
+},
+{
+  "model": "galleries.gallery",
+  "pk": 1,
+  "fields": {
+    "name": "Sweet",
+    "description": "",
+    "user": 2,
+    "slug": "sweet"
+  }
+},
+{
+  "model": "galleries.gallery",
+  "pk": 2,
+  "fields": {
+    "name": "Gallery 1",
+    "description": "1",
+    "user": 4,
+    "slug": "gallery-1"
+  }
+},
+{
+  "model": "galleries.gallery",
+  "pk": 3,
+  "fields": {
+    "name": "Gallery 1",
+    "description": "1",
+    "user": 5,
+    "slug": "gallery-1-1"
+  }
+},
+{
+  "model": "galleries.gallery",
+  "pk": 4,
+  "fields": {
+    "name": "Gallery 1",
+    "description": "1",
+    "user": 3,
+    "slug": "gallery-1-2"
+  }
+},
+{
+  "model": "galleries.item",
+  "pk": 1,
+  "fields": {
+    "name": "Ridge Brick",
+    "color": "",
+    "notes": "",
+    "original": "product_images/pavers-ridge-brick-main.jpg",
+    "gallery": 2,
+    "slug": "ridge-brick"
+  }
+},
+{
+  "model": "galleries.item",
+  "pk": 2,
+  "fields": {
+    "name": "Red Paint",
+    "color": "",
+    "notes": "",
+    "original": "product_images/Y6lA6nc.jpg",
+    "gallery": 3,
+    "slug": "red-paint"
+  }
+},
+{
+  "model": "galleries.item",
+  "pk": 3,
+  "fields": {
+    "name": "Red Paint",
+    "color": "",
+    "notes": "",
+    "original": "product_images/Y6lA6nc.jpg",
+    "gallery": 4,
+    "slug": "red-paint-1"
+  }
+},
+{
+  "model": "galleries.item",
+  "pk": 4,
+  "fields": {
+    "name": "Red Paint",
+    "color": "",
+    "notes": "",
+    "original": "product_images/Y6lA6nc.jpg",
+    "gallery": 4,
+    "slug": "red-paint-2"
+  }
+},
+{
+  "model": "galleries.inspirationalphoto",
+  "pk": 1,
+  "fields": {
+    "name": "Inspirational Photo",
+    "brief_description": "Photo",
+    "long_description": "This is a photo",
+    "list_image": "inspirational_photo_images/inspirational.jpeg",
+    "detail_image": "inspirational_photo_images/inspirational-detail.jpeg",
+    "slug": "inspirational-photo"
+  }
+}
+]

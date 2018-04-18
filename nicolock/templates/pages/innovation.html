@@ -1,0 +1,42 @@
+{% extends "base.html" %}
+{% load staticfiles i18n %}
+
+{% block head %}
+  {% define 'title' 'Nicolock | Innovation & Technology' %}
+  {{ block.super }}
+{% endblock %}
+
+{% block bodyclass %}{% endblock %}
+
+{% block content %}
+<div class="trifold-wrap">
+	<div class="trifold-sidebar">
+ 		<div class="trifold-breadcrumb">
+ 			{% if base_breadcrumb %}
+ 				<a class="link neutral-1" href="">Locate a Sales Rep</a> >
+ 			{% endif %}
+ 			<span class="breadcrumb-active"></span>
+		</div>
+		<div class="misc-menu-wrap">
+			{% include "components/dynamic_menu.html" %}
+		</div>
+	</div>
+
+	<div class="trifold-detail">
+		{% include "components/icons/icon-vertical-ellipsis.svg" %}
+		<div class="trifold-content">
+			<div class="trifold-middle">
+				<div class="design-desc-outer">
+					<img class="innovation" src="{% static 'images/paver-shield.png' %}" />
+					<div class="design-description">
+						<span class="title">Paver Shield</span>
+						<p class="paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sit amet sapien eu eros viverra tempus ut sit amet enim. Suspendisse in commodo nisi. Nam vel ornare elit. Cras eget sapien vestibulum, blandit metus sit amet, dapibus orci. Duis vitae cursus ex. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nunc vestibulum est tortor, a interdum velit rutrum eu. Pellentesque tempor metus sem, quis mattis tortor eleifend non. Aliquam non sapien id lorem pulvinar placerat vitae ut turpis. Ut tincidunt ultrices purus, quis finibus purus lacinia id. Duis in gravida lacus, quis vulputate ex. Sed at ligula suscipit, pulvinar lectus sit amet, elementum felis.</p>
+					</div>
+				</div>
+             </div>
+	    	<div class="trifold-data sales-rep-data">
+	      	</div>
+	    </div>
+    </div>
+</div>
+{% endblock content %}

@@ -1,0 +1,14 @@
+<h4 class="title text--center push--bottom">Download</h4>
+<p class="paragraph">Select items you would like to<br />download.</p>
+<div class="download-items">
+  {% for file in product.files.all %}
+    <div class="input-group">
+      <label class="checkbox">
+        <input type="checkbox" id="file{{ file.id }}" name="file{{ file.id }}" value="{{ file.id }}">
+        <span></span>
+        {{ file.name }}
+      </label>
+    </div>
+  {% endfor %}
+</div>
+<button class="btn btn-md neutral-0" id="download-specs">DOWNLOAD</button>

@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+{% load staticfiles i18n %}
+
+{% block head %}
+  {% define 'title' 'Nicolock | Products' %}
+  {{ block.super }}
+{% endblock %}
+
+{% block bodyclass %}{% endblock %}
+
+{% block content %}
+  <div class="product-category-wrap">
+    <div class="trifold-breadcrumb">
+      {% if base_breadcrumb %}
+        <a class="link neutral-1" href="{{ base_breadcrumb.url }}">{{ base_breadcrumb.label}}</a> >
+      {% endif %}
+      <a class="link neutral-1" href="{% url 'pages' 'products' %}">{% trans "Products" %}</a> > 
+      <span class="breadcrumb-active">{{ category.name }}</span>
+    </div>
+    <h1 class="title">{{ category.name }}</h1>
+    <p class="paragraph">{{ category.description }}</p>
+    <div class="product-category">
+      {% for product in products %}
+        <a class="product-link" href="{{ product.get_absolute_url }}"><img src="{{ product.images.first.thumbnail.url }}" /><span>{{ product.name }}</span></a>
+      {% endfor %}
+    </div>
+  </div>
+{% endblock content %}

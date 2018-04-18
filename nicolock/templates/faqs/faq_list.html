@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+{% load static i18n %}
+{% load render_bundle from webpack_loader %}
+
+{% block title %}FAQs{% endblock %}
+
+{% block content %}
+<div class="trifold-wrap">
+  <div class="trifold-sidebar">
+    <div class="trifold-breadcrumb">
+      <a class="link neutral-1" href="{% url 'pages' 'contractor' %}">Contractor</a> >
+      <span class="breadcrumb-active">FAQs</span>
+    </div>
+    <div class="misc-menu-wrap">
+      {% include "components/dynamic_menu.html" %}
+    </div>
+  </div>
+  <div class="trifold-detail">
+    {% include "components/icons/icon-vertical-ellipsis.svg" %}
+    <div id="app"></div>
+  </div>
+</div>
+{% endblock content %}
+
+{% block javascript %}
+  {{ block.super }}
+  {% render_bundle 'faqs' %}
+{% endblock javascript %}

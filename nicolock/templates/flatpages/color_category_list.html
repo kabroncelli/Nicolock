@@ -1,0 +1,62 @@
+{% extends "base.html" %}
+{% load i18n product_extras %}
+{% load render_bundle from webpack_loader %}
+
+{% block bodyclass %}{% endblock %}
+
+{% block title %}
+
+{% endblock %}
+
+{% block head %}
+    {% if flatpage.page.seo_title %}
+        {% define 'title' flatpage.page.seo_title %}
+    {% else %}
+        {% define 'title' flatpage.title %}
+    {% endif %}
+    <!-- TODO: put in the seo keywords and the seo description -->
+    {{ block.super }}
+{% endblock %}
+
+{% block content %}
+  <div class="trifold-wrap is-cms">
+    <div class="trifold-sidebar">
+      <div class="trifold-breadcrumb">
+        {% if base_breadcrumb %}
+          <a class="link neutral-1" href=""></a> >
+        {% endif %}
+      </div>
+      <div class="misc-menu-wrap">
+        {% include "components/dynamic_menu.html" %}
+      </div>
+    </div>
+
+    <div class="trifold-detail">
+      {% include "../components/icons/icon-vertical-ellipsis.svg" %}
+      <div class="trifold-content">
+        <div class="trifold-middle cms-content">
+          {{ flatpage.page.main_content|safe }}
+          {% color_category_list %}
+        </div>
+        <div class="trifold-data cms-content">
+          <h1 class="title">{{ flatpage.page.title }}</h1>
+          {{ flatpage.page.sidebar_content|safe }}
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="product-modal-wrap">
+    <div class="product-modal color-page">
+      {% include "../components/icons/icon-close.svg" %}
+      <div class="product-modal-container">
+        {% include "../components/color_pattern_modal.html" %}
+      </div>
+    </div>
+  </div>
+{% endblock %}
+
+{% block javascript %}
+  {{ block.super }}
+  {% render_bundle 'product' %}
+{% endblock javascript %}

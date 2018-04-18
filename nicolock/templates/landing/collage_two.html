@@ -1,0 +1,67 @@
+{% extends "base.html" %}
+{% load staticfiles i18n %}
+
+{% block content %}
+  <div class="bifold-wrap landing-wrap">
+    <div class="bifold-content collage-wrap">
+      <div class="co-col-1">
+        {% if page.template.top_left_background_one_image_compressed %}
+          <div class="row-1 box" style="background-image: url({{ page.template.top_left_background_one_image_compressed.url }})">
+        {% else %}
+          <div class="row-1 box" style="background-image: url({% static 'images/grid-co-product.jpg' %})">
+        {% endif %}
+          {% if page.template.top_left_button_one_label %}
+            <a class="btn btn-md neutral-6" href="{{ page.template.top_left_button_one_link }}">{{ page.template.top_left_button_one_label }}</a>
+          {% endif %}
+        </div>
+        {% if page.template.bottom_left_background_one_image_compressed %}
+          <div class="row-2 box" style="background-image: url({{ page.template.bottom_left_background_one_image_compressed.url }})">
+        {% else %}
+          <div class="row-2 box" style="background-image: url({% static 'images/grid-co-power.jpg' %})">
+        {% endif %}
+          {% if page.template.bottom_left_button_one_label %}
+            <a class="btn btn-md neutral-6" href="{{ page.template.bottom_left_button_one_link }}">{{ page.template.bottom_left_button_one_label }}</a>
+          {% endif %}
+        </div>
+      </div>
+      <div class="co-col-2">
+        {% if page.template.top_right_background_one_image_compressed %}
+          <div class="row-1 box" style="background-image: url({{ page.template.top_right_background_one_image_compressed.url }})">
+        {% else %}
+          <div class="row-1 box" style="background-image: url({% static 'images/grid-co-grow.jpg' %})">
+        {% endif %}
+          {% if page.template.top_right_button_one_label %}
+            <a class="btn btn-md neutral-6" href="{{ page.template.top_right_button_one_link }}">{{ page.template.top_right_button_one_label }}</a>
+          {% endif %}
+        </div>
+        {% if page.template.top_right_background_two_image_compressed %}
+          <div class="row-2 box" style="background-image: url({{ page.template.top_right_background_two_image_compressed.url }})">
+        {% else %}
+          <div class="row-2 box" style="background-image: url({% static 'images/grid-co-strengthen.jpg' %})">
+        {% endif %}
+          {% if page.template.top_right_button_two_label %}
+            <a class="btn btn-md neutral-6" href="{{ page.template.top_right_button_two_link }}">{{ page.template.top_right_button_two_label }}</a>
+          {% endif %}
+        </div>
+        {% if page.template.bottom_right_background_one_image_compressed %}
+          <div class="row-3 box" style="background-image: url({{ page.template.bottom_right_background_one_image_compressed.url }})">
+        {% else %}
+          <div class="row-3 box" style="background-image: url({% static 'images/grid-co-resources.jpg' %})">
+        {% endif %}
+          {% if page.template.bottom_right_button_one_label %}
+            <a class="btn btn-md neutral-6" href="{{ page.template.bottom_right_button_one_link }}">{{ page.template.bottom_right_button_one_label }}</a>
+          {% endif %}
+        </div>
+      </div>
+    </div>
+    <div class="bifold-sidebar landing-sidebar">
+      {% if page.template.top_right_sidebar_title %}
+        <div class="section-1">
+          <h4 class="title">{{ page.template.top_right_sidebar_title }}</h4>
+          <p class="paragraph">{{ page.template.top_right_sidebar_text }}</p>
+        </div>
+      {% endif %}
+      {% include "../components/latest_videos.html" %}
+    </div>
+  </div>
+{% endblock %}

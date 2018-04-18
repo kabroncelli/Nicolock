@@ -1,0 +1,18 @@
+{% extends "galleries/base.html" %}
+{% load static i18n %}
+{% block title %}Delete Project{% endblock %}
+
+{% block bodyclass %}bg-light{% endblock %}
+
+{% block inner %}
+
+<h2 class="page-title">Delete Gallery Project?</h2>
+
+<form class="account-form" method="post" enctype="multipart/form-data" >{% csrf_token %}
+  <div class="input-group text--center">
+    <span>{{ object.name }}</span>
+  </div>
+  <button class="btn btn-md neutral-6" type="submit">DELETE</button>
+</form>
+
+{% endblock inner %}

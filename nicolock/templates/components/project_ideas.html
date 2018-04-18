@@ -1,0 +1,24 @@
+{% load staticfiles %}
+<div class="section-2">
+  <h4 class="title">Project<br />Ideas</h4>
+  <div class="project-idea-widget">
+    {% for product in products %}
+      <a class="link" href="{{ product.get_absolute_url }}">
+        <div class="like-block pad-half--bottom">
+          {% if product.first_image %}
+            <div class="pad-half--sides thumbnail-wrapper">
+              <img src="{{ product.first_image.thumbnail.url }}">
+            </div>
+          {% endif %}
+          <div class="pad-half--sides info-wrapper">
+            <p class="info">{{ product.name }}</p>
+            <div class="like-count">
+              {% include "./icons/icon-heart.svg" %}{{ video.name }}
+              <span class="pad-half--left">{{ product.like_count }} likes</span>
+            </div>
+          </div>
+        </div>
+      </a>
+    {% endfor %}
+  </div>
+</div>

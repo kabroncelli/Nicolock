@@ -1,0 +1,18 @@
+{% for category in color_categories %}
+  <div class="color-swatch-wrap">
+    <h3>{{ category.name }}</h3>
+    <div class="color-swatch-container">
+      {% for color in category.colors.all %}
+      <a class="color-swatch">
+        <img class="product-modal-trigger"
+        src="{{ color.thumbnail.url }}"
+        data-original="{{ color.large_thumbnail.url }}"
+        data-title="{{ color.name }}"
+        data-description="{{ color.description }}"
+        />
+        <p class="color-title">{{ color.name }}</p>
+      </a>
+      {% endfor %}
+    </div>
+  </div>
+{% endfor %}

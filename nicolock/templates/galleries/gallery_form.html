@@ -1,0 +1,51 @@
+{% extends "galleries/base.html" %}
+{% load static i18n %}
+{% block title %}Galleries{% endblock %}
+
+{% block bodyclass %}bg-light{% endblock %}
+
+{% block inner %}
+
+  {% if object %}
+    <h2 class="page-title">Edit Gallery</h2>
+  {% else %}
+    <h2 class="page-title">Add Gallery</h2>
+  {% endif %}
+
+  <form class="account-form" method="post" action="{% if from %}?next={{ from }}{% endif %}">{% csrf_token %}
+    <div class="input-group">
+      {{ form.name.errors }}
+      <label class="label" for="{{ form.name.id_for_label }}">Name</label>
+      {{ form.name|addcss:"input" }}
+    </div>
+    <div class="input-group">
+      {{ form.description.errors }}
+      <label for="id_description">Description</label>
+      {{ form.description|addcss:"textarea" }}
+    </div>
+    {% if projects %}
+      <div class="input-group" style="display: none;">
+        <label class="label" for="id_description">Project</label>
+        <select name="project">
+          <option value="">--Select Project--</option>
+          {% for project in projects %}
+            <option value="{{ project.id }}" {% if form.project.value|add:"0" == project.id %}selected{% elif object.project.id == project.id %}selected{% elif selected_project.id == project.id %}selected{% endif %}>{{ project.name }}</option>
+          {% endfor %}
+        </select>
+      </div>
+    {% endif %}
+    <button class="btn btn-md neutral-0" type="submit">
+        {% if object %}
+          UPDATE
+        {% else %}
+          SAVE
+        {% endif %}
+    </button>
+    {% if object %}
+      <p class="text--center">
+        <a class="link neutral-4" href="{% url 'galleries:gallery-delete' object.slug %}">Delete</a>
+      </p>
+    {% endif %}
+  </form>
+
+{% endblock inner %}

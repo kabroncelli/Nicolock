@@ -1,0 +1,52 @@
+$configs: (
+	header: 150px,
+	footer: 100px,
+	sidebar: 300px,
+	bifold-sidebar: 370px,
+	page-content-sidebar: 370px,
+	trifold-sidebar: 275px
+);
+
+$colors: (
+	neutral-0: #FFFFFF,
+	neutral-1: #c0c0c2,
+	neutral-1.5: #2E2E2E,
+	neutral-2: #989898,
+	neutral-3: #242424,
+	neutral-4: #010101,
+	neutral-5: #333333,
+	neutral-6: #000000,
+	color-1: #ffc425,
+);
+
+$breakpoints: (
+	phone: 399px,
+	phone-lg: 649px,
+	tablet: 767px,
+	tablet-lg: 991px,
+	desktop-lg: 1023px
+);
+
+@function config($key) {
+	@if map-has-key($configs, $key) {
+		@return map-get($configs, $key);
+	}
+	@warn "Unknown #{$key} in configs map";
+	@return null;
+}
+
+@function color($key) {
+	@if map-has-key($colors, $key) {
+		@return map-get($colors, $key);
+	}
+	@warn "Unknown #{$key} in colors map";
+	@return null;
+}
+
+@function breakpoint($key) {
+	@if map-has-key($breakpoints, $key) {
+		@return map-get($breakpoints, $key);
+	}
+	@warn "Unknown #{$key} in breakpoints map";
+	@return null;
+}

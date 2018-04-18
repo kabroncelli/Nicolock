@@ -1,0 +1,19 @@
+<div class="modal-view">
+  <div class="modal-header">
+    <h4 class="title">Logout</h4>
+  </div>
+
+  <div class="modal-content">
+    <form class="form" method="post" action="{% url 'account_logout' %}">
+      {% csrf_token %}
+      <div class="input-group">
+        <p class="paragraph">Are you sure you want to logout?</p>
+      </div>
+      <button class="btn btn-md neutral-0" type="submit">LOGOUT</button>
+    </form>
+  </div>
+
+  <div class="modal-footer">
+  </div>
+
+</div>

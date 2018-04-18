@@ -1,0 +1,94 @@
+{% extends "base.html" %}
+{% load staticfiles i18n %}
+
+{% block head %}
+  {% define 'title' 'Nicolock | Innovation & Technology' %}
+  {{ block.super }}
+{% endblock %}
+
+{% block bodyclass %}{% endblock %}
+
+{% block content %}
+<div class="trifold-wrap">
+	<div class="trifold-sidebar">
+ 		<div class="trifold-breadcrumb">
+ 			{% if base_breadcrumb %}
+ 				<a class="link neutral-1" href="">Locate a Sales Rep</a> >
+ 			{% endif %}
+ 			<span class="breadcrumb-active"></span>
+		</div>
+		<div class="misc-menu-wrap">
+			{% include "components/dynamic_menu.html" %}
+		</div>
+	</div>
+
+	<div class="trifold-detail">
+		{% include "components/icons/icon-vertical-ellipsis.svg" %}
+		<div class="trifold-content">
+			<div class="trifold-middle">
+				<div class="installation-title">
+					<span class="title">Installation Guides</span>
+				</div>
+				<div class="guide-item">
+					<img class="installation-img" src="http://placehold.it/300x200" />
+					<div class="guide-item-text">
+						<span class="guide-item-title">Installing Pavers</span>
+						<p class="guide-item-desc">A step by step guide to installing Nicolock Pavers.</p>
+					</div>
+				</div>
+				<div class="guide-item">
+					<img class="installation-img" src="http://placehold.it/300x200" />
+					<div class="guide-item-text">
+						<span class="guide-item-title">Installing Retaining Walls</span>
+						<p class="guide-item-desc">A step by step guide to installing Nicolock Pavers.</p>
+					</div>
+				</div>
+				<div class="installation-title">
+					<span class="title">Installation Videos</span>
+				</div>
+				<div class="installation-videos">
+					<div class="single-vid">
+						<img class="installation-img" src="http://placehold.it/300x200" />
+						<span class="guide-item-title">Installing Retaining Walls</span>
+					</div>
+					<div class="single-vid">
+						<img class="installation-img" src="http://placehold.it/300x200" />
+						<span class="guide-item-title">Installing Retaining Walls</span>
+					</div>
+					<div class="single-vid">
+						<img class="installation-img" src="http://placehold.it/300x200" />
+						<span class="guide-item-title">Installing Retaining Walls</span>
+					</div>
+					<div class="single-vid">
+						<img class="installation-img" src="http://placehold.it/300x200" />
+						<span class="guide-item-title">Installing Retaining Walls</span>
+					</div>
+					<div class="single-vid">
+						<img class="installation-img" src="http://placehold.it/300x200" />
+						<span class="guide-item-title">Installing Retaining Walls</span>
+					</div>
+					<div class="single-vid">
+						<img class="installation-img" src="http://placehold.it/300x200" />
+						<span class="guide-item-title">Installing Retaining Walls</span>
+					</div>
+				</div>
+			</div>
+			<div class="trifold-data sales-rep-data">
+	    		<h1 class="title">DIY Center</h1>
+	    		<p class="paragraph">Some text here about the joys of DIY installations.</p>
+	    		<div class="right-bar-section">
+	    			<h1 class="title">New Products</h1>
+	    			<div class="sub-images">
+	    				<img class="sub-img" src="http://placehold.it/100x100" />
+	    				<img class="sub-img" src="http://placehold.it/100x100" />
+	    				<img class="sub-img" src="http://placehold.it/100x100" />
+	    				<img class="sub-img" src="http://placehold.it/100x100" />
+	    				<img class="sub-img" src="http://placehold.it/100x100" />
+	    			</div>
+	    		</div>
+	      	</div>
+         </div>
+	    </div>
+    </div>
+</div>
+{% endblock content %}

@@ -1,0 +1,64 @@
+{% extends "galleries/base.html" %}
+{% load static i18n %}
+{% block title %}Items{% endblock %}
+
+{% block bodyclass %}bg-light{% endblock %}
+
+{% block inner %}
+
+{% if object %}
+  <h2 class="page-title">Edit Item</h2>
+{% else %}
+  <h2 class="page-title">Add Gallery Item</h2>
+{% endif %}
+
+<form class="account-form" method="post" enctype="multipart/form-data" >{% csrf_token %}
+  {% if product_image %}
+    <div class="input-group">
+      <img src="{{ product_image.large_thumbnail.url }}">
+    </div>
+  {% endif %}
+  <div class="input-group">
+    {{ form.name.errors }}
+    <label class="label" for="{{ form.name.id_for_label }}">Name</label>
+    {{ form.name|addcss:"input" }}
+  </div>
+  <div class="input-group" style="display:none;">
+    {{ form.color.errors }}
+    <label class="label" for="{{ form.color.id_for_label }}">Color</label>
+    {{ form.color|addcss:"input" }}
+  </div>
+  <div class="input-group" style="display:none;">
+    <label class="label" for="id_gallery">Gallery</label>
+    <select id="id_gallery" name="gallery" required="">
+      <option {% if not selected_gallery_id %}selected="selected"{% endif %} disabled>---------</option>
+      {% for gallery in galleries %}
+        <option value="{{ gallery.id }}" {% if form.gallery.value|add:"0" == gallery.id %}selected="selected"{% elif object.gallery.id == gallery.id %}selected="selected"{% elif selected_gallery_id == gallery.id and not object %}selected="selected"{% endif %}>{{ gallery.name }}</option>
+      {% endfor %}
+    </select>
+  </div>
+  <div class="input-group">
+    {{ form.notes.errors }}
+    <label class="label" for="{{ form.notes.id_for_label }}">Notes</label>
+    {{ form.notes|addcss:"textarea" }}
+  </div>
+  <div class="input-group">
+    {{ form.original.errors }}
+    <label class="label" for="{{ form.origina.id_for_label }}">Image: {% if object %}<a href="{{ object.original.url }}">{{ object.original.url }}</a>{% endif %}</label>
+    <input class="input" id="id_original" name="original" type="file">
+  </p>
+  <button class="btn btn-md neutral-6" type="submit">
+      {% if object %}
+        UPDATE
+      {% else %}
+        SAVE
+      {% endif %}
+  </button>
+  {% if object %}
+    <p class="text--center">
+      <a class="link neutral-4" href="{% url 'galleries:item-delete' object.slug %}">Delete</a>
+    </p>
+  {% endif %}
+</form>
+
+{% endblock inner %}

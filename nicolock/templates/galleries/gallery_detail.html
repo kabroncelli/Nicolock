@@ -1,0 +1,101 @@
+{% extends "galleries/base.html" %}
+{% load static %}
+{% load render_bundle from webpack_loader %}
+
+{% block title %}Gallery: {{ object.name }}{% endblock %}
+
+{% block bodyclass %}bg-light{% endblock %}
+
+{% block inner %}
+  <h2 class="page-title">{{ gallery.name }}</h2>
+
+  <div class="bifold-wrap is-gallery">
+    <div class="bifold-content">
+      <div class="gallery-header">
+        <span class="title">
+          {% if gallery.user.user_type == 'contractor' %}
+            <a class="link neutral-3" href="{% url 'galleries:project-list' gallery.user.slug %}">Projects</a> |
+          {% endif %}
+          {% if gallery.project %}
+            <a class="link neutral-3" href="{% url 'galleries:project-detail' gallery.project.slug %}">{{ gallery.project.name }}</a> |
+          {% endif %}
+          {% if gallery.user.user_type == 'homeowner' %}
+            <a class="link neutral-3" href="{% url 'galleries:gallery-list' gallery.user.slug%}">Galleries</a> |
+          {% endif %}
+          <span class="neutral-3">{{ gallery.name }}</span>
+        </span>
+        <div class="action-group">
+          <span class="image-count">
+            {% with total=gallery.items.count %}
+              {{ total }} Photo{{ total|pluralize }}
+            {% endwith %}
+          </span>
+          {% if gallery.user == request.user %}
+            <a class="link neutral-4 pad-half--right" href="{% url 'galleries:gallery-edit' gallery.slug %}">Edit</a>
+            <a class="link neutral-4" href="{% url 'galleries:item-add' %}?gallery={{ gallery.id }}">Add</a>
+          {% else %}
+            <a class="add-to-gallery" href="">{% include "components/icons/icon-grid.svg" %}</a>
+          {% endif %}
+        </div>
+      </div>
+      {% if gallery.items.count == 0 %}
+        <form class="gallery-form" method="post" enctype="multipart/form-data" action="{% url 'galleries:item-add' %}">
+          {% csrf_token %}
+          <p class="text--center">Please add an image to your gallery</p>
+          <div class="input-group">
+            <label class="label" for="id_name">Name</label>
+            <input class="input" id="id_name" maxlength="255" name="name" type="text" required="">
+          </div>
+          <div class="input-group" style="display: none;">
+            <label class="label" for="id_gallery">Gallery</label>
+            <select id="id_gallery" name="gallery" required="">
+              <option value="{{gallery.id}}" selected="selected">{{ gallery.name}}</option>
+            </select>
+          </div>
+          <div class="input-group">
+            <input class="input" id="id_original" name="original" type="file" required="">
+          </div>
+          <button class="btn btn-md neutral-0" type="submit">SAVE</button>
+        </form>
+      {% else %}
+        <div
+          id="gallery-carousel"
+          data-gallery='{{ gallery.get_gallery_json }}'
+          data-project-name='{{ gallery.get_project_name }}'
+          data-editable='{% if gallery.user == request.user %}true{% else %}false{% endif %}'
+          ></div>
+      {% endif %}
+    </div>
+    <div class="bifold-sidebar">
+      <div class="gallery-sidebar-header">
+        <div class="social-wrap">
+          {% include "../components/social/facebook_share.html" %}
+          {% include "../components/social/houzz_share.html" with title=gallery.name image=selected_image.url %}
+          {% include "../components/social/twitter_share.html" %}
+          {% include "../components/social/pinterest_share.html" with media_url=gallery.images.first.url %}
+          {% include "../components/social/mail_share.html" %}
+        </div>
+      </div>
+      <div id="gallery-item-data"
+        data-editable="{% if gallery.user == request.user %}true{% else %}false{% endif %}"
+        ></div>
+      {% if user.is_authenticated %}
+        {% if user.user_type == 'homeowner' and gallery.get_gallery_type == 'contractor' %}
+          <div
+            id="gallery-add-contractor"
+            data-contractor-id={{gallery.user.id}}
+            data-contractor-name={{gallery.user.name}}>
+          </div>
+        {% endif %}
+      {% endif %}
+    </div>
+  </div>
+{% endblock inner %}
+
+{% block javascript %}
+  {% include "../components/social/social_scripts.html" %}
+  {{ block.super }}
+  {% if gallery.items.count != 0 %}
+    {% render_bundle 'gallery' %}
+  {% endif %}
+{% endblock javascript %}

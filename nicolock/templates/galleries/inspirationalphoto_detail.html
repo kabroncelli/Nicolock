@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block head %}
+  {% define 'title' 'Inspiration: '|add:object.name %}
+  {{ block.super }}
+{% endblock %}
+
+{% block bodyclass %}bg-light{% endblock %}
+
+{% block content %}
+<div class="lk-squeeze">
+  <div class="page-content">
+    <h1 class="page-title">Inspiration</h2>
+    <div class="page-content-sections">
+      <div class="page-content-main">
+        <img class="inspirational-detail-image" src="{{ object.detail_image.url }}">
+      </div>
+      <div class="page-content-sidebar">
+        <h4 class="title">Get<br />This<br />Look</h4>
+        <p class="paragraph">{{ object.name }}</p>
+        <p class="paragraph">{{ object.long_description }}</p>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock content %}

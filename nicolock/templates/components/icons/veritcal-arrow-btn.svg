@@ -1,0 +1,8 @@
+<svg class="icon" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 148.79 44.03">
+  <polygon class="path" points="4.31 44.03 0 36.57 8.62 36.57 4.31 44.03"/>
+  <rect class="path" x="11.87" y="42.99" width="136.92" height="1.05"/>
+  <rect class="path" x="3.79" width="145" height="1.05"/>
+  <rect class="path" x="159.29" y="35.46" width="44.03" height="1.05" transform="translate(112.28 203.33) rotate(-90)"/>
+  <rect class="path" x="19.26" y="31.54" width="36.2" height="1.05" transform="translate(-27.76 55.46) rotate(-90)"/>
+  <text class="text" transform="translate(49.24 28.65)">SAVE</text>
+</svg>

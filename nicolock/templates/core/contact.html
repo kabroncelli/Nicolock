@@ -1,0 +1,39 @@
+{% extends 'base.html' %}
+
+{% block bodyclass %}{% endblock %}
+
+{% block content %}
+    <div class="lk-squeeze">
+      <div class="page-content">
+        <h1 class="page-title neutral-0">Contact Us</h1>
+        <form class="request-quote" method="POST">
+          {% csrf_token %}
+          <div class="input-group">
+            <input class="input" id="id_first_name" name="first_name" type="text" placeholder="First Name" required="">
+          </div>
+          <div class="input-group">
+            <input class="input" id="id_last_name" name="last_name" type="text" placeholder="Last Name" required="">
+          </div>
+          <div class="input-group">
+            <input class="input" id="id_email" name="email" type="email" placeholder="Email" required="">
+          </div>
+          <div class="input-group">
+            <input class="input" id="id_phone" name="phone" type="text" placeholder="Phone" required="">
+          </div>
+          <div class="input-group">
+            <input class="input" id="id_state" name="state" type="text" placeholder="State" required="">
+          </div>
+          <div class="input-group">
+            <input class="input" id="id_postal_code" name="postal_code" type="text" placeholder="Postal Code" required="">
+          </div>
+          <div class="input-group">
+            <input class="input" id="id_subject" name="subject" type="text" placeholder="Subject" required="">
+          </div>
+          <div class="input-group">
+            <textarea class="textarea" cols="40" id="id_message" name="message" rows="10" placeholder="Message" required=""></textarea>
+          </div>
+          <button class="btn btn-md neutral-0" type="submit">SEND</button>
+        </form>
+      </div>
+    </div>
+{% endblock %}

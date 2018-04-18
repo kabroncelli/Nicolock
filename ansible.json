@@ -1,0 +1,20 @@
+{
+    "client": {
+        "dirs": [],
+        "enabled": false
+    },
+    "django": {
+        "enabled": true
+    },
+    "npm_build": {
+        "enabled": true
+    },
+    "celery": {
+        "enabled": true,
+        "app": "nicolock.taskapp.celery"
+    },
+    "beat": {
+        "enabled": true,
+        "app": "nicolock.taskapp.celery"
+    }
+}
